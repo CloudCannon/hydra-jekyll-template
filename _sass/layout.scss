@@ -1,0 +1,171 @@
+.container, .text-container {
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+.text-container {
+	max-width: 750px;
+}
+
+.container {
+	max-width: 1140px;
+
+	&.max-container {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+header {
+	color: #fff;
+	padding: 20px 0;
+	background: $brand-color; /* Old browsers */
+	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		z-index: 1;
+		position: relative;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.company-name {
+		font-size: 1.7em;
+		line-height: 0;
+
+		a {
+			display: inline-block;
+		}
+
+		img {
+			display: block;
+			width: auto;
+		}
+	}
+}
+
+.content {
+	background: #fff;
+	padding: 1px 0 0 0;
+	position: relative;
+}
+
+.screenshot{
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 2px;
+	padding: 20px 0 0;
+	background: #DDD url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="44" height="12" viewBox="0 0 44 12"><circle cx="6" cy="6" r="4" fill="#eee" /><circle cx="22" cy="6" r="4" fill="#eee" /><circle cx="38" cy="6" r="4" fill="#eee" /></svg>') 4px 4px no-repeat;
+	box-shadow: 0px 0px 50px rgba(0,0,0,.2);
+}
+
+section {
+	padding: 100px 0;
+}
+
+section + section {
+	padding-top: 0;
+}
+
+.subtext {
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.cta {
+	margin: 60px 0;
+}
+
+.page h2 {
+	text-align: center;
+}
+
+blockquote {
+	padding: 18px 25px;
+	margin: 0;
+	quotes: "\201C""\201D""\2018""\2019";
+	font-style: italic;
+
+	.author {
+		display: block;
+		font-weight: bold;
+		margin: 10px 0 0 0;
+		font-size: .85em;
+		font-style: normal;
+	}
+
+	p {
+		display: inline;
+	}
+}
+
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.square-image {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	margin: 25px auto 0 auto;
+	position: relative;
+	border-radius: 200px;
+
+	img {
+		position: absolute;
+		left: -1000%;
+		right: -1000%;
+		top: -1000%;
+		bottom: -1000%;
+		margin: auto;
+		width: 300px;
+	}
+}
+
+.page {
+	margin-bottom: 0;
+	padding-bottom: 80px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.editor-link {
+ 	display: none;
+	margin-top: 0;
+	.btn {
+		border: 0;
+		border-radius: 2px;
+		width: 100%;
+		max-width: 500px;
+		box-sizing: border-box;
+		font-size: 2rem;
+		text-decoration: none;
+		padding: 10px 15px;
+		margin: 0;
+		font-size: 18px;
+		cursor: pointer;
+		background-color: #f7e064;
+		color: #333;
+		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+		&:hover {
+			background-color: #f4d525;
+			color: #333;
+		}
+	}
+
+}
