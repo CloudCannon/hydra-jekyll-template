@@ -68,7 +68,7 @@ Hydra is already optimised for adding, updating and removing pages, staff, advic
 * Reused around the site to save multiple editing locations.
 * Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
 
-### Footer
+### Navigation
 
 * Exposed as a data file to give clients better access.
 * Set in the *Data* / *Navigation* section.
