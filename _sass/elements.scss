@@ -7,8 +7,8 @@ html, body {
 	padding: 0;
 }
 
-body {
-	font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
+h1, h2, h3, h4, h5, h6, div, p, a, li, ul, body, section, span {
+	font-family: "Roboto" ,"San Francisco", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
 
 a {
@@ -24,24 +24,34 @@ img {
 	width: 100%;
 }
 
+
+
 h1 strong, h2 strong {
 	font-weight: 700;
 }
 
 h1 {
-	font-weight: 300;
-	font-size: 2.3em;
-	margin: 0;
+	font-size: 4rem;
 }
 
 h2 {
-	font-weight: 300;
-	font-size: 2.2em;
-	margin: 0 0 30px 0;
+	font-size: 2.8em;
 }
 
 h3 {
-	margin: 20px 0 10px 0;
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+}
+
+h5 {
+	font-size: 1rem;
+}
+
+h6 {
+	font-size: 0.8rem;
 }
 
 
@@ -51,4 +61,20 @@ p, address {
 	margin-bottom: 20px;
 	font-weight: 300;
 	line-height: 1.4em;
+}
+
+.button {
+	background: $primary-color;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.12);
+ 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	padding: 0.65em 1.3em;
+	font-weight: 700;
+}
+
+.button{
+	&:hover {
+		background-color:$primary-color;
+		box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 7px 7px rgba(0,0,0,0.10);
+	}
 }

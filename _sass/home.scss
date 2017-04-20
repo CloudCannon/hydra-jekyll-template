@@ -1,0 +1,27 @@
+.home__hero {
+    margin-left: auto;
+    display: flex;
+}
+
+.home__hero-h {
+    text-align: right;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.breakout-text {
+    span {
+        border-bottom: 4px solid $primary-color;
+    }
+    text-align: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+

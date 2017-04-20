@@ -1,0 +1,40 @@
+---
+---
+
+
+<div class="row">
+	<div class="small-12 columns speakers__hero">
+		<h3 class="speakers__subh">Join Australia's Top campaigners<br> and change-makers for two days in melbourne,<br> june 6-7</h3>
+		<h1 class="speakers__h"> Speakers and co-chairs </h1>
+		<div>
+			<div class="button">Book now!</div>
+		</div>
+	</div>
+
+	<div class="">
+		
+	</div>
+</div>
+
+<div class="row">
+
+	{% for p in site.speakers %}
+
+        {% if p.flag == true %}
+            <div class="small-12 medium-6 large-8 speakers__inspiration">
+                <div class="">
+                    <h1 class=""> Will this work? </h1>
+                </div>
+            </div>
+        {% endif %}
+
+		<div class="small-12 medium-6 large-4 columns">
+			<img src="{{ p.image_path }}" class="speakers__img">
+			<h3 class="speakers__name"> {{ p.name }} </h3>
+			<h4 class="speakers__position"> {{ p.position }} </h4>
+			<p> {{ p.blurb }} </p>
+		</div>
+        
+	{% endfor %}
+
+</div>

@@ -19,6 +19,8 @@ nav {
 	text-transform: uppercase;
 	font-size: .8em;
 	width: 100%;
+	
+	
 
 	@media #{$mid-point} {
 		text-align: right;
@@ -32,10 +34,12 @@ nav {
 	a {
 		margin: 0 3px;
 		padding: 20px 10px;
-		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.8);
+		border-bottom: 0px solid $black;
+		color: $white;
 		transition: .2s ease-in-out;
 		display: none;
+		font-weight: 700;
+		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
 		@media #{$mid-point} {
 			display: inline;
@@ -63,8 +67,8 @@ nav {
 
 	a:hover {
 
-		border-bottom: 1px solid rgba(255,255,255,.3);
-		color: #fff;
+		border-bottom: 2px solid $black;
+		color:darken($white, 30);
 	}
 
 	@media #{$mid-point} {
@@ -74,13 +78,18 @@ nav {
 
 			&:hover {
 				background: #fff;
-				color: $brand-color;
+				color: $third-color;
 			}
 		}
 	}
 
 	a.active {
-		color: #fff;
+		color: $primary-color;
 	}
 
+}
+
+
+.nav__logo {
+	width: 7rem !important;
 }

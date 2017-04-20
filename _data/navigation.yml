@@ -1,24 +1,24 @@
-- name: Pricing
-  link: /pricing/
+- name: Scholarships
+  link: /scholarships/
   new_window: false
   highlight: false
-- name: Blog
-  link: /blog/
+- name: Speaker Info
+  link: /speaker-info/
+  new_window: false
+  highlight: false
+- name: Program
+  link: /program/
+  new_window: false
+  highlight: false
+- name: FAQs
+  link: /faqs/
   new_window: false
   highlight: false
 - name: About
   link: /about/
   new_window: false
   highlight: false
-- name: Contact
-  link: /contact/
+- name: Program Allocation
+  link: /program-allocation/
   new_window: false
   highlight: false
-- name: Login
-  link: /
-  new_window: true
-  highlight: false
-- name: Sign Up
-  link: /
-  new_window: true
-  highlight: true
