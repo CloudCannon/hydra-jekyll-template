@@ -1,6 +1,17 @@
 .home__hero {
     margin-left: auto;
     display: flex;
+    position: relative;
+    color: #666;
+
+    &.button {
+        color: #fff;
+    }
+}
+
+body {
+    background-image: url(../images/powerupbg.png);
+    width: 100%;
 }
 
 .home__hero-h {
@@ -9,6 +20,7 @@
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1.1;
+    margin-bottom: 2rem;
 }
 
 .breakout-text {
@@ -25,3 +37,65 @@
     margin-bottom: 8rem;
 }
 
+.breakout-container {
+    background: white;
+}
+
+.home__hero-heading {
+    font-size: 200px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.big-p {
+    position: absolute;
+    width: 100%;
+}
+
+.home__powerup {
+    position: relative;
+    height: 400px;
+    h1 {
+        position: absolute;
+        z-index:1;
+    }
+    img {
+        position: absolute;
+        z-index: 0;
+    }
+}
+
+
+
+
+.img__left {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+        object-fit: cover;
+}
+
+.img__text-container {
+    margin-left: auto;
+    width: 75%;
+    height: 80vh;;
+    position: absolute;
+    right: 0;
+    align-self: center;
+        background: white;
+    opacity: 0.9;
+}
+
+
+.img__container {
+    position: relative;
+    height: 90vh;
+    display: flex;
+
+}
+
+.img__text-wrapper {
+    width: 80%;
+    height: 100%;
+    padding: 1rem;
+}
