@@ -34,8 +34,36 @@
 
 .speakers__hero {
     margin-bottom: 4rem;
+    z-index: 2;
+    position: relative;
+    margin-top: 20rem;
+    margin-bottom: 10rem;
 }
 
 .speakers__inspiration {
     background: $primary-color;
+}
+
+.biggP {
+    position: absolute;
+    z-index: -1;
+    height: 50rem;
+    width: auto;
+    overflow: hidden;
+}
+
+.bg {
+    // background: white;
+}
+
+.white-bg {
+    z-index: -3;
+    position: relative;
+    background: white;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 75%;
+    margin-left: 12.5%;
+
 }

@@ -1,6 +1,4 @@
-html {
-	background: #2b2b40;
-}
+
 
 html, body {
 	margin: 0;
@@ -54,13 +52,16 @@ h6 {
 	font-size: 0.8rem;
 }
 
+body {
+	font-size: 18px;
+}
 
 p, address {
-	font-size: 1.38em;
+	font-size: 18px;
 	color: #666;
 	margin-bottom: 20px;
 	font-weight: 300;
-	line-height: 1.4em;
+	line-height: 28px;
 }
 
 .button {
