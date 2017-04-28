@@ -5,8 +5,17 @@ html, body {
 	padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, div, p, a, li, ul, body, section, span {
-	font-family: "Roboto" ,"San Francisco", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+h1, h2, h3, h4, h5, h6, div, p, a, li, ul, body, section, .sub-heading {
+	font-family: "Lato" ,"San Francisco", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lobster", "San Francisco", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+.caption, .narrative {
+	font-family: "Roboto Slab", "San Francisco", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
 }
 
 a {
@@ -21,7 +30,6 @@ a:hover {
 img {
 	width: 100%;
 }
-
 
 
 h1 strong, h2 strong {
@@ -66,7 +74,7 @@ p, address {
 
 .button {
 	background: $primary-color;
-	border-radius: 5px;
+	border-radius: 20px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.12);
  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	padding: 0.65em 1.3em;
@@ -78,4 +86,41 @@ p, address {
 		background-color:$primary-color;
 		box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 7px 7px rgba(0,0,0,0.10);
 	}
+}
+
+.row .row {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.title {
+	font-family: "Roboto Slab", sans-serif !important;
+	font-weight: 700;
+	font-size: 10rem;
+	letter-spacing: -3px;
+}
+
+.dotted-underline {
+	border-bottom: 2px dashed;
+    text-decoration: none;
+}
+
+.gradient {
+	background: rgba(255,102,31,1);
+    background: -moz-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,102,31,1)), color-stop(100%, rgba(224,58,20,1)));
+    background: -webkit-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: linear-gradient(to right, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+}
+
+.ghost {
+	visibility: hidden;
+	position:relative !important;
+	background: $white;
 }

@@ -1,6 +1,6 @@
 <nav>
 	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
-	<a class="editor-link btn" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a>
+	<!--<a class="editor-link btn" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a>-->
 	{% for link in site.data.navigation %}
 		{% assign class = "" %}
 		{% if link.highlight %}
@@ -12,4 +12,7 @@
 		{% endif %}
 		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
 	{% endfor %}
+	<!--<div class="button__wrapper">-->
+		<a class="button">Book now!</a>
+	<!--</div>-->
 </nav>
