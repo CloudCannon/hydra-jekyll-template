@@ -1,6 +1,5 @@
 
 body {
-    background-image: url(../images/powerupbg.png);
     width: 100%;
 }
 
@@ -69,14 +68,7 @@ body {
 
 
 .caption-container {
-    background: rgba(255,102,31,1);
-    background: -moz-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,102,31,1)), color-stop(100%, rgba(224,58,20,1)));
-    background: -webkit-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
-    background: -o-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
-    background: -ms-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
-    background: linear-gradient(to right, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
-
+  
     padding-top: 6rem;
     padding-bottom: 6rem;
     margin-top: 6rem;
@@ -126,11 +118,27 @@ body {
 .white-bg {
     z-index: -3;
     position: relative;
-    background:#daeef2;
+    background:url(../images/backgroundtexture.png);
     position: fixed;
     top: 0;
     height: 100vh;
-    width: 100%
+    width: 100%;
+    opacity: 0.1;
+}
+.gradientgradient {
+    z-index: -6;
+    position: relative;
+    background: rgba(255,102,31,1);
+    background: -moz-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,102,31,1)), color-stop(100%, rgba(224,58,20,1)));
+    background: -webkit-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: linear-gradient(to right, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
 }
 
 .home__section-container {
@@ -178,7 +186,8 @@ body {
 .home__our-story {
     h2 {
         text-align: center;
-        color: $primary-color;
+        color: white;
+        margin-top: 3rem;
     }
     p {
         text-align: center;
@@ -189,11 +198,25 @@ body {
         font-weight: 300;
         line-height: 1.5;
         margin-top: 2rem;
+        color: white;
     }
 }
 
 .narrative-container {
-    margin-top: 6rem;
+    margin-top: 4rem;
+    color: white;
+}
+
+.narrative {
+    color: white;
+}
+
+.narrative-icon {
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
 }
 
 .home__hero {
@@ -208,3 +231,115 @@ body {
     }
 
 }
+
+
+
+// ----------------------------------------------------------------------------
+
+.home-hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    position: relative;
+    height: 85vh;
+
+    
+}
+.title, .sub-heading {
+        color: white;
+        flex-wrap: wrap;
+}
+
+.title {
+    margin-top: 19%;
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+.sub-heading {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100vw;
+}
+
+.home-hero-image {
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    
+}
+.home-hero-image-powerup {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+}
+@media #{$tablet} { 
+    .home-hero-image-powerup {
+        width: 90% !important;
+    }
+}
+
+@media #{$desktop} { 
+.home-hero-image-powerup {
+    
+    width: 60% !important;
+
+}
+}
+.home-hero-button {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
+    height: 37px;
+    transform: scale(1.5);
+}
+
+.texttext {
+    position:relative;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.x-home__image-container {
+    transform: skew(0deg, -2deg);
+    overflow: hidden;
+    position: relative;
+    margin-top: 6rem;
+    img {
+        transform: skew(0deg, 2deg);
+        overflow: hidden;
+        transform: scale(1.1);
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+
+.reverse-skew {
+    transform: skew(0deg, 2deg);
+}
+
+.black {
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 12;
+    display: flex;
+    right: 0;
+
+    .black-container {
+        padding: 20px;
+        color: white;
+        width: 50%;
+        p {
+            color: white;
+        }
+    }
+}
+
