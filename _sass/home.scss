@@ -85,6 +85,7 @@ body {
 
 .narrative {
     color: $second-color;
+    margin-bottom: 6rem;
 }
 
 .caption__button {
@@ -310,8 +311,7 @@ body {
     transform: skew(0deg, -2deg);
     overflow: hidden;
     position: relative;
-    margin-top: 6rem;
-    img {
+    .x-home-image {
         transform: skew(0deg, 2deg);
         overflow: hidden;
         transform: scale(1.1);
@@ -332,14 +332,53 @@ body {
     z-index: 12;
     display: flex;
     right: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    &.reverse {
+            left: 0;
+    }
 
     .black-container {
         padding: 20px;
         color: white;
         width: 50%;
+
+        &.reverse {
+            margin-left: auto;
+        }
+        
         p {
             color: white;
         }
     }
+}
+
+.x-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.white-border {
+    background: white;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    z-index: 13;
+    transform: skew(0deg, -2deg) translateY(-5px);
+}
+
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 1;
+    transform: translateY(-50px);
 }
 
