@@ -15,12 +15,11 @@
 .speakers__name {
     font-weight: 700;
     margin: 0;
-    color: $primary-color;
+    color: white;
 }
 
 .speakers__position {
     font-weight: 300;
-    font-style: italic;
 }
 
 .speakers__subh {
@@ -38,6 +37,10 @@
     position: relative;
     margin-top: 20rem;
     margin-bottom: 10rem;
+}
+
+.speakers__blurb {
+    color: white;
 }
 
 .speakers__inspiration {

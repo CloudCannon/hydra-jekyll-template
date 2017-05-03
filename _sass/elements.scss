@@ -99,12 +99,6 @@ a:hover {
 	text-decoration: none;
 }
 
-.title {
-	font-family: "Roboto Slab", sans-serif !important;
-	font-weight: 700;
-	font-size: 10rem;
-	letter-spacing: -3px;
-}
 
 .dotted-underline {
 	border-bottom: 2px dashed;
@@ -126,4 +120,9 @@ a:hover {
 	visibility: hidden;
 	position:relative !important;
 	background: $white;
+}
+
+.reset {
+	padding: 0;
+	margin: 0;
 }

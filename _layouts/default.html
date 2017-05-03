@@ -24,6 +24,9 @@
 	{% endif %}
 </head>
 	<body>
+		<div class="white-bg">
+		</div>
+		<div class="gradientgradient"></div>
 		<header>
 			<div class="container">
 				<div class="company-name">
@@ -37,6 +40,14 @@
 		{{ content }}
 		<footer>
 			<div class="container">
+				<div class="company-name">
+					<a href="{{ site.baseurl }}/">
+						<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="nav__logo"/>
+					</a>
+				</div>
+				{% include footer.html %}
+			</div>
+			<!--<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
 				<div class="footer-columns">
 					{% for column in site.data.footer %}
@@ -52,10 +63,14 @@
 					{% endfor %}
 				</div>
 				<p class="copyright">&copy; {{ site.time | date: '%Y' }} MyApp Ltd.</p>
-			</div>
+			</div>-->
 		</footer>
 		<script>
 			document.getElementById("open-nav").onclick = function () {
+				document.body.classList.toggle("nav-open");
+				return false;
+			};
+			document.getElementById("open-nav2").onclick = function () {
 				document.body.classList.toggle("nav-open");
 				return false;
 			};

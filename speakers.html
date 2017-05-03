@@ -1,29 +1,18 @@
 ---
 ---
-<div class="white-bg">
-</div>
-<div class="row expanded">
-	<img src="../images/bigP.jpg" class="biggP">
-</div>
-
-<div class="row bg">
-	
-	<div class="small-12 columns speakers__hero">
-		
-		<h3 class="speakers__subh">Join Australia's Top campaigners<br> and change-makers for two days in melbourne,<br> june 6-7</h3>
-		<h1 class="speakers__h"> Speakers and co-chairs </h1>
-		<div>
-			<div class="button">Book now!</div>
-		</div>
-	</div>
-
-	<div class="">
-		
-	</div>
-</div>
 
 <div class="row">
+	<div class="small-12 columns">
+		<center>
+			<h1><span class="dotted-underline"> Speakers </span> </h1>
+			<p> PowerUp is a flagship GetUp event --- it will define our reputation with our most active committed GetUp members, many of our major donors, close allies, and sponsorsPowerUp is a flagship GetUp event --- it will define our reputation with our most active committed GetUp members, many of our major donors, close allies, and sponsors </p>
+		</center>
+	</div>
+</div>
 
+
+<div class="row">
+	
 	{% for p in site.speakers %}
 
         {% if p.flag == true %}
@@ -38,7 +27,7 @@
 			<img src="{{ p.image_path }}" class="speakers__img">
 			<h3 class="speakers__name"> {{ p.name }} </h3>
 			<h4 class="speakers__position"> {{ p.position }} </h4>
-			<p> {{ p.blurb }} </p>
+			<p class="speakers__blurb"> {{ p.blurb }} </p>
 		</div>
         
 	{% endfor %}
