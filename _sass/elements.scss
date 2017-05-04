@@ -67,11 +67,17 @@ body {
 }
 
 p, address {
-	font-size: 18px;
+	font-size: 1.1em;;
 	color: #666;
 	margin-bottom: 20px;
 	font-weight: 300;
-	line-height: 28px;
+	line-height: 1.5;
+}
+
+p {
+	@media #{$desktop} {
+		font-size: 1.3em;
+	}
 }
 
 .button {
@@ -81,6 +87,11 @@ p, address {
  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	padding: 0.65em 1.3em;
 	font-weight: 700;
+	font-size:1.1em;
+	@media #{$tablet} {
+	font-size: 1.2em;
+
+	}
 }
 
 .button{

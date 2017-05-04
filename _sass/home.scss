@@ -69,9 +69,13 @@ body {
 
 .caption-container {
   
-    padding-top: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+    @media #{$tablet} {
+        padding-top: 6rem;
     padding-bottom: 6rem;
-    margin-top: 6rem;
+    }
 }
 
 
@@ -81,6 +85,12 @@ body {
     margin-left: auto;
     letter-spacing: -0.5px;
     color: $white;
+}
+
+.caption {
+        padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
 }
 
 .narrative {
@@ -188,7 +198,7 @@ body {
     h2 {
         text-align: center;
         color: white;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     p {
         text-align: center;
@@ -226,6 +236,22 @@ body {
     margin-bottom: 1rem;
 }
 
+.arrow-icon-container {
+    align-items: center;
+    padding-bottom: 20px;
+    display: none;
+    @media #{$mid-point} {
+        display: flex;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    @media #{$desktop} {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 .home__hero {
     .title, .sub-heading {
         color: white;
@@ -249,6 +275,9 @@ body {
     flex-wrap:wrap;
     position: relative;
     height: 85vh;
+    @media #{$tablet} {
+        min-height: 500px;
+    }
 
     
 }
@@ -258,7 +287,7 @@ body {
 }
 
 .title {
-    margin-top: 33%;
+    margin-top: 21vh;
     margin-left: auto;
 	margin-right: auto;
 	font-family: "Roboto Slab", sans-serif !important;
@@ -268,7 +297,7 @@ body {
 	@media #{$tablet} {
 		font-size: 7rem;
         
-        margin-top: 21%;
+        margin-top: 21vh;
         text-shadow: none;
 	}
     @media #{$desktop} {
@@ -281,13 +310,14 @@ body {
 
 
 .sub-heading {
-    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     padding:0 10px;
     text-align: center;
     width: 100vw;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, .9);
     @media #{$tablet} {
         font-size: 2rem;
     }
@@ -298,34 +328,43 @@ body {
     width: 100%;
     object-fit: cover;
     position: absolute;
+    @media #{$tablet} {
+        min-height: 500px;
+    }
     
 }
-.home-hero-image-powerup {
+
+.home-hero-image-powerup-container {
     position: absolute;
-    z-index: 2;
-    top: 15%;
 }
-@media #{$tablet} { 
-    .home-hero-image-powerup {
+.home-hero-image-powerup {
+    position: relative;
+    z-index: 2;
+    margin-top: 10vh;
+    @media #{$tablet} { 
         width: 90% !important;
+}
+    @media #{$desktop} { 
+    
+        width: 80% !important;
+        display: flex;
+        margin: auto;
+        margin-top: 5vh;
+
     }
 }
 
-@media #{$desktop} { 
-.home-hero-image-powerup {
-    
-    width: 60% !important;
 
-}
-}
+
+
 .home-hero-button {
     margin-left: auto;
     margin-right: auto;
     position: relative;
     z-index: 10;
-    height: 35px;
+    // height: 35px;
     @media #{$desktop} {
-        transform: scale(1.5);
+        // transform: scale(1.5);
     }
 }
 
@@ -351,6 +390,7 @@ body {
         object-fit: cover;
         @media #{$tablet} {
             height: 70vh;
+            min-height: 450px;
         }
     }
 }
@@ -374,7 +414,7 @@ body {
     }
 
     @media #{$tablet} {
-        background: rgba(0,0,0,0.7);
+        background: rgba(0,0,0,0.85);
         height: 100%;
         width: 50%;
         position: absolute;
@@ -384,14 +424,15 @@ body {
     }
 
     .black-container {
-        padding: 20px;
         color: white;
         width: 100%;
         text-align: center;
+        padding: 4rem 0.5rem;
 
         @media #{$tablet} {
             width: 90%;
             text-align:left;
+            padding: 3rem 1rem 3rem 5rem;
         }
 
         @media #{$desktop} {
@@ -400,10 +441,14 @@ body {
 
         &.reverse {
             margin-left: auto;
+            @media #{$tablet} {
+                padding: 3rem 5rem 3rem 1rem;
+            }
         }
         
         p {
             color: white;
+            margin-top: 1rem;
         }
     }
 }
@@ -455,5 +500,12 @@ body {
     background: #333;
     padding-top: 6rem;
     padding-bottom: 6rem;
+}
+
+.center-icon {
+    margin: auto;
+    display: flex;
+    width: 75px;
+    margin-top: 2em;
 }
 
