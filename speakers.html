@@ -1,34 +1,45 @@
 ---
 ---
+<div class="dark-bg">
+		</div>
 
-<div class="row">
-	<div class="small-12 columns">
-		<center>
-			<h1><span class="dotted-underline"> Speakers </span> </h1>
-			<p> PowerUp is a flagship GetUp event --- it will define our reputation with our most active committed GetUp members, many of our major donors, close allies, and sponsorsPowerUp is a flagship GetUp event --- it will define our reputation with our most active committed GetUp members, many of our major donors, close allies, and sponsors </p>
-		</center>
+
+<div class="x-img-container speakers-hero">
+		
+	<div class="x-home__image-container">
+		<div class="black reduced-gradient">
+			<span class="reverse-skew black-container">
+				<div>
+				<img src="../images/icons/create.svg" class="x-icon">
+				<h2> <span class="dotted-underline"> Speakers </span></h2>
+				<p> PowerUp is a flagship GetUp event --- it will define our reputation with our most active committed GetUp members, many of our major donors, </p>
+				<a class="button ">Grab your ticket!</a>
+				</div>
+			</span>
+		</div>
+		<img src="../images/programs.jpg" class="x-home-image">
 	</div>
+
 </div>
 
-
-<div class="row">
+<div class="row speakers__list">
 	
-	{% for p in site.speakers %}
+	{% for i in (1..8) %}
 
-        {% if p.flag == true %}
-            <div class="small-12 medium-6 large-8 speakers__inspiration">
-                <div class="">
-                    <h1 class=""> Will this work? </h1>
-                </div>
-            </div>
-        {% endif %}
-
-		<div class="small-12 medium-6 large-4 columns">
-			<img src="{{ p.image_path }}" class="speakers__img">
-			<h3 class="speakers__name"> {{ p.name }} </h3>
-			<h4 class="speakers__position"> {{ p.position }} </h4>
-			<p class="speakers__blurb"> {{ p.blurb }} </p>
+		<div class="small-12 medium-6 large-3 columns speaker">
+			<img src="https://2.bp.blogspot.com/-MZrp-OLDBKY/SfT7DIcPSDI/AAAAAAAAAIY/W4sPNIbxzzM/s1600/renae+4.jpg" class="speakers__img">
+			<h3 class="speakers__name slab">
+				Anna Thompson
+			</h3>
+			<h4 class="speakers__position slab">
+				President
+			</h4>
+			<div class="dotted-underline"> </div>
+			<p class="speakers__blurb">
+				Anna likes long walks on the beach and buffet breakfast. Anna likes long walks on the beach and buffet breakfast. Anna likes long walks on the beach and buffet breakfast. Anna likes long walks on the beach and buffet breakfast. Anna likes long walks on the beach and buffet breakfast. Anna likes long walks on the beach and buffet breakfast.
+			</p>
 		</div>
+		
         
 	{% endfor %}
 

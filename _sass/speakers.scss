@@ -1,25 +1,21 @@
 .speakers__img {
     border-radius: 50%;
-    width: 50%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     margin-bottom: 1rem;
 }
 
-.speakers__name,
-.speakers__position {
-    text-align: center;
-}
-
 .speakers__name {
     font-weight: 700;
     margin: 0;
-    color: white;
+    color: $primary-color;
 }
 
 .speakers__position {
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .speakers__subh {
@@ -39,8 +35,17 @@
     margin-bottom: 10rem;
 }
 
+.speakers__list {
+    transform: translateY(-8rem);
+}
+
+.speaker {
+    margin-top: 3rem;
+}
+
 .speakers__blurb {
-    color: white;
+    color: black;
+    margin-top: 1rem;
 }
 
 .speakers__inspiration {
@@ -55,3 +60,9 @@
     overflow: hidden;
 }
 
+
+.speakers-hero {
+    position: relative;
+    z-index: -1;
+    transform: translateY(-2.5rem);
+}

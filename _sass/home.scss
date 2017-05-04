@@ -126,7 +126,7 @@ body {
     left: 0;
 }
 
-.white-bg {
+.white-bg, .dark-bg {
     z-index: -3;
     position: relative;
     background:url(../images/backgroundtexture.png);
@@ -135,6 +135,10 @@ body {
     height: 100vh;
     width: 100%;
     opacity: 0.1;
+}
+
+.dark-bg {
+    background:url(../images/backgroundtexture-dark.png);
 }
 .gradientgradient {
     z-index: -6;
@@ -340,15 +344,21 @@ body {
 .home-hero-image-powerup {
     position: relative;
     z-index: 2;
+    display: flex;
+    margin: auto;
     margin-top: 10vh;
+    max-height: 45vh;
+    object-fit: contain;
     @media #{$tablet} { 
         width: 90% !important;
+        display: flex;
+    margin: auto;
 }
     @media #{$desktop} { 
-    
+    display: flex;
+    margin: auto;
         width: 80% !important;
-        display: flex;
-        margin: auto;
+        
         margin-top: 5vh;
 
     }
@@ -436,7 +446,7 @@ body {
         }
 
         @media #{$desktop} {
-            width: 60%;
+            width: 75%;
         }
 
         &.reverse {
@@ -469,17 +479,17 @@ body {
 
 
 .circle {
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	background: white;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50%;
     position: absolute;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -25px;
     z-index: 1;
-    transform: translateY(-50px);
+    transform: translateY(-25px);
     display: none;
     @media #{$tablet} {
         display: block;
