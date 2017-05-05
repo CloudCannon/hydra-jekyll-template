@@ -70,7 +70,7 @@ p, address {
 	font-size: 1.1em;;
 	color: #666;
 	margin-bottom: 20px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.5;
 }
 
@@ -128,12 +128,21 @@ a:hover {
 }
 
 .reduced-gradient {
+		background: -moz-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,102,31,1)), color-stop(100%, rgba(224,58,20,0.85))) !important;
+    background: -webkit-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+    background: -o-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+    background: -ms-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+    background: linear-gradient(to right, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+	@media #{$tablet} {
 	background: -moz-linear-gradient(left, rgba(255,102,31,0.85) 0%, rgba(224,58,20,0.85) 100%) !important;
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,102,31,0.85)), color-stop(100%, rgba(224,58,20,0.85))) !important;
     background: -webkit-linear-gradient(left, rgba(255,102,31,0.85) 0%, rgba(224,58,20,0.85) 100%) !important;
     background: -o-linear-gradient(left, rgba(255,102,31,0.85) 0%, rgba(224,58,20,0.85) 100%) !important;
     background: -ms-linear-gradient(left, rgba(255,102,31,0.85) 0%, rgba(224,58,20,0.85) 100%) !important;
     background: linear-gradient(to right, rgba(255,102,31,0.85) 0%, rgba(224,58,20,0.85) 100%) !important;
+
+	}
 }
 
 .ghost {

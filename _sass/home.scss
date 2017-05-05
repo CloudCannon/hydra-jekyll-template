@@ -210,7 +210,6 @@ body {
         font-size: 1.5rem;
         margin-left: auto;
         margin-right: auto;
-        font-weight: 300;
         line-height: 1.5;
         margin-top: 2rem;
         color: white;
@@ -431,6 +430,10 @@ body {
         z-index: 12;
         display: flex;
         right: 0;
+    }
+
+    @media #{$desktop} {
+        width: 55%;
     }
 
     .black-container {
