@@ -67,3 +67,8 @@
     z-index: -1;
     transform: translateY(-2.5rem);
 }
+
+
+.radial-gradient {
+    background: radial-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0));
+}

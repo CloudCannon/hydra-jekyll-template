@@ -126,7 +126,7 @@ body {
     left: 0;
 }
 
-.white-bg, .dark-bg {
+.white-bg, .dark-bg, .radial-gradient {
     z-index: -3;
     position: relative;
     background:url(../images/backgroundtexture.png);
@@ -134,12 +134,21 @@ body {
     top: 0;
     height: 100vh;
     width: 100%;
-    opacity: 0.1;
+    opacity: 0.15;
 }
 
 .dark-bg {
     background:url(../images/backgroundtexture-dark.png);
+    opacity: 0.1;
 }
+
+.radial-gradient {
+    background: radial-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0));
+    z-index: -2;
+    opacity: 1;
+    transform: scale(2);
+}
+
 .gradientgradient {
     z-index: -6;
     position: relative;
@@ -358,7 +367,7 @@ body {
     margin: auto;
         width: 80% !important;
         
-        margin-top: 5vh;
+        margin-top: 10vh;
 
     }
 }
@@ -384,6 +393,11 @@ body {
     z-index: 10;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    @media #{$tablet} {
+    width: 80%;
+    }
 }
 
 
@@ -398,7 +412,7 @@ body {
         height: 50vh;
         object-fit: cover;
         @media #{$tablet} {
-            height: 70vh;
+            height: 80vh;
             min-height: 450px;
         }
     }
@@ -432,9 +446,6 @@ body {
         right: 0;
     }
 
-    @media #{$desktop} {
-        width: 55%;
-    }
 
     .black-container {
         color: white;
@@ -472,7 +483,7 @@ body {
 }
 
 .white-border {
-    background: white;
+    background: $light-blue;
     height: 10px;
     width: 100%;
     position: absolute;
@@ -482,17 +493,17 @@ body {
 
 
 .circle {
-	width: 50px;
-	height: 50px;
-	background: white;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
+	width: 30px;
+	height: 30px;
+	background: $light-blue;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
 	border-radius: 50%;
     position: absolute;
     left: 50%;
-    margin-left: -25px;
+    margin-left: -15px;
     z-index: 1;
-    transform: translateY(-25px);
+    transform: translateY(-15px);
     display: none;
     @media #{$tablet} {
         display: block;
@@ -513,6 +524,11 @@ body {
     background: #333;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    transform: skew(0deg, -2deg);
+    margin-bottom: -40px;
+    .row {
+        transform: skew(0deg, 2deg);
+    }
 }
 
 .center-icon {
@@ -535,4 +551,5 @@ body {
 .sponsor-icons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
