@@ -553,3 +553,24 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.fixed-button {
+	position: fixed !important;
+	bottom: 40px;
+	z-index: 30!important;
+	right: 20px;
+	margin: 0 !important;
+    opacity: 0;
+}
+
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+

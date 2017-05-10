@@ -1,20 +1,31 @@
-- name: Scholarships
-  link: /scholarships/
-  new_window: false
-  highlight: false
+
 - name: Speakers
   link: /speakers/
   new_window: false
   highlight: false
+
 - name: Program
   link: /program/
   new_window: false
   highlight: false
+
+- name: Scholarships
+  link: /scholarships/
+  new_window: false
+  highlight: false
+
+- name: Volunteers
+  link: /volunteers/
+  new_window: false
+  highlight: false
+
 - name: FAQs
   link: /faqs/
   new_window: false
   highlight: false
-- name: Grab your ticket!
-  button: true
 
+- name: Grab your ticket!
+  link: /ticket/
+  new_window: false
+  highlight: false
 

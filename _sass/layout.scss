@@ -17,11 +17,14 @@
 	}
 }
 
+.other-pages {
+		background: $second-color;
+	}
 header {
 	color: #fff;
 	padding: 12px 0;
-	background: #5fcaff; /* Old browsers */
-
+	background: rgba(0, 0, 0, 0); /* Old browsers */
+	
 	a {
 		color: #fff;
 		text-decoration: none;

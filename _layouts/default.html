@@ -8,7 +8,10 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Lobster|Roboto+Slab:400" rel="stylesheet">
-
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 	{% seo %}
 	{% feed_meta %}
 	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
@@ -24,20 +27,31 @@
 	{% endif %}
 </head>
 	<body>
-		
-		<header>
-			<div class="container">
-				<div class="company-name">
-					<a href="{{ site.baseurl }}/">
-						<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="nav__logo"/>
-					</a>
+
+		{% if page.id != 'home' %}
+			<header  class="other-pages">
+				<div class="container">
+					<div class="company-name">					
+						<a href="{{ site.baseurl }}/">
+							<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="nav__logo"/>
+						</a>					
+					</div>
+					{% include navigation.html %}
 				</div>
-				{% include navigation.html %}
-			</div>
-		</header>
+			</header>
 
+		{% else %}
 
+			<header>
+				<div class="container">
+					<div class="company-name">
+						<div style="height: 46px" class="nav__logo"> </div>		
+					</div>
+					{% include navigation.html %}
+				</div>
+			</header>
 
+		{% endif %}
 
 		{{ content }}
 
@@ -46,12 +60,13 @@
 
 		<footer>
 			<div class="container">
-				<div class="company-name">
+				
+				{% include footer.html %}
+				<div class="company-name footer-logo">
 					<a href="{{ site.baseurl }}/">
 						<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="nav__logo"/>
 					</a>
 				</div>
-				{% include footer.html %}
 			</div>
 		</footer>
 

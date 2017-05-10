@@ -1,39 +1,36 @@
-- links:
-  - name: Pricing
-    link: /pricing/
-  - name: Blog
-    link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
-- links:
-  - name: Login
-    link: /
-    new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
-- links:
-  - name: Facebook
-    link: https://facebook.com
-    new_window: true
-    social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com
-    social_icon: Twitter
-    new_window: true
-  - name: YouTube
-    link: https://youtube.com
-    social_icon: YouTube
-    new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
+
+- name: About
+  link: /about/
+  new_window: false
+  highlight: false
+
+- name: Speakers
+  link: /speakers/
+  new_window: false
+  highlight: false
+
+- name: Program
+  link: /program/
+  new_window: false
+  highlight: false
+
+- name: Scholarships
+  link: /scholarships/
+  new_window: false
+  highlight: false
+
+- name: Volunteers
+  link: /volunteers/
+  new_window: false
+  highlight: false
+
+- name: FAQs
+  link: /faqs/
+  new_window: false
+  highlight: false
+
+- name: Grab your ticket!
+  link: http://www.google.com
+  button: true
+
+

@@ -1,0 +1,68 @@
+---
+title: 'FAQs'
+description: FAQ
+---
+<div class="white-bg"></div>
+<div class="gradientgradient blue-gradient"></div>
+
+
+<div class="row">
+    <div class="small-12 columns">
+        
+            <h2 class="faq-heading"><span class="dotted-underline editable"> Questions? </span></h2>
+            
+            <div class="white-border faq-orange-border"> </div>
+		    <div class="circle faq-circle"> </div>
+            <div class="faq-container">
+
+            <h3 class="faq-subheading"> Ticket </h3>
+
+            <a class="_accordion slab">What does my ticket include? </a>
+            <div class="panel">
+                <p> Your ticket covers you for the entire two-day conference, plus tea and coffee in the morning and afternoon breaks, and light snacks. Your ticket also serves as a ticket to the PowerUp after-party on Saturday evening. </p>
+            </div>
+
+            <div class="faq-underline"></div>
+
+            <a class="_accordion slab">What doesn’t my ticket include?</a>
+            <div class="panel">
+                <p> To keep the cost of tickets down, lunch is not included. Instead we’ve organised for the nearby UNSW foodcourt to remain open so you have a great choice of lunch on both days. </p>
+            </div>
+
+            <div class="faq-underline"></div>
+
+            <h3 class="faq-subheading"> Travel </h3>
+
+            <a class="_accordion">Where is PowerUp? </a>
+            <div class="panel">
+                <p> PowerUp is located in Sydney at the University of New South Wales:
+    Sir John Clancy Auditorium
+    University of New South Wales
+    High Street, Kensington, NSW </p>
+            </div>
+            <a class="_accordion">What doesn’t my ticket include?</a>
+            <div class="panel">
+                <p> To keep the cost of tickets down, lunch is not included. Instead we’ve organised for the nearby UNSW foodcourt to remain open so you have a great choice of lunch on both days. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("_accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>

@@ -15,6 +15,9 @@
 	}
 }
 
+
+
+
 nav {
 	text-transform: uppercase;
 	font-size: .8em;
@@ -25,7 +28,7 @@ nav {
 	@media #{$mid-point} {
 		text-align: right;
 		position: absolute;
-		top: 13px;
+		top: 5px;
 		right: 0;
 		padding: 0 20px;
 	}
@@ -34,7 +37,6 @@ nav {
 	a {
 		margin: 0 3px;
 		padding: 20px 10px;
-		border-bottom: 0px solid $black;
 		color: $white;
 		transition: .2s ease-in-out;
 		display: none;
@@ -42,7 +44,7 @@ nav {
 		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
 		@media #{$mid-point} {
-			display: inline;
+			display: inline-block;
 			padding: 10px;
 		}
 
@@ -63,17 +65,15 @@ nav {
 				border: 0;
 			}
 		}
-	}
+	}	
 
 	a:hover {
 
-		border-bottom: 1px solid $black;
-		color:darken($white, 30);
+		color: #2098f5;
 	}
 
 	@media #{$mid-point} {
 		a.highlight {
-			border: 1px #ccc solid;
 			border-radius: 5px;
 
 			&:hover {

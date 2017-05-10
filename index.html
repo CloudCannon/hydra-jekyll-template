@@ -1,7 +1,10 @@
 ---
 title: 'PowerUp!'
 description: PowerUp
+id: 'home'
 ---
+
+<a class="button home-hero-button editable fixed-button" id="fixed-button">Grab your ticket!</a>
 <div class="white-bg">
 		</div>
 		<div class="gradientgradient"></div>
@@ -25,6 +28,11 @@ with our most active committed GetUp members.</h3>
 </div>
 
 
+
+
+
+
+
 <div class="row">
 	<div class="small-12 columns home__our-story">
 		
@@ -36,29 +44,29 @@ with our most active committed GetUp members.</h3>
 
 <div class="row narrative-container">
 	<div class="small-6 medium-2 columns">
-		<img src="images/icons/Join.svg" class="narrative-icon">
-		<p class="narrative editable"> Join our first member conference </p>
+		<img src="images/icons/tickets.svg" class="narrative-icon">
+		<p class="narrative editable"> Secure your place </p>
 	</div>
 	<div class="medium-1 columns arrow-icon-container">
-		<img src="images/arrowarrow.png" class="arrow-icon">
+		<img src="images/icons/arrowarrow.svg" class="arrow-icon">
 	</div>
 	<div class="small-6 medium-2 columns">
 		<img src="images/icons/Develop.svg" class="narrative-icon">
-		<p class="narrative editable"> Develop critical skills and GetUp’s strategy </p>
+		<p class="narrative editable"> Learn critical organizing skills </p>
 	</div>
 	<div class="medium-1 columns arrow-icon-container">
-		<img src="images/arrowarrow.png" class="arrow-icon">
+		<img src="images/icons/arrowarrow.svg" class="arrow-icon">
 	</div>
 	<div class="small-6 medium-2 columns">
 		<img src="images/icons/Create.svg" class="narrative-icon">
-		<p class="narrative editable"> Create your local action groups </p>
+		<p class="narrative editable"> Create local action groups </p>
 	</div>
 	<div class="medium-1 columns arrow-icon-container">
-		<img src="images/arrowarrow.png" class="arrow-icon">
+		<img src="images/icons/arrowarrow.svg" class="arrow-icon">
 	</div>
 	<div class="small-6 medium-2 columns">
-		<img src="images/icons/Scale.svg" class="narrative-icon">
-		<p class="narrative editable"> Scale up our movement to push for change </p>
+		<img src="images/icons/scale.svg" class="narrative-icon">
+		<p class="narrative editable"> Scale up people power </p>
 	</div>
 </div>
 
@@ -72,7 +80,7 @@ with our most active committed GetUp members.</h3>
 				<img src="images/icons/program.svg" class="x-icon">
 				<h2> <span class="dotted-underline editable"> Programs </span></h2>
 				<p class="editable"> PowerUp is a flagship GetUp event --- it will define our reputation with our most active committed GetUp members, many of our major donors, </p>
-				<a class="button editable">Grab your ticket!</a>
+				<a class="button editable outline">More info</a>
 				</div>
 			</span>
 		</div>
@@ -86,9 +94,9 @@ with our most active committed GetUp members.</h3>
 		<div class="black reverse">
 			<span class="reverse-skew black-container reverse">				
 				<img src="images/icons/Speakers.svg" class="x-icon">
-				<h2> <span class="dotted-underline editable"> Speakers </span></h2>
+				<h2> <span class="dotted-underline editable" id="fade-position"> Speakers </span></h2>
 				<p class="editable"> PowerUp is a flagship GetUp event --- it will define our reputation with our most active committed GetUp members, many of our major donors, </p>
-				<a class="button editable">Grab your ticket!</a>
+				<a class="button editable outline">Read more</a>
 			</span>
 		</div>
 		<img src="images/speakers.jpg" class="x-home-image">
@@ -102,10 +110,10 @@ with our most active committed GetUp members.</h3>
 			<div class="small-12 columns">
 				<img src="images/icons/Tickets.svg" class="center-icon">
 				<h3 class="caption editable">
-					Key note speaker info and other random heading text to accompany.
+					Donation ask goes here. Change the icon
 				</h3>
-				<div class="button__wrapper">
-					<a class="button caption__button editable">Book now!</a>
+				<div class="button__wrapper" >
+					<a class="button caption__button editable">Donate us</a>
 				</div>
 
 			</div>
@@ -137,6 +145,19 @@ with our most active committed GetUp members.</h3>
 
 
 
-
+<script>
+$(document).ready(function(){
+    $(window).scroll(function(){
+      if ($(window).scrollTop() >  $(".center-icon").offset().top - 400 && ($(window).scrollTop() <  $("#fade-position").offset().top - 200) ){
+            $('#fixed-button').addClass('fade-in');
+			$('#fixed-button').removeClass('fade-out');
+      }
+	  else {
+		  	$('#fixed-button').addClass('fade-out');
+			$('#fixed-button').removeClass('fade-in');
+	  }
+    });
+});
+</script>
 
 
