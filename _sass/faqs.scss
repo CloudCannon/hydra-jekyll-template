@@ -3,12 +3,14 @@
 .faq-heading {
     color: white;
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
 }
 
 .faq-subheading {
     color: $second-color;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -32,16 +34,18 @@
 
 .faq-underline {
     border-bottom: 1px dashed $second-color;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .faq-container {
-    background: white;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    background: rgba(255, 255, 255, 0.8);
+    padding-top: 3rem;
+    padding-bottom: 10rem;
     transform: skew(0deg, -2deg);
     margin-bottom: -40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .panel {
     max-height: 0;
@@ -50,6 +54,8 @@
     margin-top: -1rem;
     p {
         font-size: 1.2em;
+        font-weight: 300;
+        color: black;
     }
 }
 
@@ -61,4 +67,8 @@
 .faq-orange-border {
     position: relative;
     transform: skew(0deg, -2deg) translateY(5px) !important;
+}
+
+.faq-container-reverse {
+    transform: skew(0deg, 2deg);
 }
