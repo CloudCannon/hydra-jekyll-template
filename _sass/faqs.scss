@@ -74,8 +74,8 @@
 
 .p-iframe {
     border: none;
-    height: 70vh;
-    @media #{$tablet} {
         height: 500px;
+    @media #{$tablet} {
+    height: 70vh;
     }
 }
