@@ -71,3 +71,11 @@
 .faq-container-reverse {
     transform: skew(0deg, 2deg);
 }
+
+.p-iframe {
+    border: none;
+    height: 70vh;
+    @media #{$tablet} {
+        height: 100vh;
+    }
+}
