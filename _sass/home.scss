@@ -1,9 +1,18 @@
 
-body {
-    width: 100%;
+
+// IE
+@supports (-ms-ime-align:auto) {
+    .home-hero-image-powerup {
+        width: auto !important;
+    }
 }
 
 
+
+
+body {
+    width: 100%;
+}
 
 
 

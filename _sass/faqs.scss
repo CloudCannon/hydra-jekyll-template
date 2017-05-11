@@ -72,10 +72,15 @@
     transform: skew(0deg, 2deg);
 }
 
+.p-iframe-container {
+    position: relative;
+}
+
 .p-iframe {
     border: none;
         height: 500px;
     @media #{$tablet} {
-    height: 70vh;
+    height: 100vh;
     }
 }
+
