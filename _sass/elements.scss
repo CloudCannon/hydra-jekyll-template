@@ -43,7 +43,13 @@ h1 {
 }
 
 h2 {
-	font-size: 2.8em;
+	font-size: 2.2em;
+	@media #{$tablet} {
+		font-size: 2.5em;
+	}
+	@media #{$desktop} {
+		font-size: 2.8em;
+	}
 }
 
 h3 {
@@ -75,6 +81,7 @@ p, address {
 }
 
 p {
+	font-size: 1.1em;
 	@media #{$desktop} {
 		font-size: 1.3em;
 	}
@@ -87,7 +94,7 @@ p {
  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 	padding: 0.65em 1.3em;
 	font-weight: 700;
-	font-size:1.1em;
+	font-size: 0.9em;
 
 	@media #{$tablet} {
 		font-size: 1.2em;
@@ -98,7 +105,7 @@ p {
 		background: transparent;
 		color: $primary-color;
 		font-size: 1em;
-		&:hover {
+		&:hover, &:active {
 			color: white;
 		}
 	}
@@ -106,7 +113,7 @@ p {
 }
 
 .button{
-	&:hover {
+	&:hover, &:active {
 		background-color:$primary-color;
 		box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 7px 7px rgba(0,0,0,0.10);
 	}

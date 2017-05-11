@@ -26,6 +26,7 @@
     font-weight: 700;
     margin: 1rem 0;
     display: block;
+    letter-spacing: -0.5px;
 }
 
 .accordion.active,
@@ -53,8 +54,6 @@
     transition: max-height 0.2s ease-out;
     margin-top: -1rem;
     p {
-        font-size: 1.2em;
-        font-weight: 300;
         color: black;
     }
 }
