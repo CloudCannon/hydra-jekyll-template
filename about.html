@@ -2,17 +2,42 @@
 title: Our team
 description: We've built an amazing team of developers, marketers, designers and sales people.
 ---
-<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
-	{% for person in site.staff_members %}
-		<li>
-			<div class="square-image">
-				<img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/>
-				</div>
-			<div class="name">
-				<a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a>
-			</div>
-			<div class="position">{{ person.position }}</div>
-		</li>
-	{% endfor %}
-</ul>
+
+<div class="x-img-container about-top-container">
+	<div class="x-home__image-container about-text">
+		<div class="black blue-gradient about-width">
+			<span class="reverse-skew black-container">				
+				<img src="../images/getup-logo-white.png" class="about-logo">
+					<h4 class="normal"><b>GetUp is the main organiser of PowerUp.</b></h4>
+				<p>
+					GetUp is one of Australia’s most powerful campaigning communities, and gives everyday Australians the chance to make extraordinary impact – online, across the airwaves, and in the streets. GetUp is about making change, not just making noise. Everything we do is guided by carefully crafted strategies designed to win. Sometimes that means we gather in raucous protest, other times that means partnering with policy experts to develop new solutions, or we exercise our consumer power, and everything in between.
+					<br><br>
+					Our work is driven by our values, not party politics. GetUp is, and always has been, an independent organisation. GetUp members come from every walk of life and around a shared belief in fairness, compassion and courage. We campaign on issues that our members care about in the fields of Environmental Justice, Human Rights, Economic Fairness and Democracy.
+				</p>
+			</span>
+		</div>
+		<div class="about-image" style="background: url(../images/flowers.jpg);"></div>
+	</div>
+</div>
+
+
+<div class="x-img-container about-bottom-container">
+	<div class="white-border about-orange-border"> </div>
+	<div class="circle about-circle"> </div>
+	<div class="x-home__image-container about-text">
+		<div class="black blue-gradient reverse about-width">
+			<span class="reverse-skew black-container reverse">				
+				<img src="../images/thecommons.png" class="about-logo">
+					<h4 class="normal"><b>The Commons is a proud sponsor of the skills workshops at PowerUp. </b></h4>
+				<p class="editable">
+					The Commons is a public and virtual changemakers’ library. It aims to build the power and effectiveness of progressive movements across Australia.
+					<br><br>
+					The Commons sources and shares campaign, activism and organising resources and insights from leading progressive organisations across Australia and the globe, fostering best practice and innovative campaigning to deliver faster, deeper victories on the issues that matter. 
+					<br><br>
+					The Commons harnesses and shares the common factors that facilitate the creation of powerful social movements and winning campaigns. It connects campaigners and everyday activists – capturing and presenting their learnings in a useful and engaging way that ensures the data reaches the right people when they need it.
+				</p>
+			</span>
+		</div>
+		<div class="about-image" style="background: url(../images/commons.jpg);"></div>
+	</div>
+</div>

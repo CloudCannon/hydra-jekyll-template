@@ -1,11 +1,6 @@
 
 
-// IE
-@supports (-ms-ime-align:auto) {
-    .home-hero-image-powerup {
-        width: auto !important;
-    }
-}
+
 
 
 
@@ -585,3 +580,267 @@ body {
     transition: opacity 0.2s ease;
 }
 
+// -----------------------------------------
+
+
+
+/* The modal section is added via JS */
+
+.modal {
+  max-width: 80vw;
+  max-height: 90vh;
+  background-color: black;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 30 !important;
+  left: 10%;
+  right: 10%;
+  top: 5%;
+  bottom: 5%;
+  z-index: 10;
+  border: 1px solid #000;
+  box-shadow: 0 .25em .5em #000;
+  transition: opacity .5s ease-out, visibility 0s ease-out 1s, transform .5s ease-out .5s;
+  backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(.8) translate3d(0,0,0);
+  pointer-events: none;
+}
+
+.modal[aria-hidden="false"] {
+  position: fixed;
+  transition-delay: 0s,0s, 0s;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1) translate3d(0,0,0);
+  pointer-events: auto;
+}
+
+
+
+
+/* Light box properties */
+
+.modal_lightbox {
+  text-indent: -200em;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* places the modal overlay between the main page (0) and the modal dialog (10) */
+  z-index: 5;
+  cursor: pointer;
+  transition: opacity .5s ease-out, visibility 0s ease-out .5s;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal_lightbox-on {
+  transition-delay: 0s, 0s;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.modal_lightbox-on:hover {
+  /* Stolen from trickle.js. Under consideration. SVGs will not work here */
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAANpJREFUOBGNkz0KAjEQhYPYWXgCKws7LcXWyt7WG4i9jegBvIJ4AvEyXsRCsBDiN0sGkiE/O/A2O9n3viS7rPPeb9ETrVzPwrtHDzR1XF5I6oPWLQaeq5hDXQRw0I6xCuF5HH7Tz7oFuTkhrSyEhza8THaLoQhphpWUg/QOFyA/AFpy5nTbGrIjxvg4AiiGBzYc+rGZH9KPzFy+ZbX4bX9l+VDZr5NQMMbhbtvMxccpQ3JhpTchtXATQviItIpvW0CY7HHm8c9UDRd2chbABt3RQk2tEe8O3dDkD4JQ4iOR7BMpAAAAAElFTkSuQmCC"), pointer;
+}
+
+
+/* Modal title and description */
+
+.modal_title,
+.modal_desc {
+  position: absolute;
+  top: 5px;
+  left: -200em;
+  background-color: #fff;
+  color: #000;
+  text-shadow: 0 0 0 #fff;
+  font-size: 20px;
+  padding: 0.125em .25em;
+  /* Tesco requirement
+  font-family: Tesco_W_Rg, sans-serif; */
+  margin: 0;
+  display:none;
+}
+
+.modal_title:focus,
+.modal_desc:focus {
+  left: 5px;
+}
+
+[aria-hidden="false"] .modal_title {
+  transition: opacity .5s ease-out 3s;
+  opacity: 0;
+}
+
+.modal_title,
+.modal_title:focus {
+  opacity: 1;
+  transition: opacity .5s ease-out;
+}
+
+
+/* The iframe */
+
+.modal_iframe {
+  transition: opacity .5s ease-out, visibility 0s ease-out 1s;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal_iframe-on {
+  transition: opacity .8s ease-out, visibility 0s ease-out 0s;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+[aria-hidden="true"] .modal_iframe {
+  display: none;
+}
+
+[aria-hidden="false"] .modal_iframe {
+  display: block;
+}
+
+
+/* The modal pop-ups close button, appears last in the modal, but is moved visually to the top right of the pop-up */
+
+.modal_lnk-close {
+  cursor: pointer;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  border: 0 solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  box-shadow: 0 .25em .5em rgba(0, 0, 0, .25);
+  overflow: hidden;
+  transition: background-color .3s ease-out;
+}
+
+.modal_lnk-close:hover,
+.modal_lnk-close:active,
+.modal_lnk-close:focus {
+  background-color: #c00;
+  outline: 0 solid;
+}
+
+.svg-close {
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+
+
+
+/* Modal SVG (Tesco) loading animation version 2 (overlaid on itself and out of phase) */
+
+[class*="svg-loading"] {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  z-index: -1;
+  transition: opacity .3s ease-out;
+  backface-visibility: hidden;
+}
+
+.svg-loading {
+  fill: #00539f;
+  -webkit-animation: rotate 4s linear 0s infinite;
+  animation: rotate 4s linear 0s infinite;
+  display: none;
+}
+
+.svg-loading2 {
+  /* Match to .modal background colour for full effect */
+  fill: #F7F0E8;
+  -webkit-animation: rotate 5s linear 1s infinite;
+  animation: rotate 5s linear 1s infinite;
+  display: none;
+}
+
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg) translate3d(0,0,0);
+    transform: rotate(360deg) translate3d(0,0,0);
+  }
+}
+
+@keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg) translate3d(0,0,0);
+    transform: rotate(360deg) translate3d(0,0,0);
+  }
+}
+
+
+
+/* While modal is open */
+
+/* Class added to body tag to prevent scroll
+   Note the body does not require class "-modal" */
+body.-modal-open {
+  overflow: hidden;
+}
+
+
+/* Any tags classed with "-modal", when open, get "-modal-open" added */
+/* Both of these are equivalent, best practice to use the attribute version which enforces accessibility */
+
+.-modal[aria-hidden="true"] {
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.-modal.-modal-open {
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+
+/* Generic helper style */
+.u-margin2 {
+  margin: 2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------------
+
+// IE
+@supports (-ms-ime-align:auto) {
+    .home-hero-image-powerup {
+        width: auto !important;
+    }
+}

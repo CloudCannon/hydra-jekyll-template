@@ -30,7 +30,7 @@
   highlight: false
 
 - name: Grab your ticket!
-  link: http://www.google.com
+  link: /ticket/
   button: true
 
 

@@ -1,0 +1,55 @@
+// .about-bottom-container,
+// .about-top-container {
+//     @media#{$tablet} {
+//         transform: translateY(-2.5rem);
+//         margin-bottom: -5rem;
+
+//     }
+// }
+
+.about-top-container,
+.about-bottom-container {
+        transform: translateY(-2.5rem);
+}
+
+.about-bottom-container {
+    margin-bottom: -5rem;
+}
+
+.about-circle,
+.about-orange-border {
+    background: $second-color;
+}
+
+.about-text {
+    font-size: 16px;
+}
+
+.about-width {
+    @media #{$tablet} {
+        width: 75% !important;
+
+    }
+    @media #{$desktop} {
+        width: 50% !important;
+    }
+}
+
+.about-logo {
+    height: auto;
+    width: 120px;
+    margin-bottom: 2rem;
+}
+
+.about-image {
+    width: 100vw;
+    background-size: cover !important;
+    position: relative;
+    background-position: bottom !important;
+    height: 400px;
+
+    @media #{$tablet} {
+        height: 1000px;
+    background-position: center !important;
+    }
+}

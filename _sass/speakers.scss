@@ -53,22 +53,37 @@
     background: $primary-color;
 }
 
-.biggP {
-    position: absolute;
-    z-index: -1;
-    height: 50rem;
-    width: auto;
-    overflow: hidden;
-}
-
 
 .speakers-hero {
     position: relative;
-    z-index: -1;
     transform: translateY(-2.5rem);
 }
 
+.programs-hero {
+    position: relative;
+}
+
+.programs-home__image-container {
+    overflow: hidden;
+    position: relative;
+    
+}
 
 .radial-gradient {
     background: radial-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0));
+}
+
+.speakers-hero-image {
+    height: 60%;
+    width: 100vw;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+
+    @media #{$tablet} {
+        height: 800px;
+    }
+    @media #{$desktop} {
+        height: 100vh;
+    }
 }

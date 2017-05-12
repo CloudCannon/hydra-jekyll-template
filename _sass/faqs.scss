@@ -29,9 +29,6 @@
     letter-spacing: -0.5px;
 }
 
-.accordion.active,
-.accordion:hover {
-}
 
 .faq-underline {
     border-bottom: 1px dashed $second-color;
@@ -41,12 +38,17 @@
 
 .faq-container {
     background: rgba(255, 255, 255, 0.8);
-    padding-top: 3rem;
-    padding-bottom: 10rem;
-    transform: skew(0deg, -2deg);
+    padding: 1rem 1rem 10rem 1rem;
     margin-bottom: -40px;
-    padding-left: 20px;
-    padding-right: 20px;
+
+
+    @media #{$tablet} {
+        padding: 3rem 4rem 10rem 4rem;
+    }
+
+    @media #{$desktop} {
+        padding: 3rem 6rem 10rem 6rem;
+    }
 }
 .panel {
     max-height: 0;
@@ -65,11 +67,6 @@
 
 .faq-orange-border {
     position: relative;
-    transform: skew(0deg, -2deg) translateY(5px) !important;
-}
-
-.faq-container-reverse {
-    transform: skew(0deg, 2deg);
 }
 
 .p-iframe-container {

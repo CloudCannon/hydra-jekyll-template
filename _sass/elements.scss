@@ -148,12 +148,12 @@ a:hover {
 
 .blue-gradient {
 	background: rgba(32,152,245,0.85) !important;
-    background: -moz-linear-gradient(left, rgba(95,202,255,0.85) 0%, rgba(32,152,245,0.85) 100%) !important;
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(95,202,255,0.85)), color-stop(100%, rgba(32,152,245,0.85))) !important;
-    background: -webkit-linear-gradient(left, rgba(95,202,255,0.85) 0%, rgba(32,152,245,0.85) 100%) !important;
-    background: -o-linear-gradient(left, rgba(95,202,255,0.85) 0%, rgba(32,152,245,0.85) 100%) !important;
-    background: -ms-linear-gradient(left, rgba(95,202,255,0.85) 0%, rgba(32,152,245,0.85) 100%) !important;
-    background: linear-gradient(to right, rgba(95,202,255,0.85) 0%, rgba(32,152,245,0.85) 100%) !important;
+    background: -moz-linear-gradient(left, rgba(95,202,255,0.95) 0%, rgba(32,152,245,0.90) 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(95,202,255,0.95)), color-stop(100%, rgba(32,152,245,0.90))) !important;
+    background: -webkit-linear-gradient(left, rgba(95,202,255,0.95) 0%, rgba(32,152,245,0.90) 100%) !important;
+    background: -o-linear-gradient(left, rgba(95,202,255,0.95) 0%, rgba(32,152,245,0.90) 100%) !important;
+    background: -ms-linear-gradient(left, rgba(95,202,255,0.95) 0%, rgba(32,152,245,0.90) 100%) !important;
+    background: linear-gradient(to right, rgba(95,202,255,0.95) 0%, rgba(32,152,245,0.90) 100%) !important;
 }
 
 .reduced-gradient {

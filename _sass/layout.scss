@@ -24,6 +24,8 @@ header {
 	color: #fff;
 	padding: 12px 0;
 	background: rgba(0, 0, 0, 0); /* Old browsers */
+	position: relative;
+	z-index: 5000;
 	
 	a {
 		color: #fff;
@@ -68,10 +70,6 @@ header {
 	background: #DDD url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2244%22%20height%3D%2212%22%20viewBox%3D%220%200%2044%2012%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3C%2Fsvg%3E') 4px 4px no-repeat;
 	padding: 20px 0 0 0;
 	position: relative;
-}
-
-section {
-	padding: 100px 0;
 }
 
 section + section {
