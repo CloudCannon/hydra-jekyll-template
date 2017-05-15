@@ -359,11 +359,16 @@ h3.caption {
     width: 100%;
     object-fit: cover;
     position: absolute;
-    @media #{$tablet} {
-        min-height: 500px;
-    }
+}
+     @media screen and (max-width: 39.9375em) {
+        height: 65vh;
+     }
     
 }
+
+
+
+
 
 .home-hero-image-powerup-container {
     position: absolute;
@@ -388,6 +393,11 @@ h3.caption {
         
         margin-top: 10vh;
 
+    }
+
+    @media screen and (max-width: 39.9375em) {
+
+        padding-top:150px;
     }
 }
 
