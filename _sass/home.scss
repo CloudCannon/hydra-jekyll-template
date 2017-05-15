@@ -77,11 +77,7 @@ body {
     padding-bottom: 3rem;
     
 
-    @media #{$tablet} {
-        padding-top: 6rem;
-    padding-bottom: 6rem;
-    
-    }
+ 
 }
 
 
@@ -94,18 +90,17 @@ body {
 }
 
 .caption {
-    padding-left: 6rem;
-    padding-right:6rem;
+    padding-left: 3rem;
+    padding-right:3rem;
     padding-bottom:20px;
+    padding-top:2rem;
 }
 
 h3.caption {
     font-size:1.3em;
     @media #{$tablet} {
-		font-size: 7rem;
-        
-        margin-top: 21vh;
-        text-shadow: none;
+		font-size: 1.4em;
+         text-shadow: none;
 	}
 
 }
