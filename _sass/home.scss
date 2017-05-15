@@ -73,12 +73,13 @@ body {
 
 .caption-container {
   
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
- 
-}
+ @media #{$tablet} {
+		padding-top: 2rem;
+    padding-bottom: 2rem;
+	}
 
 
 .caption, .narrative {
@@ -92,8 +93,8 @@ body {
 .caption {
     padding-left: 3rem;
     padding-right:3rem;
-    padding-bottom:20px;
-    padding-top:2rem;
+    padding-bottom:4rem;
+    padding-top:4rem;
 }
 
 h3.caption {
@@ -438,10 +439,10 @@ h3.caption {
         transform: skew(0deg, 2deg);
         overflow: hidden;
         transform: scale(1.1);
-        height: 50vh;
+        height: 100vh;
         object-fit: cover;
         @media #{$tablet} {
-            height: 80vh;
+            height: 100vh;
             min-height: 450px;
         }
     }
