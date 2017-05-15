@@ -75,10 +75,12 @@ body {
   
     padding-top: 2rem;
     padding-bottom: 3rem;
+    
 
     @media #{$tablet} {
         padding-top: 6rem;
     padding-bottom: 6rem;
+    
     }
 }
 
@@ -92,10 +94,20 @@ body {
 }
 
 .caption {
-        padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    padding-left: 6rem;
+    padding-right:6rem;
+    padding-bottom:20px;
+}
+
+h3.caption {
+    font-size:1.3em;
 
 }
+
+
+
+
+
 
 .narrative {
     color: $second-color;
@@ -457,7 +469,7 @@ body {
         color: white;
         width: 100%;
         text-align: center;
-        padding: 4rem 0.5rem;
+        padding: 4rem 2rem;
 
         @media #{$tablet} {
             width: 90%;
