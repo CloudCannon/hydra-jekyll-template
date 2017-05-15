@@ -101,6 +101,12 @@ body {
 
 h3.caption {
     font-size:1.3em;
+    @media #{$tablet} {
+		font-size: 7rem;
+        
+        margin-top: 21vh;
+        text-shadow: none;
+	}
 
 }
 
