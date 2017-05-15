@@ -89,4 +89,7 @@
     @media #{$desktop} {
         height: 100vh;
     }
+    @media screen and (max-width: 39.9375em) {
+        display:none;
+    }
 }
