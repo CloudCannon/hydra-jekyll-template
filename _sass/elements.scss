@@ -81,9 +81,9 @@ p, address {
 }
 
 p {
-	font-size: 1.0em;
+	font-size: 1.1em;
 	@media #{$desktop} {
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 }
 
