@@ -24,7 +24,7 @@
   new_window: false
   highlight: false
 
-- name: Grab your ticket!
+- name: Grab My Ticket
   link: /ticket/
   new_window: false
   highlight: false
