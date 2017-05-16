@@ -229,6 +229,7 @@ h3.caption {
         text-align: center;
         color: white;
         margin-top: 1rem;
+        padding:20px;
     }
     p {
         text-align: center;
@@ -243,9 +244,11 @@ h3.caption {
             width: 80%;
             font-weight: 400;
             font-size:1.5rem;
+            padding:20px;
         }
         @media #{$desktop} {
             width: 70%;
+            padding:20px;
         }
     }
 }

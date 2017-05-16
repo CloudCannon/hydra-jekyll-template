@@ -18,11 +18,18 @@
 }
 
 .other-pages {
-		background: $second-color;
+	height:70px;
+		background: rgba(255,102,31,1) ;
+    background: -moz-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,102,31,1)), color-stop(100%, rgba(224,58,20,1))) !important;
+    background: -webkit-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+    background: -o-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+    background: -ms-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
+    background: linear-gradient(to right, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%) !important;
 	}
 header {
 	color: #fff;
-	padding: 12px 0;
+	padding: 8px 0;
 	background: rgba(0, 0, 0, 0); /* Old browsers */
 	position: relative;
 	z-index: 5000;
