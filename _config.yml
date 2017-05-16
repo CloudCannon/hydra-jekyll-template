@@ -11,8 +11,8 @@ disqus_shortname:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Join us at GetUp&rsquo;s first national conference in Sydney on 23-24 September.
-author: GetUp
-  name: PowerUp
+author:
+  name: GetUp
   email:
   twitter: # twitter username without the @ symbol
 social:
