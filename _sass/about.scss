@@ -46,8 +46,8 @@
     width: 100vw;
     background-size: cover !important;
     position: relative;
-    background-position: bottom !important;
-    height: 400px;
+    background-position: top !important;
+    height: 300px;
 
     @media #{$tablet} {
         height: 1000px;
