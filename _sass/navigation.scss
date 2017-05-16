@@ -69,7 +69,8 @@ nav {
 
 	a:hover {
 
-		color: #e5e5e5;
+		text-decoration: underline;
+		color:#fff;
 	}
 
 	@media #{$mid-point} {
@@ -78,7 +79,7 @@ nav {
 
 			&:hover {
 				background: #fff;
-				color: $third-color;
+				
 			}
 		}
 	}
