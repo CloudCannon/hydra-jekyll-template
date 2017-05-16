@@ -15,13 +15,13 @@
   highlight: false
 
 - name: Scholarships
-  link: /scholarships/
-  new_window: false
+  link: http://www.surveygizmo.com/s3/3549361/PowerUp-Scholarship-Application
+  new_window: true
   highlight: false
 
 - name: Volunteers
-  link: /volunteers/
-  new_window: false
+  link: http://www.surveygizmo.com/s3/3549510/Volunteer-at-PowerUp
+  new_window: true
   highlight: false
 
 - name: FAQs
