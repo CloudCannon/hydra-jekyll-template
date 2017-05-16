@@ -24,7 +24,7 @@
   new_window: false
   highlight: false
 
-- name: Grab My Ticket
+- name: Buy Ticket
   link: /ticket/
   new_window: false
   highlight: false
