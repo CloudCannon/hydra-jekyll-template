@@ -295,9 +295,11 @@ h3.caption {
 .home__hero {
     .title, .sub-heading {
         color: white;
+        padding: 0 20px;
     }
     .sub-heading {
         text-align: right;
+        padding: 0 20px;
     }
     a {
         margin-left: auto;
@@ -352,7 +354,7 @@ h3.caption {
 .sub-heading {
     margin-left: auto;
     margin-right: auto;
-    padding:0 10px;
+    padding:0 20px;
     text-align: center;
     width: 100vw;
     font-size: 1.3rem;
