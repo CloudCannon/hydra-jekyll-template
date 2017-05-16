@@ -2,7 +2,7 @@
 # Site
 
 title: PowerUp!
-url:
+url: www.powerup.org.au
 baseurl:
 google_analytics_key: UA-2555375-30
 google_maps_javascript_api_key:
@@ -10,9 +10,9 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: 
-author:
-  name:
+description: Join us at GetUp&rsquo;s first national conference in Sydney on 23-24 September.
+author: GetUp
+  name: PowerUp
   email:
   twitter: # twitter username without the @ symbol
 social:
