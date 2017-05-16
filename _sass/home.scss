@@ -262,8 +262,16 @@ h3.caption {
 .narrative-container {
     margin-top: 4rem;
     color: white;
-    padding-left:70px;
+    padding-left:30px;
+     @media #{$tablet} {
+           padding-left:70px;
+        }
+        @media #{$desktop} {
+            padding-left:70px;
+        }
 }
+
+
 
 .narrative {
     color: white;
@@ -521,6 +529,7 @@ h3.caption {
 .x-icon {
     height: 70px;
     width: 70px;
+    padding-bottom:10px;
 }
 
 .white-border {
