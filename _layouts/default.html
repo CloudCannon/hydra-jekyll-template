@@ -98,8 +98,7 @@
 			document.getElementById("open-nav2").onclick = function () {
 				document.body.classList.toggle("nav-open");
 				$('html,body').animate({
-					scrollTop: $("#open-nav2").offset().top - 50},
-				'slow');
+					scrollTop: $("#open-nav2").offset().top - 50}, 'medium');
 				$(".footer-logo").toggleClass("footer-logo-center");
 				
 				console.log("dfd");
