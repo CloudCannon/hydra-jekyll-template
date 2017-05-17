@@ -66,3 +66,9 @@ span {
         background-position: center !important;
     }
 }
+
+#commons-image {
+    @media #{$tablet} {
+        height: 900px;
+    }
+}
