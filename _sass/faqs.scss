@@ -101,11 +101,11 @@
 .expandall {
     text-align:right;
     cursor: pointer;
-    color: #2098f5;
+    color: #2098f5 !important;
     display: flex;
     justify-content: flex-end;
     &:hover {
-        color: darken(#2098f5,20);
+        color: darken(#2098f5,20) !important;
     }
 }
 
