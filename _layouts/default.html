@@ -74,7 +74,7 @@
 				{% include footer.html %}
 				<div class="company-name footer-logo">
 					<a href="{{ site.baseurl }}/">
-						<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="nav__logo"/>
+						<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="footer__logo"/>
 					</a>
 				</div>
 				<p class="terms">
@@ -98,8 +98,11 @@
 			document.getElementById("open-nav2").onclick = function () {
 				document.body.classList.toggle("nav-open");
 				$('html,body').animate({
-					scrollTop: $("#open-nav2").offset().top},
-				'fast');
+					scrollTop: $("#open-nav2").offset().top - 50},
+				'slow');
+				$(".footer-logo").toggleClass("footer-logo-center");
+				
+				console.log("dfd");
 				return false;
 			};
 			$('.donate-button').magnificPopup({
