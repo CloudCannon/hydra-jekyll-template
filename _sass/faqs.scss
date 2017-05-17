@@ -104,12 +104,8 @@
     color: #2098f5 !important;
     display: flex;
     justify-content: flex-end;
-    width: 115px;
-    height: 40px;
-    font-size: 15px !important;
-    margin-left: auto;
     &:hover {
-        color: white !important;
+        color: darken(#2098f5,20) !important;
     }
 }
 
