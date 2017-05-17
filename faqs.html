@@ -6,12 +6,14 @@ description: FAQ
 
 
 <div class="row">
-    <div class="small-12 columnsƒ">
+    <div class="small-12 columns">
+
         
         <h2 class="faq-heading"><span class="dotted-underline editable"> Questions? </span></h2>
         
         <div class="faq-container">
 
+        <a href="#" id="expand" class="expandall" style=""> Expand all </a>
             <!---------------------------------------------------------------->
             <!--TICKET-->
             <h3 class="faq-subheading"> PowerUp </h3>
@@ -378,4 +380,17 @@ for (i = 0; i < acc.length; i++) {
     } 
   }
 }
+
+document.getElementById("expand").onclick = function () {
+    $("._accordion").each(function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+        } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+    });
+};
+
 </script>
