@@ -446,6 +446,14 @@ a.blue {
     }
 }
 
+.hide-mobile {
+    
+        display: none;
+    @media #{$tablet} {
+        display: inline-block;
+    }
+}
+
 
 .x-home__image-container {
     transform: skew(0deg, -2deg);
@@ -460,7 +468,7 @@ a.blue {
         object-fit: cover;
         @media #{$tablet} {
             height: 110vh;
-            min-height: 450px;
+            min-height: 600px;
         }
          @media #{$desktop} {
         // transform: scale(1.5);

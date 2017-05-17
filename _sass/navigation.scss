@@ -13,6 +13,11 @@
 			display: inline;
 		}
 	}
+	
+}
+
+.nav-open header {
+	height: 450px;
 }
 
 
@@ -69,7 +74,7 @@ nav {
 
 	a:hover {
 
-		text-decoration: underline;
+		// text-decoration: underline;
 		color:#fff;
 	}
 
@@ -78,8 +83,7 @@ nav {
 			border-radius: 5px;
 
 			&:hover {
-				background: #fff;
-				
+				background: #fff;	
 			}
 		}
 	}

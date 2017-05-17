@@ -26,13 +26,19 @@
 }
 
 .about-width {
+    
     @media #{$tablet} {
         width: 75% !important;
 
     }
     @media #{$desktop} {
         width: 50% !important;
+        span {
+            padding-top: 0px !important;
+        }
     }
+
+    
 }
 
 .about-logo {
@@ -50,7 +56,7 @@
     height: 300px;
 
     @media #{$tablet} {
-        height: 1000px;
-    background-position: center !important;
+        height: 750px;
+        background-position: center !important;
     }
 }
