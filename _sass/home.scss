@@ -90,10 +90,14 @@ body {
 }
 
 .caption {
-    padding-left: 3rem;
-    padding-right:3rem;
+    padding-left: 15px;
+    padding-right:15px;
     padding-bottom:20px;
     padding-top:2rem;
+    @media #{$tablet} {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
 
 h3.caption {
@@ -458,6 +462,11 @@ a.blue {
     transform: skew(0deg, -2deg);
     overflow: hidden;
     position: relative;
+
+    .black .black-container {
+        display: flex;
+        align-items: center;
+    }
    
     .x-home-image {
         transform: skew(0deg, 2deg);
