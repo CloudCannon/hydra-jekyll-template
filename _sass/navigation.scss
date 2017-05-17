@@ -20,7 +20,9 @@
 	height: 450px;
 }
 
-
+.nfooter nav-toggle {
+	padding: 40px 0;
+}
 
 
 nav {
@@ -55,10 +57,10 @@ nav {
 
 
 		&.nav-toggle {
-			display: inline;
+			display: inline-block;
 			position: absolute;
 			right: 10px;
-			top: -22px;
+			top: -17px;
 			font-size: 1.9em;
 			border: 0;
 

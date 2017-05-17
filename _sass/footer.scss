@@ -55,11 +55,15 @@ footer {
 .nfooter {
 	text-align: center;
 	position: relative;
+	a:nth-child(2) {
+		margin-top: 60px;
+	}
 }
+
+
 
 .footer-logo {
 	display: flex;
-	margin-top: 30px;
 	@media #{$tablet} {
 		justify-content: center;
 	}

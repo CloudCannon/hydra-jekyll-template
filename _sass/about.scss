@@ -39,14 +39,21 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+
 .about-width {
-    span {
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        span {
             width: 90% !important;
             padding-left: 2em !important;
         }
+    }
 
-}
+    .black-container {
+        @media screen and (max-width: 768px) {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
 }
 
 .about-logo {
@@ -63,9 +70,13 @@
     background-position: top !important;
     height: 300px;
 
+    background-position: bottom !important;
+    width: 160%;
+
     @media #{$tablet} {
         height: 750px;
         background-position: center !important;
+        width: 100%;
     }
 }
 
