@@ -11,6 +11,7 @@
     color: $second-color;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
+    font-size: 2.8rem !important;
 
 }
 
@@ -23,10 +24,16 @@
     outline: none;
     transition: 0.4s;
     font-size: 1.4rem;
-    font-weight: 700;
+    font-weight: 400;
     margin: 1rem 0;
     display: block;
-    letter-spacing: -0.5px;
+
+}
+
+@media screen and (max-width: 768px) {
+    ._accordion {
+        letter-spacing: -0.3px;
+    }
 }
 
 
@@ -57,6 +64,16 @@
     margin-top: -1rem;
     p {
         color: black;
+        padding-top: 10px;
+        font-weight: 300;
+    }
+
+
+    @media #{$tablet} {
+        p {
+
+        font-weight: 400;
+        }
     }
 }
 

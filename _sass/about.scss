@@ -24,12 +24,12 @@
 .about-text {
     font-size: 16px;
 }
-
+ 
 .about-width {
     
     @media #{$tablet} {
         width: 75% !important;
-
+        
     }
     @media #{$desktop} {
         width: 50% !important;
@@ -37,8 +37,23 @@
             padding-top: 0px !important;
         }
     }
+}
 
-    
+
+.about-width {
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+        span {
+            width: 90% !important;
+            padding-left: 2em !important;
+        }
+    }
+
+    .black-container {
+        @media screen and (max-width: 768px) {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
 }
 
 .about-logo {
@@ -55,8 +70,18 @@
     background-position: top !important;
     height: 300px;
 
+    background-position: bottom !important;
+    width: 160%;
+
     @media #{$tablet} {
         height: 750px;
         background-position: center !important;
+        width: 100%;
+    }
+}
+
+#commons-image {
+    @media #{$tablet} {
+        height: 900px;
     }
 }

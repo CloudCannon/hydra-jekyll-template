@@ -20,9 +20,6 @@
 	height: 450px;
 }
 
-
-
-
 nav {
 	text-transform: uppercase;
 	font-size: .8em;
@@ -55,10 +52,10 @@ nav {
 
 
 		&.nav-toggle {
-			display: inline;
+			display: inline-block;
 			position: absolute;
 			right: 10px;
-			top: -22px;
+			top: -17px;
 			font-size: 1.9em;
 			border: 0;
 

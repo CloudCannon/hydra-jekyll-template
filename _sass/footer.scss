@@ -1,6 +1,6 @@
 
 footer {
-	padding: 50px 0 50px 0;
+	padding: 20px 0 50px 0;
 	font-size: 1em;
 	position: relative;
 	background: black;
@@ -55,14 +55,29 @@ footer {
 .nfooter {
 	text-align: center;
 	position: relative;
+	a:nth-child(2) {
+		margin-top: 60px;
+	}
 }
+
+
 
 .footer-logo {
 	display: flex;
-	margin-top: 30px;
+	width: 100px;
+	
 	@media #{$tablet} {
 		justify-content: center;
+		margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 	}
+}
+
+.footer-logo-center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 }
 
 .terms {
