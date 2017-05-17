@@ -40,11 +40,13 @@
 }
 
 @media screen and (max-width: 1200px) {
-span {
+.about-width {
+    span {
             width: 90% !important;
             padding-left: 2em !important;
         }
 
+}
 }
 
 .about-logo {
