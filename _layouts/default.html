@@ -90,12 +90,16 @@
 
 		
 		<script>
+			    
 			document.getElementById("open-nav").onclick = function () {
 				document.body.classList.toggle("nav-open");
 				return false;
 			};
 			document.getElementById("open-nav2").onclick = function () {
 				document.body.classList.toggle("nav-open");
+				$('html,body').animate({
+					scrollTop: $("#open-nav2").offset().top},
+				'fast');
 				return false;
 			};
 			$('.donate-button').magnificPopup({
