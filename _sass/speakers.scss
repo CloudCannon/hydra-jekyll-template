@@ -191,3 +191,21 @@ width:100%;
 
 }
 
+
+
+
+.landing {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    h2 {
+        color: #ff671f;
+    }
+    p {
+        color: #333;
+    }
+}
+
+.landing-img {
+    max-height: 300px;
+    object-fit: cover;
+}
