@@ -24,12 +24,12 @@
   new_window: false
   highlight: false
 
-- name: Buy Ticket
-  link: /ticket/
+- name: Accom
+  link: http://rooms.powerup.org.au/
   new_window: false
   highlight: false
 
-- name: Accom
-  link: http://rooms.powerup.org.au/
+- name: Buy Ticket
+  link: /ticket/
   new_window: false
   highlight: false
