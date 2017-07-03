@@ -29,7 +29,7 @@
   new_window: false
   highlight: false
 
-  - name: Accom
+- name: Accom
   link: http://rooms.powerup.org.au/
   new_window: false
   highlight: false
