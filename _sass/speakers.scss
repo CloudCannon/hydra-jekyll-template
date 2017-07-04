@@ -197,15 +197,47 @@ width:100%;
 .landing {
     margin-top: 50px;
     margin-bottom: 100px;
+    background: rgba(255, 255, 255, 0.9) !important;
     h2 {
         color: #ff671f;
+        line-height: 1.1;
+        text-align: center;
+        @media #{$tablet} {
+            text-align: left;
+        }
     }
     p {
         color: #333;
+    }
+    img {
+        width: 80%;
+        margin-bottom: 20px;    
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        @media #{$tablet} {
+            width: 50%;
+
+        }
     }
 }
 
 .landing-img {
     max-height: 300px;
     object-fit: cover;
+}
+
+.landing-hero-container {
+  position: fixed;  
+  height: 100%;
+  width: 100%;
+//   object-fit: cover;
+  transform: scale(1.2);
+  
+  z-index: -3;
+}
+.landing-hero {
+    position: fixed;
+    
+
 }
