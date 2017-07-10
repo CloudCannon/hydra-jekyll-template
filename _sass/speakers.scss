@@ -264,6 +264,7 @@ width:100%;
         margin-top: 1rem;
         margin-bottom: 1rem;
         line-height: 1.1;
+        font-size: 2.1em !important;
         padding-left: 0px;
     }
     h4 {
@@ -292,14 +293,16 @@ width:100%;
     .video-embed {
         margin-bottom: 20px;
     }
-@media #{$tablet} {
+    @media #{$tablet} {
         .video-embed {
             padding-left: 40px;
-            margin-top: 20px;
         }
         h2 {
             margin-top: 3rem;
             padding-left: 20px;
+            margin-bottom: 20px;
+            font-size: 2.4em !important;
+
         }
     }
     
