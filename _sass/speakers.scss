@@ -251,3 +251,56 @@ width:100%;
     
 
 }
+
+
+
+
+.ticket {
+    
+    h2 {
+        font-family: 'Lato', sans-serif !important;
+        color: #2098f5;
+        font-weight: 900;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        line-height: 1.1;
+        padding-left: 0px;
+    }
+    h4 {
+        font-family: 'Lato', sans-serif !important;
+        font-weight: 900;
+        color: #444;
+    }
+    p {
+        color: #333 !important;
+    }
+
+    .videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+    }
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-embed {
+        margin-bottom: 20px;
+    }
+@media #{$tablet} {
+        .video-embed {
+            padding-left: 40px;
+            margin-top: 20px;
+        }
+        h2 {
+            margin-top: 3rem;
+            padding-left: 20px;
+        }
+    }
+    
+}

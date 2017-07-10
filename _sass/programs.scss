@@ -1,0 +1,53 @@
+.programs-hero {
+    .black-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.nav__side {
+    padding-left: 5px;
+    &:before {
+        height: 100%;
+        width: 5px;
+        background: white;
+        content: "";
+        position: absolute;
+        transform: translateX(-5px);
+    }
+
+    .nav__side__link div {
+        padding: 8px 30px 8px 10px; 
+        transition: all 0.2s ease;
+        width: 180px;
+        &:hover {
+            background: rgba(255,255,255,0.8);
+            cursor: hand;
+            font-weight: bold;
+            color: #2098f5;
+            
+        }
+    }
+
+    .nav__side__link.active div{
+        font-weight: bold;
+        color: #2098f5;
+        background: white;
+    }
+}
+
+.nav__side__container {
+    position: relative;
+    &.sticky {
+        position: fixed;
+        top: 50px;
+    }
+}
+
+
+.blank {
+    width: 100px;
+    height: 2000px;
+    position: relative;
+}
