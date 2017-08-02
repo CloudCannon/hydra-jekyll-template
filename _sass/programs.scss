@@ -18,7 +18,11 @@ section {
 .nav__side__container ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding:0;
+    background: rgba(0,0,0,0.35);
+}
+.nav__side__container {
+    margin-top: 50px;
 }
 
 
@@ -92,7 +96,7 @@ section {
 }
 
 .programs-blue-bg {
-    background: #2098f5;
+    background: rgba(32,152,245,0.9);
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -124,7 +128,11 @@ section {
 
 .schedule-icon {
         width: 30px;
-    }
+}
+
+.other-icon {
+    width: 45px;
+}
 
 
 .white {
@@ -143,10 +151,12 @@ section {
         display: flex;
         align-items: center;
         padding-bottom: 10px;
+        img {
+            padding-right: 10px;
+        }
         h3 {
             position: relative;
             margin: 0;
-            padding-left: 10px;
             font-weight: 700;
             font-size: 1.4rem;
         }
@@ -157,8 +167,11 @@ section {
             background: white;
             position: absolute;
             bottom: -15px;
-            left: 0;
+            left: -15px;
             transform: translateX(-65px);
+        }
+        .no-icon:after {
+            transform: translateX(-20px);
         }
     }
     p {
@@ -174,7 +187,7 @@ section {
 #p-overview {
     padding-top: 0px;
     @media only screen and (max-width: 40em) {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 }
 
@@ -209,8 +222,8 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
 #menuToggle input
 {
   display: block;
-  width: 40px;
-  height: 32px;
+  width: 65px;
+  height: 65px;
   position: absolute;
   top: -7px;
   left: -5px;
@@ -322,4 +335,39 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
 {
   transform: scale(1.0, 1.0);
   opacity: 1;
+}
+
+._content {
+    @media screen and (max-width: 39.9375em) {
+        .x-speaker-image {
+            display:block !important;
+        }
+        h1 {
+            font-size: 2.5rem;
+            line-height: 1.1;
+        }
+        .programs-blue-bg {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            padding-left: 15px;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+    @media (min-width: 64em) {
+        .x-speaker-image {
+            height: 60vh;
+        }
+    }
+    @media (min-width: 40em) {
+
+        .x-speaker-image {
+            height: 60vh;
+        }
+    }
+}
+
+footer {
+    z-index: 4 !important;
 }
