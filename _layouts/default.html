@@ -72,10 +72,10 @@
 		<footer>
 			<div class="container">
 				
-				{% include footer.html %}
+				
 				
 
-				<!-- <div class="row">
+				<div class="row">
 					<div class="small-4 columns sponsor-logo-container">
 						<img src="{{ site.baseurl }}/images/ba.png" alt="Bank Australia Logo" width="95" height="33" class="sec-sponsor" />
 						<p class="sponsor-name"> Hero Sponsor </p>
@@ -88,13 +88,17 @@
 						<img src="{{ site.baseurl }}/images/lush.png" alt="Lush Logo" width="95" height="33" class="sec-sponsor" />
 						<p class="sponsor-name"> Gold Sponsor </p>
 					</div>
-				</div> -->
-
-				<div class="company-name footer-logo">
-					<a href="{{ site.baseurl }}/">
-						<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="footer__logo"/>
-					</a>
+				</div> 
+				<div class="row">
+					<div class="small-4 columns sponsor-logo-container" style="margin-left: auto; margin-right:auto;">
+						<img src="{{ site.baseurl }}/images/commons.png" alt="Lush Logo" width="95" height="33" class="sec-sponsor commons" />
+						<p class="sponsor-name"> Training Sponsor </p>
+					</div>
 				</div>
+				
+
+				  
+				 {% include footer.html %}
 				<p class="terms">
 					Our team acknowledges that we meet and work on the land of the Gadigal people of the Eora Nation. We wish to pay respect to their Elders — past, present and future — and acknowledge the important role all Aboriginal and Torres Strait Islander people continue to play within Australia and the GetUp community. 
 					<br>
@@ -102,6 +106,12 @@
 					<br> <br>
 					© 2017 GetUp! All rights reserved. Authorised by Paul Oosting, Level 14, 338 Pitt Street, Sydney NSW 2000.
 				</p>
+				<div class="company-name footer-logo">
+					<a href="{{ site.baseurl }}/">
+						<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="footer__logo"/>
+					</a>
+				</div>
+				
 			</div>
 		</footer>
 		

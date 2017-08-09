@@ -98,7 +98,7 @@ footer {
 }
 
 .sec-sponsor {
-	width: 50%;
+	width: 40%;
 	display: flex;
 	justify-content: center;
 	margin-left: auto;
@@ -106,13 +106,17 @@ footer {
 	@media only screen and (max-width: 40em) {
 		width: 100%;
 	}
+
+	&.commons {
+		width: 20%;
+	}
 }
 
 .sponsor-logo-container {
 	align-self: flex-end;
 	padding-top: 40px;
 	@media only screen and (max-width: 40em) {
-		padding-top: 80px;
+		padding-top: 20px;
 	}
 }
 
