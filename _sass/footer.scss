@@ -104,11 +104,14 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	@media only screen and (max-width: 40em) {
-		width: 100%;
+		width: 60%;
 	}
 
 	&.commons {
 		width: 20%;
+		@media only screen and (max-width: 40em) {
+			width: 40%;
+		}
 	}
 }
 
