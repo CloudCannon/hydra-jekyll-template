@@ -1,0 +1,115 @@
+
+
+.faq-heading {
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.faq-subheading {
+    color: $second-color;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 2.8rem !important;
+
+}
+
+._accordion {
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    display: block;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 768px) {
+    ._accordion {
+        letter-spacing: -0.3px;
+    }
+}
+
+
+.faq-underline {
+    border-bottom: 1px dashed $second-color;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.faq-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem 1rem 10rem 1rem;
+    margin-bottom: -40px;
+
+
+    @media #{$tablet} {
+        padding: 3rem 4rem 10rem 4rem;
+    }
+
+    @media #{$desktop} {
+        padding: 3rem 6rem 10rem 6rem;
+    }
+}
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-top: -1rem;
+    p {
+        color: black;
+        padding-top: 10px;
+        font-weight: 300;
+    }
+
+
+    @media #{$tablet} {
+        p {
+
+        font-weight: 400;
+        }
+    }
+}
+
+.faq-circle,
+.faq-orange-border {
+    background: $second-color;
+}
+
+.faq-orange-border {
+    position: relative;
+}
+
+.p-iframe-container {
+    position: relative;
+}
+
+.p-iframe {
+    border: none;
+        height: 500px;
+    @media #{$tablet} {
+    height: 100vh;
+    }
+}
+
+.expandall {
+    // text-align:right;
+    cursor: pointer;
+    color: #2098f5 !important;
+    display: flex;
+    justify-content: flex-end;
+    &:hover {
+        color: darken(#2098f5,20) !important;
+    }
+}
+
+.blue:hover {
+    text-decoration: underline;
+}

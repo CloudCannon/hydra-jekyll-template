@@ -1,0 +1,914 @@
+
+
+
+
+
+
+
+body {
+    width: 100%;
+}
+
+
+
+.breakout-container {
+    background: white;
+}
+
+
+
+.big-p {
+    position: absolute;
+    width: 100%;
+}
+
+.home__powerup {
+    position: relative;
+    height: 400px;
+    h1 {
+        position: absolute;
+        z-index:1;
+    }
+    img {
+        position: absolute;
+        z-index: 0;
+    }
+}
+
+
+
+
+.img__left {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+        object-fit: cover;
+}
+
+.img__text-container {
+    margin-left: auto;
+    width: 75%;
+    height: 80vh;;
+    position: absolute;
+    right: 0;
+    align-self: center;
+        background: white;
+    opacity: 0.9;
+}
+
+
+.img__container {
+    position: relative;
+    height: 90vh;
+    display: flex;
+
+}
+
+.img__text-wrapper {
+    width: 80%;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+.caption-container {
+  
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    
+
+ 
+}
+
+
+.caption, .narrative {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: -0.5px;
+    color: $white;
+}
+
+.caption {
+    padding-left: 15px;
+    padding-right:15px;
+    padding-bottom:20px;
+    padding-top:2rem;
+    @media #{$tablet} {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+h3.caption {
+    font-size:1.3em;
+    @media #{$tablet} {
+		font-size: 1.4em;
+         text-shadow: none;
+	}
+
+}
+
+
+
+
+
+
+.narrative {
+    color: $second-color;
+    margin-bottom: 6rem;
+}
+
+.caption__button {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.button__wrapper {
+    display: flex;
+}
+
+
+.home__image {
+    height: 700px;
+    width: 85%;
+    background: gray;
+    position: absolute;
+    object-fit: cover;
+    
+}
+
+.home__image-right {
+    right: 0;
+}
+
+.home__image-left {
+    left: 0;
+}
+
+.white-bg, .dark-bg, .radial-gradient {
+    z-index: -3;
+    position: relative;
+    background:url(../images/backgroundtexture.png);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.15;
+}
+
+.dark-bg {
+    background:url(../images/backgroundtexture-dark.png);
+    opacity: 0.1;
+}
+
+.radial-gradient {
+    background: radial-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0));
+    z-index: -2;
+    opacity: 1;
+    transform: scale(2);
+}
+
+.gradientgradient {
+    z-index: -6;
+    position: relative;
+    background: rgba(255,102,31,1);
+    background: -moz-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,102,31,1)), color-stop(100%, rgba(224,58,20,1)));
+    background: -webkit-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    background: linear-gradient(to right, rgba(255,102,31,1) 0%, rgba(224,58,20,1) 100%);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.home__section-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    height: 100%;
+    transform: translateY(-50%);
+}
+
+.home__section-gradient {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    opacity:0.95;
+    &.radius-right {
+        -moz-border-radius-topright: 30px;
+        -moz-border-radius-bottomright: 30px;
+        -webkit-border-top-right-radius: 30px;
+        -webkit-border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    &.radius-left {
+        -moz-border-radius-topleft: 30px;
+        -moz-border-radius-bottomleft: 30px;
+        -webkit-border-top-left-radius: 30px;
+        -webkit-border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    h2, p {
+        color: $white;
+    }
+}
+
+
+.home__image-container {
+    position: relative;
+    margin-top: 6rem;
+}
+
+.home__our-story p {
+
+    padding:20px;
+}
+
+
+.home__our-story {
+    h2 {
+        text-align: center;
+        color: white;
+        margin-top: 1rem;
+        padding:20px;
+    }
+    p {
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.5;
+        margin-top: 2rem;
+        color: white;
+        font-size: 1.1em;
+        @media #{$tablet} {
+            width: 80%;
+            font-weight: 400;
+            font-size:1.5rem;
+            padding:20px;
+        }
+        @media #{$desktop} {
+            width: 70%;
+            padding:20px;
+        }
+    }
+}
+
+
+a.blue {
+
+    color:#2098f5;
+    text-decoration: underline;
+}
+
+
+.narrative-container {
+    margin-top: 4rem;
+    color: white;
+     @media #{$tablet} {
+           padding-left:70px;
+        }
+        @media #{$desktop} {
+            padding-left:70px;
+        }
+}
+
+
+
+.narrative {
+    color: white;
+}
+
+.narrative-icon {
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.arrow-icon-container {
+    align-items: center;
+    padding-bottom: 20px;
+    display: none;
+    @media #{$mid-point} {
+        display: flex;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    @media #{$desktop} {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.home__hero {
+    .title, .sub-heading {
+        color: white;
+        padding: 0 20px;
+    }
+    .sub-heading {
+        text-align: right;
+        padding: 0 20px;
+    }
+    a {
+        margin-left: auto;
+    }
+
+}
+
+
+
+// ----------------------------------------------------------------------------
+
+.home-hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    position: relative;
+    height: 85vh;
+    @media #{$tablet} {
+        min-height: 500px;
+    }
+
+    
+}
+.title, .sub-heading {
+        color: white;
+        flex-wrap: wrap;
+}
+
+.title {
+    margin-top: 21vh;
+    margin-left: auto;
+	margin-right: auto;
+	font-family: "Roboto Slab", sans-serif !important;
+	font-weight: 700;
+	letter-spacing: -3px;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, .3);
+	@media #{$tablet} {
+		font-size: 7rem;
+        
+        margin-top: 21vh;
+        text-shadow: none;
+	}
+    @media #{$desktop} {
+        font-size: 10rem;
+        margin-right: 100px;
+        text-shadow: none;
+    }
+}
+
+
+
+.sub-heading {
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 20px;
+    text-align: center;
+    width: 100vw;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, .9);
+    @media #{$tablet} {
+        font-size: 1.5rem;
+    }
+}
+
+.home-hero-image {
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    @media #{$tablet} {
+        min-height: 500px;
+    }
+    
+}
+
+.home-hero-image-powerup-container {
+    position: absolute;
+}
+.home-hero-image-powerup {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+    max-height: 45vh;
+    object-fit: contain;
+    @media #{$tablet} { 
+        width: 90% !important;
+        display: flex;
+    margin: auto;
+    margin-top: 10vh;
+}
+    @media #{$desktop} { 
+    display: flex;
+    margin: auto;
+        width: 80% !important;
+        margin-top: 10vh;
+
+    }
+}
+
+
+
+
+.home-hero-button {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 10;
+    // height: 35px;
+    @media #{$desktop} {
+        // transform: scale(1.5);
+    }
+}
+
+
+
+.texttext {
+    position:relative;
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    @media #{$tablet} {
+    width: 80%;
+    }
+}
+
+.hide-mobile {
+    
+        display: none;
+    @media #{$tablet} {
+        display: inline-block;
+    }
+}
+
+
+.x-home__image-container {
+    transform: skew(0deg, -2deg);
+    overflow: hidden;
+    position: relative;
+
+    .black .black-container {
+        display: flex;
+        align-items: center;
+    }
+   
+    .x-home-image {
+        transform: skew(0deg, 2deg);
+        overflow: hidden;
+        transform: scale(1.1);
+        height: 50vh;
+        object-fit: cover;
+        @media #{$tablet} {
+            height: 110vh;
+            min-height: 600px;
+        }
+         @media #{$desktop} {
+        // transform: scale(1.5);
+        height: 80vh;
+         }
+    }
+}
+
+.reverse-skew {
+    transform: skew(0deg, 2deg);
+}
+
+.black {
+    background: black;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    z-index: 12;
+    display: flex;
+    right: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    &.reverse {
+            left: 0;
+    }
+
+    @media #{$tablet} {
+        background: rgba(0,0,0,0.85);
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        z-index: 12;
+        display: flex;
+        right: 0;
+    }
+
+
+
+
+    .black-container {
+        color: white;
+        width: 100%;
+       height:100%;
+        text-align: center;
+        padding: 2rem 2rem;
+
+        @media #{$tablet} {
+            width: 90%;
+            
+            text-align:left;
+            padding: 3rem 1rem 3rem 5rem;
+        }
+
+        @media #{$desktop} {
+            width: 75%;
+            height:80%
+        }
+
+        &.reverse {
+            margin-left: auto;
+            @media #{$tablet} {
+                padding: 3rem 5rem 3rem 1rem;
+            }
+        }
+        
+        p {
+            color: white;
+            margin-top: 1rem;
+        }
+    }
+}
+
+.x-icon {
+    height: 70px;
+    width: 70px;
+    padding-bottom:10px;
+}
+
+.white-border {
+    background: $light-blue;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    z-index: 13;
+    transform: skew(0deg, -2deg) translateY(-5px);
+}
+
+
+.circle {
+	width: 30px;
+	height: 30px;
+	background: $light-blue;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 1;
+    transform: translateY(-15px);
+    display: none;
+    @media #{$tablet} {
+        display: block;
+    }
+}
+
+
+.nav-button {
+    background: #2098f5;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    padding: 0.65em 1.3em;
+    font-weight: 700;
+}
+
+.sponsor-container {
+    background: #333;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    transform: skew(0deg, -2deg);
+    margin-bottom: -40px;
+    .row {
+        transform: skew(0deg, 2deg);
+    }
+}
+
+.center-icon {
+    margin: auto;
+    display: flex;
+    width: 75px;
+    margin-top: 2em;
+}
+
+.sponsors {
+    text-align: center;
+    color:white;
+}
+
+.sponsor-icon {
+    width: 8rem;
+    margin: 20px;
+}
+
+.sponsor-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fixed-button {
+	position: fixed !important;
+	bottom: 40px;
+	z-index: 30!important;
+	right: 20px;
+	margin: 0 !important;
+    opacity: 0;
+}
+
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+// -----------------------------------------
+
+
+
+/* The modal section is added via JS */
+
+.modal {
+  max-width: 80vw;
+  max-height: 90vh;
+  background-color: black;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 30 !important;
+  left: 10%;
+  right: 10%;
+  top: 5%;
+  bottom: 5%;
+  z-index: 10;
+  border: 1px solid #000;
+  box-shadow: 0 .25em .5em #000;
+  transition: opacity .5s ease-out, visibility 0s ease-out 1s, transform .5s ease-out .5s;
+  backface-visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(.8) translate3d(0,0,0);
+  pointer-events: none;
+}
+
+.modal[aria-hidden="false"] {
+  position: fixed;
+  transition-delay: 0s,0s, 0s;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1) translate3d(0,0,0);
+  pointer-events: auto;
+}
+
+
+
+
+/* Light box properties */
+
+.modal_lightbox {
+  text-indent: -200em;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* places the modal overlay between the main page (0) and the modal dialog (10) */
+  z-index: 5;
+  cursor: pointer;
+  transition: opacity .5s ease-out, visibility 0s ease-out .5s;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal_lightbox-on {
+  transition-delay: 0s, 0s;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.modal_lightbox-on:hover {
+  /* Stolen from trickle.js. Under consideration. SVGs will not work here */
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAANpJREFUOBGNkz0KAjEQhYPYWXgCKws7LcXWyt7WG4i9jegBvIJ4AvEyXsRCsBDiN0sGkiE/O/A2O9n3viS7rPPeb9ETrVzPwrtHDzR1XF5I6oPWLQaeq5hDXQRw0I6xCuF5HH7Tz7oFuTkhrSyEhza8THaLoQhphpWUg/QOFyA/AFpy5nTbGrIjxvg4AiiGBzYc+rGZH9KPzFy+ZbX4bX9l+VDZr5NQMMbhbtvMxccpQ3JhpTchtXATQviItIpvW0CY7HHm8c9UDRd2chbABt3RQk2tEe8O3dDkD4JQ4iOR7BMpAAAAAElFTkSuQmCC"), pointer;
+}
+
+
+/* Modal title and description */
+
+.modal_title,
+.modal_desc {
+  position: absolute;
+  top: 5px;
+  left: -200em;
+  background-color: #fff;
+  color: #000;
+  text-shadow: 0 0 0 #fff;
+  font-size: 20px;
+  padding: 0.125em .25em;
+  /* Tesco requirement
+  font-family: Tesco_W_Rg, sans-serif; */
+  margin: 0;
+  display:none;
+}
+
+.modal_title:focus,
+.modal_desc:focus {
+  left: 5px;
+}
+
+[aria-hidden="false"] .modal_title {
+  transition: opacity .5s ease-out 3s;
+  opacity: 0;
+}
+
+.modal_title,
+.modal_title:focus {
+  opacity: 1;
+  transition: opacity .5s ease-out;
+}
+
+
+/* The iframe */
+
+.modal_iframe {
+  transition: opacity .5s ease-out, visibility 0s ease-out 1s;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal_iframe-on {
+  transition: opacity .8s ease-out, visibility 0s ease-out 0s;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+[aria-hidden="true"] .modal_iframe {
+  display: none;
+}
+
+[aria-hidden="false"] .modal_iframe {
+  display: block;
+}
+
+
+/* The modal pop-ups close button, appears last in the modal, but is moved visually to the top right of the pop-up */
+
+.modal_lnk-close {
+  cursor: pointer;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  border: 0 solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  box-shadow: 0 .25em .5em rgba(0, 0, 0, .25);
+  overflow: hidden;
+  transition: background-color .3s ease-out;
+}
+
+.modal_lnk-close:hover,
+.modal_lnk-close:active,
+.modal_lnk-close:focus {
+  background-color: #c00;
+  outline: 0 solid;
+}
+
+.svg-close {
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+
+
+
+/* Modal SVG (Tesco) loading animation version 2 (overlaid on itself and out of phase) */
+
+[class*="svg-loading"] {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  z-index: -1;
+  transition: opacity .3s ease-out;
+  backface-visibility: hidden;
+}
+
+.svg-loading {
+  fill: #00539f;
+  -webkit-animation: rotate 4s linear 0s infinite;
+  animation: rotate 4s linear 0s infinite;
+  display: none;
+}
+
+.svg-loading2 {
+  /* Match to .modal background colour for full effect */
+  fill: #F7F0E8;
+  -webkit-animation: rotate 5s linear 1s infinite;
+  animation: rotate 5s linear 1s infinite;
+  display: none;
+}
+
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg) translate3d(0,0,0);
+    transform: rotate(360deg) translate3d(0,0,0);
+  }
+}
+
+@keyframes rotate {
+  to {
+    -webkit-transform: rotate(360deg) translate3d(0,0,0);
+    transform: rotate(360deg) translate3d(0,0,0);
+  }
+}
+
+
+
+/* While modal is open */
+
+/* Class added to body tag to prevent scroll
+   Note the body does not require class "-modal" */
+body.-modal-open {
+  overflow: hidden;
+}
+
+
+/* Any tags classed with "-modal", when open, get "-modal-open" added */
+/* Both of these are equivalent, best practice to use the attribute version which enforces accessibility */
+
+.-modal[aria-hidden="true"] {
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.-modal.-modal-open {
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+
+/* Generic helper style */
+.u-margin2 {
+  margin: 2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------------------------------
+
+// IE
+@supports (-ms-ime-align:auto) {
+    .home-hero-image-powerup {
+        width: auto !important;
+    }
+}

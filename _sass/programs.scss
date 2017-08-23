@@ -1,0 +1,377 @@
+a:active,
+a:focus,
+div:focus,
+div:active,
+button,
+h1,
+section {
+  outline:0 !important;
+  border:none;
+  -moz-outline-style: none;
+}
+
+.programs-hero {
+    .black-container {
+        flex-wrap: wrap;
+    }
+}
+.nav__side__container ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    background: rgba(0,0,0,0.35);
+}
+.nav__side__container {
+    margin-top: 50px;
+}
+
+
+.nav__side {
+    padding-left: 5px;
+    &:before {
+        height: 100%;
+        width: 6px;
+        background: white;
+        content: "";
+        position: absolute;
+        transform: translateX(-5px);
+    }
+
+}
+
+.nav__side li {
+    padding: 8px 30px 8px 10px; 
+    transition: all 0.2s ease;
+    width: 180px;
+    &:hover {
+        background: rgba(255,255,255,0.8);
+        cursor: hand;
+        font-weight: bold;
+        color: #2098f5;
+        a {
+        color: #2098f5 !important;
+    }
+    }
+    
+}
+
+.nav__side li.active{
+    font-weight: bold;
+    color: #2098f5;
+    background: white;
+    a {
+        color: #2098f5 !important;
+    }
+}
+
+
+.nav__side__container {
+    position: relative;
+    @media only screen and (max-width: 40em) {
+        display: none;
+    }
+}
+.sticky {
+    position: fixed !important;
+    top: 50px !important;
+    margin-left: 0px !important;
+}
+.sticky-no-pad {
+    position: fixed !important;
+    top: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+.blank {
+    width: 100px;
+    height: 2000px;
+    position: relative;
+}
+
+
+.programs-img-only {
+    padding-top: 100px;
+    z-index: 2 !important;
+}
+
+.programs-blue-bg {
+    background: rgba(32,152,245,0.9);
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.day-container {
+    height: 45px;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    .day-icon {
+        width: 25px;
+    }
+
+    .day-text {
+        color: white;
+        padding-left: 10px;
+        padding-top: 1px;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+}
+
+
+
+.schedule-icon {
+        width: 30px;
+}
+
+.other-icon {
+    width: 45px;
+}
+
+
+.white {
+    color: white;
+}
+
+.schedule-container {
+    width: 100%;
+    border-left: 1px solid white;
+    padding-left: 20px;
+    margin-top: 20px;
+
+    
+
+    .schedule-heading-container {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        img {
+            padding-right: 10px;
+        }
+        h3 {
+            position: relative;
+            margin: 0;
+            font-weight: 700;
+            font-size: 1.4rem;
+        }
+        h3:after{
+            content:"";
+            height: 1px;
+            width: 30px;
+            background: white;
+            position: absolute;
+            bottom: -15px;
+            left: -15px;
+            transform: translateX(-65px);
+        }
+        .no-icon:after {
+            transform: translateX(-20px);
+        }
+    }
+    p {
+        margin-top: 12px;
+    }
+}
+
+.spacer {
+    height: 20px;
+    width: 100%;
+}
+
+#p-overview {
+    padding-top: 0px;
+    @media only screen and (max-width: 40em) {
+        padding-top: 50px;
+    }
+}
+
+div.x-img-container.speakers-hero.programs-hero.programs-img-only > div > div > div > div > p {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+// HAMBURGER
+
+
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  background: #2098f5;
+  padding: 20px;
+  margin-left: -10px !important;
+  -webkit-user-select: none;
+  user-select: none;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+  @media #{$tablet} {
+      display: none;
+  }
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  
+  background: white;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 0px);
+  background: white;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, 0px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 250px;
+  margin: -47px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  height: 100vh;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.12);
+  
+  background: #2098f5;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 7px 0;
+  font-size: 18px;
+  color: white !important;
+}
+
+#menu li.active {
+    font-weight: bold;
+    color: white !important;
+    a, a:hover, a:focus {
+        color: white !important;
+    }
+}
+
+/*
+ * And let's fade it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: scale(1.0, 1.0);
+  opacity: 1;
+}
+
+._content {
+    @media screen and (max-width: 39.9375em) {
+        .x-speaker-image {
+            display:block !important;
+        }
+        h1.pad-top {
+            font-size: 2.5rem;
+            line-height: 1.1;
+            padding-top: 70px;
+        }
+        .programs-blue-bg {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            padding-left: 15px;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+    @media (min-width: 64em) {
+        .x-speaker-image {
+            height: 60vh;
+        }
+    }
+    @media (min-width: 40em) {
+
+        .x-speaker-image {
+            height: 60vh;
+        }
+    }
+}
+
+footer {
+    z-index: 4 !important;
+}

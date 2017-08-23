@@ -4,13 +4,18 @@
 @import "mixins/columns";
 @import "variables";
 @import "elements";
-@import "landing-page";
+// @import "landing-page";
 @import "layout";
-@import "pricing";
-@import "staff";
-@import "contact";
-@import "blog";
-@import "forms";
+// @import "pricing";
+// @import "staff";
+// @import "contact";
+// @import "blog";
+// @import "forms";
 @import "navigation";
 @import "footer";
-@import "cloudcannon";
+// @import "cloudcannon";
+@import "home";
+@import "speakers";
+@import 'faqs';
+@import 'about';
+@import 'programs'

@@ -3,6 +3,15 @@ $secondary-brand-color: #4182e4;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
 // Breakpoints
-$tablet: "(min-width: 450px)";
-$mid-point: "(min-width: 620px)";
-$desktop: "(min-width: 768px)";
+$tablet: "(min-width: 40em)";
+$mid-point: "(min-width: 40em)";
+$desktop: "(min-width: 64em)";
+
+
+$primary-color: #2098f5;
+$second-color: #ff671f;
+$third-color: #B1FFFF;
+$black: #444;
+$white: #EEE;
+
+$light-blue: #5fcaff;
