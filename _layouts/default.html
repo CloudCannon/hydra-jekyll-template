@@ -40,8 +40,8 @@
 			<header  class="other-pages">
 				<div class="container">
 					<div class="company-name">					
-						<a href="{{ site.baseurl }}/">
-							<img src="{{ site.baseurl }}/images/poweruplogo.png" alt="GetUp Logo" width="95" height="33" class="nav__logo"/>
+						<a href="https://www.getup.org.au/" target="_blank">
+							<img src="{{ site.baseurl }}/images/getup-logo-white.png" alt="GetUp Logo" width="95" height="33" class="nav__logo"/>
 						</a>					
 					</div>
 					{% include navigation.html %}
@@ -51,16 +51,18 @@
 
 		{% else %}
 
-			<header>
-				<div class="container">
-					<div class="company-name">
-						<div style="height: 46px" class="nav__logo"> </div>		
-					</div>
-					{% include navigation.html %}
+		<header  class="other-pages">
+			<div class="container">
+				<div class="company-name">					
+					<a href="https://www.getup.org.au/" target="_blank">
+						<img src="{{ site.baseurl }}/images/getup-logo-white.png" alt="GetUp Logo" width="95" height="33" class="nav__logo"/>
+					</a>					
 				</div>
-				<div class="white-bg" style="position:absolute; height: 100%;"></div>
-				<div class="gradientgradient" style="position:absolute; height: 100%;"></div>
-			</header>
+				{% include navigation.html %}
+			</div>
+			<div class="white-bg" style="position:absolute; height: 100%;"></div>
+		</header>
+
 
 		{% endif %}
 
