@@ -19,11 +19,6 @@
   new_window: true
   highlight: false
 
-- name: Volunteer
-  link: http://www.surveygizmo.com/s3/3549510/Volunteer-at-PowerUp
-  new_window: true
-  highlight: false
-
 - name: FAQs
   link: /faqs/
   new_window: false
