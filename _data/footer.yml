@@ -14,11 +14,6 @@
   new_window: false
   highlight: false
 
-- name: Scholarships
-  link: http://www.surveygizmo.com/s3/3549361/PowerUp-Scholarship-Application
-  new_window: true
-  highlight: false
-
 - name: FAQs
   link: /faqs/
   new_window: false
