@@ -71,7 +71,7 @@ jekyll-archives:
   enabled:
     - categories
 
-gems:
+plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
