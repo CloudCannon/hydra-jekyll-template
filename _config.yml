@@ -82,7 +82,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - LICENSE
+  - LICENCE
 
 # -----------
 # CloudCannon
