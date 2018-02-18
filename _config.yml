@@ -23,6 +23,8 @@ social:
 # -----
 # Build
 
+timezone: Etc/UTC
+
 collections:
   staff_members:
     _hide_content: true
