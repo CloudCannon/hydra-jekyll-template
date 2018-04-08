@@ -74,11 +74,16 @@ jekyll-archives:
     - categories
 
 plugins:
+  - jekyll-admin
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - another-jekyll-plugin
 
 exclude:
   - Gemfile
