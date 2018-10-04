@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Hydra Template
+title: Universal Wallet Template
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,13 +10,13 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Universal Wallet template for Github Pages.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: Universal Wallet Template
   links:
     - https://github.com/CloudCannon/hydra-jekyll-template
 
