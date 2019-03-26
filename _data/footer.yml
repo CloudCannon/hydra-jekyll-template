@@ -29,11 +29,7 @@
     link: https://twitter.com
     social_icon: Twitter
     new_window: true
-  - name: YouTube
-    link: https://youtube.com
-    social_icon: YouTube
+  - name: Instagram
+    link: https://instagram.com/emma.hamid.nails?utm_source=ig_profile_share&igshid=10zxwv777hqbp
+    social_icon: Instagram
     new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
