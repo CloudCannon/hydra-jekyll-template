@@ -33,11 +33,22 @@ To experiment with this code, add some sample content and run `bundle exec jekyl
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+Include the gem in your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-theme-hydra"
+gem 'jekyll-theme-hydra'
 ```
+
+Hydra's default layout depends on the `jekyll-seo-tag` gem. Add in the relevant section. Example:
+
+```ruby
+group :jekyll_plugins do
+  # ...
+  gem 'jekyll-seo-tag', '2.6.1'
+  # ...
+end
+```
+
 
 And add this line to your Jekyll site's `_config.yml`:
 
