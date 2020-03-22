@@ -1,11 +1,12 @@
 .button a, input[type=submit] {
 	color: #fff;
 	text-decoration: none;
-	padding: 10px 30px;
+	padding: 20px 40px;
 	background: $brand-color;
 	border-radius: 3px;
 	border: 1px solid rgba(255,255,255,.5);
 	transition: .2s ease-in-out;
+	font-size: 1.4em;
 }
 
 .button a:hover, input[type=submit]:hover {

@@ -1,27 +1,84 @@
 ---
-title: The last sales CRM you'll ever need
-description: Track and optimize your sales team in real time
+title: Maker vs. Virus
+description: Using our Maker skills against Corona, for the people
 ---
 <section class="hero">
 	<div class="text-container">
-		<h1 class="editable">The last sales CRM <strong>you'll ever need</strong></h1>
-		<p class="subtext editable">Track and optimize your sales team in real time.</p>
-		<div class="cta button alt"><a href="{{ site.baseurl }}/sign-up/">Get Started Free</a></div>
+		<img src="{{ site.baseurl }}/images/big-logo.svg" height="400"/>
+	</div>
+	<div class="text-container">
+		<h1 class="editable">Using our Maker skills against Corona</h1>
+
+		<!-- Diese Website soll Menschen und Organisationen, die schwer zu bekommende Schutzmittel
+		oder Ersatzteile brauchen, mit Makern und Makerspaces zusammenbringen, die diese eventuell
+		herstellen können. Dahinter steckt ein kleines deutsch- und englischsprechendes
+		Organistations-Team. -->
+		<p class="subtext editable">This website is intended to bring together people and organisations
+			who need currently hard-to-find protective equipment or spare parts with makers and makerspaces who can
+			possibly produce them. Behind this project is a small German and English speaking organization team.</p>
+
+		<!-- Wir listen ausschließlich Initiativen, die die (selbst) produzierten Dinge kostenlos oder
+		zum Selbstkostenpreis anbieten.-->
+		<p class="subtext editable">
+			<strong>Please note: </strong> We only list initiatives that offer
+			their (self) produced items for free or at cost price.
+		</p>
+		<!--<div class="cta button alt"><a href="{{ site.baseurl }}/sign-up/">Get Started Free blub</a></div>
 		<div>
 			<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
 		</div>
-	</div>
+	</div>-->
 </section>
 
 <div class="content">
 	<section>
 		<div class="container flex">
 			<div class="text editable">
-				<h2>How can we <strong>double</strong> our sales revenue?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources. </p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+				<h2>For people and organisations in need</h2>
+				<!-- Finde Maker und Makerspaces in der untrigen Liste und kontaktiere sie mit deinem Bedarf. -->
+				<p>Find Makers and Makerspaces in the list below and contact them with your needs:</p>
+
+				<table class="default-table">
+					<thead>
+						<tr>
+							<th class="tg-cly1">Name</th>
+					    <th class="tg-cly1">Location</th>
+					    <th class="tg-cly1">We offer</th>
+					    <th class="tg-cly1">Contact</th>
+						</tr>
+					</thead>
+					<tbody>
+					  <tr>
+							{% for hub in site.data.hubs %}
+								<td>
+									{% if hub.link And hub.link != '' %}
+										<a href="{{hub.link}}" target="_blank">{{hub.name}}</a>
+									{% else %}
+										{{hub.name}}
+									{% endif %}
+								</td>
+								<td>
+									{{hub.city}},
+									{% if hub.state And hub.state != '' %}
+										{{hub.state}},
+									{% endif %}
+									{{hub.country}}
+						    </td>
+						    <td>
+									<ul>
+										{% for offer in hub.we_offer %}
+											<li>{{offer}}</li>
+										{% endfor %}
+									</ul>
+								</td>
+						    <td>{{hub.contact}}</td>
+							{% endfor %}
+					  </tr>
+					</tbody>
+				</table>
+				<p>
+					Note that we refuse liability for damages to things or persons arising from the use of items created by third parties.
+				</p>
 			</div>
 		</div>
 	</section>
@@ -29,41 +86,40 @@ description: Track and optimize your sales team in real time
 	<section>
 		<div class="container flex">
 			<div class="text editable">
-				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
+				<!-- Ich bin ein Maker / wir sind ein Makerspace und wollen helfen -->
+				<h2>For people and organisations who want to support this project</h2>
+				<!--
+				Wir suchen Leute, die:
+					- 3D-Drucke machen
+					- einen Laser-Cutter zur Verfügung haben
+					- bei der Logistik helfen wollen
+					- bei der Organisation helfen wollen
+
+					Das Ziel ist, dass sich Menschen selbstorganisiert zu lokal produzierenden Hubs zusammenfinden, die wir auf
+					dieser Website auflisten können. Dafür bieten wir den folgenden Slack workspace an, um Mitstreiter zu finden
+					oder existierende hilfsbedürftige Hubs zu unterstützen:
+					 BUTTON
+					Wenn ihr euch als Hub eintragen wollt, schreibt bitte im Slack channels namens "Register Hub".
+					-->
+				<p>We're looking for people who:</p>
+				<ul>
+					<li>make 3D prints</li>
+					<li>have a laser cutter available</li>
+					<li>want to help with logistics</li>
+					<li>want to help with the organization</li>
+				</ul>
+				<p>
+					The goal is for people to come together in a self-organized way to form (local or international) production
+					hubs, which we can list on this website. For this purpose we offer the following Slack workspace to find
+					fellow Makers or existing hubs in need of help. If you want to register as a new producing hub,
+					please write in the Slack channel called "Register Hub". <strong>Please note: </strong> We only list
+					initiatives that offer their (self) produced items for free or at cost price.
+				</p>
+				<br>
+				<div class="button">
+					<a style="background: {{ plan.color }}" href="">Join Our Slack Workspace</a>
+				</div>
 			</div>
 		</div>
-	</section>
-
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h2>How can I <strong>forecast</strong> the next 90 days?</h2>
-				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
-			</div>
-			<div class="image">
-				<img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" />
-			</div>
-		</div>
-	</section>
-
-	<section class="testimonial">
-		<div class="container flex">
-			<div class="testimonial-block">
-				<div class="square-image"><img src="https://source.unsplash.com/6anudmpILw4/600x400" alt="Jim James" class="editable"></div>
-				<blockquote>
-					<p class="editable">Hydra has shaped the business we have today. We have a repeatable sales process and a strategy to scale our team. I recommend Hydra to any business looking to improve their sales.</p>
-					<p class="editable author">Jim James - CEO of Global Corp.</p>
-				</blockquote>
-			</div>
-		</div>
-	</section>
-
-	<section class="bottom-cta">
-		<h2 class="editable"><strong>Improve</strong> your sales process today</h2>
-		<div class="button alt"><a href="#">Get Started Free</a></div>
 	</section>
 </div>

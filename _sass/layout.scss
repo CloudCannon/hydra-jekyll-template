@@ -68,6 +68,27 @@ header {
 	position: relative;
 }
 
+/* START custom CSS */
+
+table.default-table {
+	border-collapse: collapse;
+	overflow-x: auto;
+}
+
+table.default-table th {
+	text-transform: uppercase;
+}
+
+table.default-table, table.default-table th, table.default-table td {
+	border: 1px solid black;
+}
+
+table.default-table th, table.default-table td {
+	padding: 6px;
+}
+
+/* END custom CSS */
+
 section {
 	padding: 100px 0;
 }

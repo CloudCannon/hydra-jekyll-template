@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Maker vs. Virus
+url: "https://www.makervsvirus.org"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,14 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Using our Maker skills against Corona, for the people
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name:
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
 
 # -----
 # Build
@@ -77,7 +76,7 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-paginate
 
 exclude:
