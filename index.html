@@ -127,14 +127,14 @@ description: Using our Maker skills against Corona, for the people
 			</div>
 		</div>
 	</section>
-	
+
 	<section>
 		<div class="container flex">
 			<div class="text editable">
 				<h2>List of protective equipment</h2>
 				<ul>
-					{% for hub in site.data.equipments %}
-						<li><a href="{{equipments.link}}" target="_blank">{{equipments.name}}</a></li>
+					{% for equipment in site.data.equipments %}
+						<li><a href="{{equipment.link}}" target="_blank">{{equipment.name}}</a></li>
 					{% endfor %}
 				</ul>
 				<p>
@@ -143,14 +143,14 @@ description: Using our Maker skills against Corona, for the people
 			</div>
 		</div>
 	</section>
-	
+
 	<section>
 		<div class="container flex">
 			<div class="text editable">
 				<h2>List of similar organisations</h2>
 				<ul>
-					{% for hub in site.data.organisations %}
-						<li><a href="{{organisations.link}}" target="_blank">{{organisations.name}}</a></li>
+					{% for organisation in site.data.organisations %}
+						<li><a href="{{organisation.link}}" target="_blank">{{organisation.name}}</a></li>
 					{% endfor %}
 				</ul>
 				<p>
@@ -158,5 +158,5 @@ description: Using our Maker skills against Corona, for the people
 				</p>
 			</div>
 		</div>
-	</section>	
+	</section>
 </div>
