@@ -54,3 +54,55 @@ en:
     List of similar organisations
   organizations_send_links: |
     The list is not complete. Please send us the missing links in our Slack workspace above.
+de:
+  title: |
+    Unsere Maker Skills gegen Corona
+  subtitle: |
+    Diese Website soll Menschen und Organisationen zusammenbringen, die aktuell dringend benötigte Schutzausrüstung oder Ersatzteile brauchen,
+    und Maker und Makerspaces, die diese möglicherweise produzieren können.
+    Hinter diesem Projekt steht ein kleines Deutsch und Englisch sprechendes Team.
+  hint_non_profit: |
+    <strong>Bitte beachte: </strong> Wir führen nur Iniativen auf, die ihre (selbst) produzierten Artikel kostenlos oder zum Selbstkostenpreis anbieten.
+  offer_header: |
+    Für Menschen und Organisationen in Not
+  offer_description: |
+    Finde Maker und Makerspaces in der unten stehenden Liste und kontaktiere sie mit deinem Bedarf:
+  offer_table_name: |
+    Name
+  offer_table_location: |
+    Ort
+  offer_table_offer: |
+    Wir bieten
+  offer_table_capacity: |
+    Kapazizäten
+  offer_table_contact: |
+    Kontakt
+  offer_disclaimer: |
+    Bitte beachte, dass wir keine Haftung übernehmen für Schäden an Dingen oder Personen, die durch die Verwendung von Artikeln von Dritten entstehen können.
+  support_header: |
+    Für Menschen und Organisationen, die dieses Projekt unterstützen möchten
+  support_description: |
+    <p>Wir suchen nach Leuten, die:</p>
+    <ul>
+      <li>3D Drucke fertigen</li>
+      <li>einen Lasercutter zur Verfügung haben (oder Schutzfolie manuell schneiden)</li>
+      <li>bei der Logistik helfen</li>
+      <li>bei der Planung / Organisation helfen</li>
+    </ul>
+    <p>
+      Ziel ist es, dass sich Menschen auf selbst organisiertem Weg verbinden um Produktionsmöglichkeiten (lokal oder international) zu schaffen.
+      Diese listen wir auf dieser Website. Dafür bieten wir den folgenden Slack Workspace um gleichgesinnte Maker
+      oder bestehende Zentren mit Unterstüzungsbedarf zu verbinden. Wenn du dich als neue Produktionsstätte ("Hub") registrieren möchtest, bitte schreibe in den Slack Channel
+      "Register Hub".
+      <strong>Bitte beachte: </strong> Wir führen nur Iniativen auf, die ihre (selbst) produzierten Artikel kostenlos oder zum Selbstkostenpreis anbieten.
+    </p>
+  support_join_slack: |
+    Slack beitreten
+  equipment_header: |
+    Liste der Schutzausrüstung
+  equipment_send_links: |
+    Diese Liste ist unvollständig. Bitte sende uns deine Links im obigen Slack Workspace.
+  organizations_header: |
+    Liste ähnlicher Initiativen und Organisationen
+  organizations_send_links: |
+    Diese Liste ist unvollständig. Bitte sende uns deine Links im obigen Slack Workspace.
