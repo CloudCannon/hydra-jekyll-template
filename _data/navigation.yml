@@ -1,1 +1,10 @@
-
+en:
+  - name: German (Deutsch)
+    link: /de/
+    new_window: false
+    highlight: false
+de:
+  - name: English
+    link: /en/
+    new_window: false
+    highlight: false

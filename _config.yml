@@ -8,6 +8,8 @@ google_analytics_key: UA-161636011-1
 google_maps_javascript_api_key:
 disqus_shortname:
 
+slack_invite_link: "https://join.slack.com/t/makervsvirus/shared_invite/zt-d0jrseye-16B4eZm1lkX~Hi8V7zFbiw"
+
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Using our Maker skills against Corona, for the people
@@ -108,3 +110,5 @@ _comments:
   highlight: Emphasis the text
   color: The background colour used in the plan name and call to action.
   new_window: Open link in new window
+
+include: ['_redirects']
