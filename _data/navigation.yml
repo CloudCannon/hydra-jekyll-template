@@ -5,6 +5,6 @@ en:
     highlight: false
 de:
   - name: English
-    link: /
+    link: /en/
     new_window: false
     highlight: false
