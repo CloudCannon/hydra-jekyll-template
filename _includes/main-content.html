@@ -9,12 +9,12 @@
 		oder Ersatzteile brauchen, mit Makern und Makerspaces zusammenbringen, die diese eventuell
 		herstellen können. Dahinter steckt ein kleines deutsch- und englischsprechendes
 		Organistations-Team. -->
-		<p class="subtext editable">{{site.data.lang[include.lang].subtitle}}</p>
+		<p class="subtext editable">{{site.data.lang[page.lang].subtitle}}</p>
 
 		<!-- Wir listen ausschließlich Initiativen, die die (selbst) produzierten Dinge kostenlos oder
 		zum Selbstkostenpreis anbieten.-->
 		<p class="subtext editable">
-			{{site.data.lang[include.lang].hint_non_profit}}
+			{{site.data.lang[page.lang].hint_non_profit}}
 		</p>
 		<br>
 		<br>
@@ -26,22 +26,22 @@
 	<section>
 		<div class="container flex">
 			<div class="text editable">
-				<h2>{{site.data.lang[include.lang].offer_header}}</h2>
+				<h2>{{site.data.lang[page.lang].offer_header}}</h2>
 
-				<p>{{site.data.lang[include.lang].offer_description}}</p>
+				<p>{{site.data.lang[page.lang].offer_description}}</p>
 
 				<table class="default-table">
 					<thead>
 						<tr>
-							<th>{{site.data.lang[include.lang].offer_table_name}}</th>
-					    <th>{{site.data.lang[include.lang].offer_table_location}}</th>
-					    <th>{{site.data.lang[include.lang].offer_table_offer}}</th>
-              <th>{{site.data.lang[include.lang].offer_table_capacity}}</th>
-					    <th>{{site.data.lang[include.lang].offer_table_contact}}</th>
+							<th>{{site.data.lang[page.lang].offer_table_name}}</th>
+					    <th>{{site.data.lang[page.lang].offer_table_location}}</th>
+					    <th>{{site.data.lang[page.lang].offer_table_offer}}</th>
+              <th>{{site.data.lang[page.lang].offer_table_capacity}}</th>
+					    <th>{{site.data.lang[page.lang].offer_table_contact}}</th>
 						</tr>
 					</thead>
 					<tbody>
-						{% for hub in site.data.hubs[include.lang] %}
+						{% for hub in site.data.hubs[page.lang] %}
 					  		<tr>
   								<td>
   									{% if hub.link And hub.link != '' %}
@@ -71,7 +71,7 @@
 					</tbody>
 				</table>
 				<p>
-					{{site.data.lang[include.lang].offer_disclaimer}}
+					{{site.data.lang[page.lang].offer_disclaimer}}
 				</p>
 			</div>
 		</div>
@@ -81,7 +81,7 @@
 		<div class="container flex">
 			<div class="text editable">
 				<!-- Ich bin ein Maker / wir sind ein Makerspace und wollen helfen -->
-				<h2>{{site.data.lang[include.lang].support_header}}</h2>
+				<h2>{{site.data.lang[page.lang].support_header}}</h2>
 				<!--
 				Wir suchen Leute, die:
 					- 3D-Drucke machen
@@ -95,12 +95,12 @@
 					 BUTTON
 					Wenn ihr euch als Hub eintragen wollt, schreibt bitte im Slack channels namens "Register Hub".
 					-->
-				{{site.data.lang[include.lang].support_description}}
+				{{site.data.lang[page.lang].support_description}}
 				<br>
 				<div class="button">
 					<a style="background: {{ plan.color }}"
 					href="{{site.slack_invite_link}}" target="_blank">
-					{{site.data.lang[include.lang].support_join_slack}}</a>
+					{{site.data.lang[page.lang].support_join_slack}}</a>
 				</div>
 			</div>
 		</div>
@@ -109,14 +109,14 @@
 	<section>
 		<div class="container flex">
 			<div class="text editable">
-				<h2>{{site.data.lang[include.lang].equipment_header}}</h2>
+				<h2>{{site.data.lang[page.lang].equipment_header}}</h2>
 				<ul>
 					{% for equipment in site.data.equipments %}
 						<li><a href="{{equipment.link}}" target="_blank">{{equipment.name}}</a></li>
 					{% endfor %}
 				</ul>
 				<p>
-					{{site.data.lang[include.lang].equipment_send_links}}
+					{{site.data.lang[page.lang].equipment_send_links}}
 				</p>
 			</div>
 		</div>
@@ -125,14 +125,14 @@
 	<section>
 		<div class="container flex">
 			<div class="text editable">
-				<h2>{{site.data.lang[include.lang].organizations_header}}</h2>
+				<h2>{{site.data.lang[page.lang].organizations_header}}</h2>
 				<ul>
 					{% for organisation in site.data.organisations %}
 						<li><a href="{{organisation.link}}" target="_blank">{{organisation.name}}</a></li>
 					{% endfor %}
 				</ul>
 				<p>
-					{{site.data.lang[include.lang].organizations_send_links}}
+					{{site.data.lang[page.lang].organizations_send_links}}
 				</p>
 			</div>
 		</div>
