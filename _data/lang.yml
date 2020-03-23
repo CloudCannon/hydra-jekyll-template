@@ -1,0 +1,56 @@
+en:
+  title: |
+    Using our Maker skills against Corona
+  subtitle: |
+    This website is intended to bring together people and organisations
+    who need currently hard-to-find protective equipment or spare parts
+    with makers and makerspaces who can possibly produce them. Behind this
+    project is a small German and English speaking organization team.
+  hint_non_profit: |
+    <strong>Please note: </strong> We only list initiatives that offer
+    their (self) produced items for free or at cost price.
+  offer_header: |
+    For people and organisations in need
+  offer_description: |
+    Find Makers and Makerspaces in the list below and contact them with
+    your needs:
+  offer_table_name: |
+    Name
+  offer_table_location: |
+    Location
+  offer_table_offer: |
+    We offer
+  offer_table_capacity: |
+    Capacity
+  offer_table_contact: |
+    Contact
+  offer_disclaimer: |
+    Note that we refuse liability for damages to things or persons arising
+    from the use of items created by third parties.
+  support_header: |
+    For people and organisations who want to support this project
+  support_description: |
+    <p>We're looking for people who:</p>
+    <ul>
+      <li>make 3D prints</li>
+      <li>have a laser cutter available (or want to cut foil manually)</li>
+      <li>want to help with logistics</li>
+      <li>want to help with the organization</li>
+    </ul>
+    <p>
+      The goal is for people to come together in a self-organized way to form (local or international) production
+      hubs, which we can list on this website. For this purpose we offer the following Slack workspace to find
+      fellow Makers or existing hubs in need of help. If you want to register as a new producing hub,
+      please write in the Slack channel called "Register Hub". <strong>Please note: </strong> We only list
+      initiatives that offer their (self) produced items for free or at cost price.
+    </p>
+  support_join_slack: |
+    Join Slack
+  equipment_header: |
+    List of protective equipment
+  equipment_send_links: |
+    The list is not complete. Please send us the missing links in our Slack workspace above.
+  organizations_header: |
+    List of similar organisations
+  organizations_send_links: |
+    The list is not complete. Please send us the missing links in our Slack workspace above.

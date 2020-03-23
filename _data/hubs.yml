@@ -1,21 +1,48 @@
-- name: Hammertime Kassel
-  # Link is optional
-  link: https://www.hammertimekassel.de
-  country: Germany
-  # State / region is optional
-  state: Hesse
-  city: Kassel
-  contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
-  we_offer:
-    - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
-- name: Starke Schwaben
-  # Link is optional
-  link: 
-  country: Germany
-  # State / region is optional
-  state: Baden-Württemberg
-  city: Rottweil
-  contact: '<a href="mailto:daniel@dm1989.de">daniel@dm1989.de</a>'
-  we_offer:
-    - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
-# Copy the block above and repeat =)
+en:
+  - name: Hammertime Kassel
+    # Link is optional
+    link: https://www.hammertimekassel.de
+    country: Germany
+    # State / region is optional
+    state: Hesse
+    city: Kassel
+    contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
+    capacity:
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
+  - name: Starke Schwaben
+    # Link is optional
+    link:
+    country: Germany
+    # State / region is optional
+    state: Baden-Württemberg
+    city: Rottweil
+    contact: '<a href="mailto:daniel@dm1989.de">daniel@dm1989.de</a>'
+    capacity:
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
+  # Copy the block above and repeat =)
+de:
+  - name: Hammertime Kassel
+    # Link is optional
+    link: https://www.hammertimekassel.de
+    country: Deutschland
+    # State / region is optional
+    state: Hessen
+    city: Kassel
+    contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
+    capacity:
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
+  - name: Starke Schwaben
+    # Link is optional
+    link:
+    country: Deutschland
+    # State / region is optional
+    state: Baden-Württemberg
+    city: Rottweil
+    contact: '<a href="mailto:daniel@dm1989.de">daniel@dm1989.de</a>'
+    capacity:
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
+  # Copy the block above and repeat =)
