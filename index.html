@@ -125,7 +125,7 @@ description: Using our Maker skills against Corona, for the people
 		</div>
 	</section>
 	
-		<section>
+	<section>
 		<div class="container flex">
 			<div class="text editable">
 				<h2>List of protective equipment</h2>
@@ -140,4 +140,20 @@ description: Using our Maker skills against Corona, for the people
 			</div>
 		</div>
 	</section>
+	
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2>List of similar organisations</h2>
+				<ul>
+					{% for hub in site.data.organisations %}
+						<li><a href="{{organisations.link}}" target="_blank">{{organisations.name}}</a></li>
+					{% endfor %}
+				</ul>
+				<p>
+					The list is not complete. Please send us the missing links.
+				</p>
+			</div>
+		</div>
+	</section>	
 </div>
