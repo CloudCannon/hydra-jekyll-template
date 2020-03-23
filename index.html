@@ -48,8 +48,8 @@ description: Using our Maker skills against Corona, for the people
 						</tr>
 					</thead>
 					<tbody>
-					  <tr>
-							{% for hub in site.data.hubs %}
+						{% for hub in site.data.hubs %}
+					  		<tr>
 								<td>
 									{% if hub.link And hub.link != '' %}
 										<a href="{{hub.link}}" target="_blank">{{hub.name}}</a>
@@ -71,9 +71,9 @@ description: Using our Maker skills against Corona, for the people
 										{% endfor %}
 									</ul>
 								</td>
-						    <td>{{hub.contact}}</td>
-							{% endfor %}
-					  </tr>
+						    	<td>{{hub.contact}}</td>
+					  		</tr>
+						{% endfor %}
 					</tbody>
 				</table>
 				<p>
