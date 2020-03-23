@@ -111,4 +111,4 @@ _comments:
   color: The background colour used in the plan name and call to action.
   new_window: Open link in new window
 
-include: ['netlify.toml']
+include: ['_redirects']
