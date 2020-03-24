@@ -7,10 +7,10 @@ en:
     state: Hesse
     city: Kassel
     contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
-    capacity: 
-      - Lasercutter
+    capacity:
+      - Lasercutting
       - 3D-printing
-    we_offer: 
+    we_offer:
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   - name: Starke Schwaben
     # Link is optional
@@ -31,10 +31,12 @@ en:
     state: Baden-Württemberg
     city: Beuren/Linsenhofen
     contact: '<a href="https://open-diy-projects.com/doityourself-gesichtschutz-faceshield/" target="_blank">Contact form</a>'
-    capacity: 
-      - Collection 3D-parts
+    capacity:
+      - Collecting 3D-parts for the Prusa Protective Face Shields
       - Lasercutting
-    we_offer: 
+      - Packing and distributing to humanitarian organisations
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
 # Copy the block above and repeat =)
 de:
   - name: Hammertime Kassel
@@ -45,10 +47,10 @@ de:
     state: Hessen
     city: Kassel
     contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
-    capacity: 
+    capacity:
       - Lasercutter
       - 3D-Druck
-    we_offer: 
+    we_offer:
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   - name: Starke Schwaben
     # Link is optional
@@ -69,9 +71,10 @@ de:
     state: Baden-Württemberg
     city: Beuren/Linsenhofen
     contact: '<a href="https://open-diy-projects.com/doityourself-gesichtschutz-faceshield/" target="_blank">Zum Kontaktformular</a>'
-    capacity: 
-      - Sammlung 3D-Druckteile
-      - Lasern
+    capacity:
+      - Sammlung 3D-Druckteile für den Prusa Protective Face Shields
+      - Lasercutter
       - Verpacken und Verteilen an Kreisverbände von Hilfsorganisationen
-    we_offer: 
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   # Copy the block above and repeat =)
