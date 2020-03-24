@@ -16,7 +16,7 @@ en:
     country: Germany
     # State / region is optional
     state: Baden-Württemberg
-    city: Rottweil
+    city: Tuttlingen/Rottweil
     contact: '<a href="mailto:daniel@dm1989.de">daniel@dm1989.de</a>'
     capacity:
     we_offer:
@@ -40,7 +40,7 @@ de:
     country: Deutschland
     # State / region is optional
     state: Baden-Württemberg
-    city: Rottweil
+    city: Tuttlingen/Rottweil
     contact: '<a href="mailto:daniel@dm1989.de">daniel@dm1989.de</a>'
     capacity:
     we_offer:
