@@ -7,7 +7,9 @@ en:
     state: Hesse
     city: Kassel
     contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
-    capacity: Lasercutter, 3D-printing
+    capacity: 
+      - Lasercutter
+      - 3D-printing
     we_offer: 
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   - name: Starke Schwaben
@@ -43,7 +45,9 @@ de:
     state: Hessen
     city: Kassel
     contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
-    capacity: Lasercutter, 3D-Druck
+    capacity: 
+      - Lasercutter
+      - 3D-Druck
     we_offer: 
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   - name: Starke Schwaben
