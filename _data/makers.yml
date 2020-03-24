@@ -1,5 +1,5 @@
 en:
-  - name: Open Source Ventilator
+  - name: Carsten
     country: Germany
     # State / region is optional
     state: Niedersachsen
@@ -26,7 +26,7 @@ en:
     contact: '<a href="mailto:stefanb82@googlemail.com">stefanb82@googlemail.com</a>'
 # Copy the block above and repeat =)
 de:
-  - name: Open Source Ventilator
+  - name: Carsten
     country: Deutschland
     # State / region is optional
     state: Lower Saxony
