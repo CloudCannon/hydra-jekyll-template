@@ -31,10 +31,10 @@ en:
     state: Baden-Württemberg
     city: Beuren/Linsenhofen
     contact: '<a href="https://open-diy-projects.com/doityourself-gesichtschutz-faceshield/" target="_blank">Contact form</a>'
-    capacity:
-    we_offer: 
+    capacity: 
       - Collection 3D-parts
       - Lasercutting
+    we_offer: 
 # Copy the block above and repeat =)
 de:
   - name: Hammertime Kassel
@@ -70,8 +70,8 @@ de:
     city: Beuren/Linsenhofen
     contact: '<a href="https://open-diy-projects.com/doityourself-gesichtschutz-faceshield/" target="_blank">Zum Kontaktformular</a>'
     capacity: 
-    we_offer: 
       - Sammlung 3D-Druckteile
       - Lasern
-      - Verpacken und Verteilen an Kreisverbände von Hilfsorganisationen. 
+      - Verpacken und Verteilen an Kreisverbände von Hilfsorganisationen
+    we_offer: 
   # Copy the block above and repeat =)
