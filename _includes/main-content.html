@@ -64,7 +64,14 @@
   										{% endfor %}
   									</ul>
   								</td>
-                  <td>{{hub.capacity}}</td>
+                  					<td>
+								<ul>
+									{% for capacity in hub.capacity %}
+										<li>{{capacity}}</li>
+									{% endfor %}
+								</ul>
+							</td>
+								
 						    	<td>{{hub.contact}}</td>
 					  		</tr>
 						{% endfor %}
