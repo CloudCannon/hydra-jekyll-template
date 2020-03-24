@@ -2,7 +2,7 @@ en:
   - name: Carsten
     country: Germany
     # State / region is optional
-    state: Niedersachsen
+    state: Lower Saxony
     city: Braunschweig
     capacity:
       - 1 PRUSA MK3S,
@@ -11,7 +11,7 @@ en:
   - name: Christian Laux
     country: Germany
     # State / region is optional
-    state: Rheinland-Pfalz
+    state: Rhineland-Palatinate
     city: Westerwaldkreis (WW)
     capacity:
       - 2x 3D Drucker (PLA/PLA+,PETG)
@@ -29,7 +29,7 @@ de:
   - name: Carsten
     country: Deutschland
     # State / region is optional
-    state: Lower Saxony
+    state: Niedersachsen
     city: Braunschweig
     capacity:
       - 1 PRUSA MK3S,
@@ -38,7 +38,7 @@ de:
   - name: Christian Laux
     country: Deutschland
     # State / region is optional
-    state: Rhineland-Palatinate
+    state: Rheinland-Pfalz
     city: Westerwaldkreis (WW)
     capacity:
       - 2x 3D Drucker (PLA/PLA+,PETG)
