@@ -64,14 +64,13 @@
   										{% endfor %}
   									</ul>
   								</td>
-                  					<td>
-								<ul>
-									{% for capacity in hub.capacity %}
-										<li>{{capacity}}</li>
-									{% endfor %}
-								</ul>
-							</td>
-								
+                  <td>
+										<ul>
+											{% for capacity in hub.capacity %}
+												<li>{{capacity}}</li>
+											{% endfor %}
+										</ul>
+									</td>
 						    	<td>{{hub.contact}}</td>
 					  		</tr>
 						{% endfor %}
@@ -89,6 +88,43 @@
 			<div class="text editable">
 				<!-- Ich bin ein Maker / wir sind ein Makerspace und wollen helfen -->
 				<h2>{{site.data.lang[page.lang].support_header}}</h2>
+
+				<table class="default-table">
+					<thead>
+						<tr>
+							<th>{{site.data.lang[page.lang].support_table_name}}</th>
+							<th>{{site.data.lang[page.lang].support_table_location}}</th>
+							<th>{{site.data.lang[page.lang].support_table_capacity}}</th>
+							<th>{{site.data.lang[page.lang].support_table_contact}}</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for maker in site.data.makers[page.lang] %}
+					  		<tr>
+  								<td>
+										{{maker.name}}
+									</td>
+									<td>
+										{{maker.city}},
+										{% if maker.state And maker.state != '' %}
+											{{maker.state}},
+										{% endif %}
+										{{maker.country}}
+									</td>
+									<td>
+										<ul>
+											{% for capacity in maker.capacity %}
+												<li>{{capacity}}</li>
+											{% endfor %}
+										</ul>
+									</td>
+									<td>
+										{{maker.contact}}
+									</td>
+								</tr>
+						{% endfor %}
+					</tbody>
+				</table>
 				<!--
 				Wir suchen Leute, die:
 					- 3D-Drucke machen

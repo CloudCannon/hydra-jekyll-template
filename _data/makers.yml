@@ -1,0 +1,54 @@
+en:
+  - name: Open Source Ventilator
+    country: Germany
+    # State / region is optional
+    state: Niedersachsen
+    city: Braunschweig
+    capacity:
+      - 1 PRUSA MK3S,
+      - 1 CNC (Kunstoff/Holz)
+    contact: '<a href="mailto:maker@screw.de">maker@screw.de</a>'
+  - name: Christian Laux
+    country: Germany
+    # State / region is optional
+    state: Rheinland-Pfalz
+    city: Westerwaldkreis (WW)
+    capacity:
+      - 2x 3D Drucker (PLA/PLA+,PETG)
+    contact: '<a href="mailto:mail@diy3d.de">mail@diy3d.de</a>'
+  - name: Stefan Börner
+    country: Germany
+    # State / region is optional
+    state: Saxony
+    city: Großröhrsdorf (Nahe Dresden)
+    capacity:
+      - 2x 3D Drucker (PLA/PLA+,PETG)
+    contact: '<a href="mailto:stefanb82@googlemail.com">stefanb82@googlemail.com</a>'
+# Copy the block above and repeat =)
+de:
+  - name: Open Source Ventilator
+    country: Deutschland
+    # State / region is optional
+    state: Lower Saxony
+    city: Braunschweig
+    capacity:
+      - 1 PRUSA MK3S,
+      - 1 CNC (Kunstoff/Holz)
+    contact: '<a href="mailto:maker@screw.de">maker@screw.de</a>'
+  - name: Christian Laux
+    country: Deutschland
+    # State / region is optional
+    state: Rhineland-Palatinate
+    city: Westerwaldkreis (WW)
+    capacity:
+      - 2x 3D Drucker (PLA/PLA+,PETG)
+    contact: '<a href="mailto:mail@diy3d.de">mail@diy3d.de</a>'
+  - name: Stefan Börner
+    country: Deutschland
+    # State / region is optional
+    state: Sachsen
+    city: Großröhrsdorf (Nahe Dresden)
+    capacity:
+      - 2x 3D Drucker (PLA/PLA+,PETG)
+    contact: '<a href="mailto:stefanb82@googlemail.com">stefanb82@googlemail.com</a>'
+# Copy the block above and repeat =)

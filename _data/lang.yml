@@ -29,6 +29,14 @@ en:
     from the use of items created by third parties.
   support_header: |
     For people and organisations who want to support this project
+  support_table_name: |
+    Name
+  support_table_location: |
+    Location
+  support_table_capacity: |
+    Capacity
+  support_table_contact: |
+    Contact
   support_description: |
     <p>We're looking for people who:</p>
     <ul>
@@ -81,6 +89,14 @@ de:
     Bitte beachte, dass wir keine Haftung übernehmen für Schäden an Dingen oder Personen, die durch die Verwendung von Artikeln von Dritten entstehen können.
   support_header: |
     Für Menschen und Organisationen, die dieses Projekt unterstützen möchten
+  support_table_name: |
+    Name
+  support_table_location: |
+    Ort
+  support_table_capacity: |
+    Kontakt
+  support_table_contact: |
+    Contact
   support_description: |
     <p>Wir suchen nach Leuten, die:</p>
     <ul>
