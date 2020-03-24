@@ -25,7 +25,7 @@ en:
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   - name: Open-DiY Hub
     # Link is optional
-    link: https://open-diy-projects.com/doityourself-gesichtschutz-faceshield/
+    link: https://open-diy-projects.com/
     country: Germany
     # State / region is optional
     state: Baden-Württemberg
@@ -65,7 +65,7 @@ de:
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   - name: Open-DiY Hub
     # Link is optional
-    link: https://open-diy-projects.com/doityourself-gesichtschutz-faceshield/
+    link: https://open-diy-projects.com/
     country: Deutschland
     # State / region is optional
     state: Baden-Württemberg
