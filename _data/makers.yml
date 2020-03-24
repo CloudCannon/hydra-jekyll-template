@@ -5,8 +5,8 @@ en:
     state: Lower Saxony
     city: Braunschweig
     capacity:
-      - 1 PRUSA MK3S,
-      - 1 CNC (Kunstoff/Holz)
+      - 1x PRUSA MK3S,
+      - 1x CNC (Kunstoff/Holz)
     contact: '<a href="mailto:maker@screw.de">maker@screw.de</a>'
   - name: Christian Laux
     country: Germany
@@ -24,6 +24,14 @@ en:
     capacity:
       - 2x 3D Drucker (PLA/PLA+,PETG)
     contact: '<a href="mailto:stefanb82@googlemail.com">stefanb82@googlemail.com</a>'
+  - name: Markos Meyer
+    country: Germany
+    # State / region is optional
+    state: Baden-Württemberg
+    city: Pforzheim
+    capacity:
+      - 1x MakerBot Replicator+
+    contact: '<a href="mailto:Meyermarkos@outlook.de">Meyermarkos@outlook.de</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -32,8 +40,8 @@ de:
     state: Niedersachsen
     city: Braunschweig
     capacity:
-      - 1 PRUSA MK3S,
-      - 1 CNC (Kunstoff/Holz)
+      - 1x PRUSA MK3S,
+      - 1x CNC (Kunstoff/Holz)
     contact: '<a href="mailto:maker@screw.de">maker@screw.de</a>'
   - name: Christian Laux
     country: Deutschland
@@ -51,4 +59,12 @@ de:
     capacity:
       - 2x 3D Drucker (PLA/PLA+,PETG)
     contact: '<a href="mailto:stefanb82@googlemail.com">stefanb82@googlemail.com</a>'
+  - name: Markos Meyer
+    country: Deutschland
+    # State / region is optional
+    state: Baden-Württemberg
+    city: Pforzheim
+    capacity:
+      - 1x MakerBot Replicator+
+    contact: '<a href="mailto:Meyermarkos@outlook.de">Meyermarkos@outlook.de</a>'
 # Copy the block above and repeat =)
