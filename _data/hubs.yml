@@ -7,8 +7,8 @@ en:
     state: Hesse
     city: Kassel
     contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
-    capacity:
-    we_offer: Lasercutter, 3D-printing
+    capacity: Lasercutter, 3D-printing
+    we_offer: 
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   - name: Starke Schwaben
     # Link is optional
@@ -30,8 +30,9 @@ en:
     city: Beuren/Linsenhofen
     contact: '<a href="https://open-diy-projects.com/doityourself-gesichtschutz-faceshield/" target="_blank">Contact form</a>'
     capacity:
-    we_offer: Collection 3D-parts, Lasercutting. 
-      - 
+    we_offer: 
+      - Collection 3D-parts
+      - Lasercutting
 # Copy the block above and repeat =)
 de:
   - name: Hammertime Kassel
@@ -42,8 +43,8 @@ de:
     state: Hessen
     city: Kassel
     contact: '<a href="mailto:makervsvirus@hammertimekassel.de">makervsvirus@hammertimekassel.de</a>'
-    capacity:
-    we_offer: Lasercutter, 3D-Druck
+    capacity: Lasercutter, 3D-Druck
+    we_offer: 
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   - name: Starke Schwaben
     # Link is optional
@@ -64,7 +65,9 @@ de:
     state: Baden-Württemberg
     city: Beuren/Linsenhofen
     contact: '<a href="https://open-diy-projects.com/doityourself-gesichtschutz-faceshield/" target="_blank">Zum Kontaktformular</a>'
-    capacity:
-    we_offer: Sammlung 3D-Druckteile, Lasern, Verpacken und Verteilen an Kreisverbände von Hilfsorganisationen. 
-      - 
+    capacity: 
+    we_offer: 
+      - Sammlung 3D-Druckteile
+      - Lasern
+      - Verpacken und Verteilen an Kreisverbände von Hilfsorganisationen. 
   # Copy the block above and repeat =)
