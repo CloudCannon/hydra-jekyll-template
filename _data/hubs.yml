@@ -34,7 +34,7 @@ en:
     capacity:
       - Collecting 3D-parts for the Prusa Protective Face Shields
       - Lasercutting
-      - Packing and distributing to humanitarian organisations
+      - Packing and distributing to local humanitarian organisations
     we_offer:
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
 # Copy the block above and repeat =)
@@ -74,7 +74,7 @@ de:
     capacity:
       - Sammlung 3D-Druckteile für den Prusa Protective Face Shields
       - Lasercutter
-      - Verpacken und Verteilen an Kreisverbände von Hilfsorganisationen
+      - Verpacken und Verteilen an lokale Kreisverbände von Hilfsorganisationen
     we_offer:
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
   # Copy the block above and repeat =)
