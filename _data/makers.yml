@@ -340,4 +340,15 @@
     - 1x MPCNC Fräse (650x450)
   contact: '<a href="christian.nagel1982@gmail.com">christian.nagel1982@gmail.com</a>'
 
+- name: Philip Hutchinson
+  country: Deutschland
+  # State / region is optional
+  state: Niedersachsen
+  city: Osnabrück
+  capacity:
+    - 3X FDM Drucker 220x220x250
+    - 2x DLP Drucker
+    - 1x CNC Fräse Sorotec
+  contact: '<a href="sir.phil@hotmail.de">sir.phil@hotmail.de</a>'
+
 # Copy the block above and repeat =)
