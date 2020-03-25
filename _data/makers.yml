@@ -85,6 +85,17 @@ en:
     capacity:
       - Druckteile für die Prusa RC2 Masken
     contact: '<a href="mailto:svenzieg@gmx.de">svenzieg@gmx.de</a>'
+  - name: Thomas Scherer
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Sauerland
+    capacity:
+      - 3x ultimaker
+      - 1x lasercutter (glowforge)
+      - 1x tiefziehen (vaquform)
+      - diverse materialien u.a. antibakterielles 3ddruck-filament!
+    contact: '<a href="mailto:contact@schererdesign.com">contact@schererdesign.com</a>'    
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -193,4 +204,15 @@ de:
     capacity:
       - Druckteile für die Prusa RC2 Masken
     contact: '<a href="mailto:svenzieg@gmx.de">svenzieg@gmx.de</a>'
+  - name: Thomas Scherer
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Sauerland
+    capacity:
+      - 3x ultimaker
+      - 1x lasercutter (glowforge)
+      - 1x tiefziehen (vaquform)
+      - diverse materialien u.a. antibakterielles 3ddruck-filament!
+    contact: '<a href="mailto:contact@schererdesign.com">contact@schererdesign.com</a>'
 # Copy the block above and repeat =)

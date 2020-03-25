@@ -67,6 +67,26 @@ en:
       - Mr. Beam Lasercutter
     we_offer:
       - '<a href="https://www.thingiverse.com/thing:4233193" target="_blank">Easy shields</a>'
+  - name: Thomas Scherer
+    # Link is optional
+    link: https://macherburg.de/
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Attendorn
+    contact: '<a href="mailto:contact@schererdesign.com">contact@schererdesign.com</a>'
+    capacity:
+      - Ultimaker 2+
+      - Ultimaker 3 extended
+      - Ultimaker S5
+      - Lasercutter
+      - Tiefziehmaschine
+      - Solidworks
+    we_offer:
+      - 3D-Druck
+      - Lasercutting
+      - Tiefziehen
+      - Konstruktion Reverse Engineering
 # Copy the block above and repeat =)
 de:
   - name: Hammertime Kassel
@@ -137,4 +157,25 @@ de:
       - Mr. Beam Lasercutter
     we_offer:
       - '<a href="https://www.thingiverse.com/thing:4233193" target="_blank">Easy shields</a>'
+  - name: Thomas Scherer
+    # Link is optional
+    link: https://macherburg.de/
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Attendorn
+    contact: '<a href="mailto:contact@schererdesign.com">contact@schererdesign.com</a>'
+    capacity:
+      - Ultimaker 2+
+      - Ultimaker 3 extended
+      - Ultimaker S5
+      - Lasercutter
+      - Tiefziehmaschine
+      - Solidworks
+    we_offer:
+      - 3D-Druck
+      - Lasercutting
+      - Tiefziehen
+      - Konstruktion Reverse Engineering
+
   # Copy the block above and repeat =)
