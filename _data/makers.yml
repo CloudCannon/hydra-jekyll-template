@@ -75,7 +75,7 @@ en:
     state: Hessen
     city: Kassel
     capacity:
-      - Druckteile für die Prusa RC Masken
+      - Druckteile für die Prusa RC2 Masken
     contact: '<a href="mailto:3ddruck.nordhessen@gmail.com">3ddruck.nordhessen@gmail.com</a>'
   - name: Sven Ziegler
     country: Deutschland
@@ -183,7 +183,7 @@ de:
     state: Hessen
     city: Kassel
     capacity:
-      - Druckteile für die Prusa RC Masken
+      - Druckteile für die Prusa RC2 Masken
     contact: '<a href="mailto:3ddruck.nordhessen@gmail.com">3ddruck.nordhessen@gmail.com</a>'
   - name: Sven Ziegler
     country: Deutschland
