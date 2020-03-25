@@ -237,7 +237,7 @@ de:
     capacity:
       - 1x 3D-Drucker
     contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
-  - name: Rene (3Dgeneriert) 
+  - name: Rene (3Dgeneriert)
     country: Deutschland
     # State / region is optional
     state:
@@ -383,4 +383,5 @@ de:
     capacity:
       - Transport in Kreis Heinsberg
     contact: '<a href="mailto:andre.schmitz@web.de">andre.schmitz@web.de</a>'
+
 # Copy the block above and repeat =)
