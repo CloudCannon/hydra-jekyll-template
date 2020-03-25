@@ -160,6 +160,14 @@ en:
       - 3x FDM-Drucker
       - Savegrabber und Masken
     contact: '<a href="mailto:zefferer79@gmail.com">zefferer79@gmail.com</a>'
+  - name: Felix
+    country: Deutschland
+    # State / region is optional
+    state: Bayern
+    city: Nürnberg
+    capacity:
+      - 1x FDM 22x22
+    contact: '<a href="mailto:Felix_fh@gmx.de">Felix_fh@gmx.de</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -333,4 +341,12 @@ de:
       - 3x FDM-Drucker
       - Savegrabber und Masken
     contact: '<a href="mailto:zefferer79@gmail.com">zefferer79@gmail.com</a>'
+  - name: Felix
+    country: Deutschland
+    # State / region is optional
+    state: Bayern
+    city: Nürnberg
+    capacity:
+      - 1x FDM 22x22
+    contact: '<a href="mailto:Felix_fh@gmx.de">Felix_fh@gmx.de</a>'
 # Copy the block above and repeat =)
