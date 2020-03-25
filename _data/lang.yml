@@ -55,9 +55,9 @@ en:
     <p>
       The goal is for people to come together in a self-organized way to form (local or international) production
       hubs, which we can list on this website. For this purpose we offer the following Slack workspace to find
-      fellow Makers or existing hubs in need of help. If you want to register as a new producing hub,
-      please write in the Slack channel called "Register Hub". <strong>Please note: </strong> We only list
-      initiatives that offer their (self) produced items for free or at cost price.
+      fellow Makers or existing hubs in need of help. For our communication we use the Slack workspace.
+      <br>
+      <strong>Please note: </strong> We only list initiatives that offer their (self) produced items for free or at cost price.
     </p>
   support_join_slack: |
     Join Slack
@@ -123,8 +123,8 @@ de:
     <p>
       Ziel ist es, dass sich Menschen auf selbst organisiertem Weg verbinden um Produktionsmöglichkeiten (lokal oder international) zu schaffen.
       Diese listen wir auf dieser Website. Dafür bieten wir den folgenden Slack Workspace um gleichgesinnte Maker
-      oder bestehende Zentren mit Unterstüzungsbedarf zu verbinden. Wenn du dich als neue Produktionsstätte ("Hub") registrieren möchtest, bitte schreibe in den Slack Channel
-      "Register Hub".
+      oder bestehende Zentren mit Unterstüzungsbedarf zu verbinden. Für die Kommunikation benutzen wir den Slack-Workspace.
+      <br>
       <strong>Bitte beachte: </strong> Wir führen nur Iniativen auf, die ihre (selbst) produzierten Artikel kostenlos oder zum Selbstkostenpreis anbieten.
     </p>
   support_join_slack: |
