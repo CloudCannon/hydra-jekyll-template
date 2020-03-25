@@ -195,4 +195,138 @@
     - Transport in Kreis Heinsberg
   contact: '<a href="mailto:andre.schmitz@web.de">andre.schmitz@web.de</a>'
 
+- name: William
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Darmstadt
+  capacity:
+    - 1x 80W CO2 Lasercutter
+  contact: '<a href="wigo89@gmx.de">wigo89@gmx.de</a>'
+
+- name: Ingo Ulbrich
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Münster
+  capacity:
+    - 1 x Anycubic Chiron
+    - 1 x Anycubic Delta Kossel Plus
+    - 2 x Flashforge Finder
+  contact: '<a href="ingo.ulbrich@outlook.de">ingo.ulbrich@outlook.de</a>'
+
+- name: Hannes
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Dresden/Radebeul
+  capacity:
+    - 2x 3D-Drucker
+    - jede Menge Elektronikwerkzeug
+    - evt. CNC-Fräse (noch im Aufbau)
+  contact: '<a href="j.studt@gmx.de">j.studt@gmx.de</a>'
+
+- name: Jan-Niklas Lenkeit
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Münster
+  capacity:
+    - 1x Cr10s pro
+  contact: '<a href="jn.lenkeit@web.de">jn.lenkeit@web.de</a>'
+
+- name: ZerwasMOD
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Zirndorf im Landkreis Fürth
+  capacity:
+    - 1 x Prusa MK3S
+  contact: '<a href="aherzig@web.de">aherzig@web.de</a>'
+
+- name: Martin Sinken
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Köln
+  capacity:
+    -  1 x Prusa MK3S
+  contact: '<a href="martinsinken@sinken.de">martinsinken@sinken.de</a>'
+
+- name: Lukas Kuhlmann
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Münster
+  capacity:
+    - 1 x Prusa MK3S
+  contact: '<a href="lukas.kuhlmann@googlemail.com">lukas.kuhlmann@googlemail.com</a>'
+
+- name: Bjoern
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Hamm
+  capacity:
+    - 1x Cr10s
+    - 1x MPCNC
+  contact: '<a href="b.klassen1987@gmail.com">b.klassen1987@gmail.com</a>'
+
+- name: Chris Muc
+  country: Deutschland
+  # State / region is optional
+  state: Bayern
+  city: München
+  capacity:
+    - 1x Anycubic KosselPlus
+  contact: '<a href="MakerVsvirus@tazumika.net">MakerVsvirus@tazumika.net</a>'
+
+- name: Sven Carstensen
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Taarstedt
+  capacity:
+    - 1 x Prusa MK3S
+    - mehrere CoreXY-Drucker
+  contact: '<a href="mail@svencarstensen.de">mail@svencarstensen.de </a>'
+
+- name: Dennis Weyel
+  country: Deutschland
+  # State / region is optional
+  state:
+  city:  Rhein-Main-Gebiet
+  capacity:
+    - Mehrere 3D Drucker
+    - Laser
+    - Fräse
+  contact: '<a href="maker@weyel.com">maker@weyel.com</a>'
+
+- name: Phil Kirchhofer
+  country: Deutschland
+  # State / region is optional
+  state: Hessen
+  city: Kassel
+  capacity:
+    - 1x CR10S Pro (Bauraum 32x32x40 cm)
+  contact: '<a href="phils3dprint@web.de">phils3dprint@web.de</a>'
+
+- name: Günter Nimmerfall
+  country: Österreich
+  # State / region is optional
+  state:
+  city: Tirol
+  capacity:
+    - 4 Anycubic Mega i3 Drucker
+  contact: '<a href=""></a>'
+
+- name: Fabian
+  country: Deutschland
+  # State / region is optional
+  state:
+  city: Braunschweig
+  capacity:
+    - 1x Prusa MK3
+  contact: '<a href="fabian@opencode.eu">fabian@opencode.eu</a>'
+
 # Copy the block above and repeat =)
