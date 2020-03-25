@@ -69,7 +69,7 @@ en:
       - '<a href="https://www.thingiverse.com/thing:4233193" target="_blank">Easy shields</a>'
   - name: Thomas Scherer
     # Link is optional
-    link: https://macherburg.de/
+    link: http://www.schererdesign.com/
     country: Deutschland
     # State / region is optional
     state: Nordrhein-Westfalen
@@ -159,7 +159,7 @@ de:
       - '<a href="https://www.thingiverse.com/thing:4233193" target="_blank">Easy shields</a>'
   - name: Thomas Scherer
     # Link is optional
-    link: https://macherburg.de/
+    link: http://www.schererdesign.com/
     country: Deutschland
     # State / region is optional
     state: Nordrhein-Westfalen
