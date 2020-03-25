@@ -49,7 +49,7 @@ en:
     capacity:
       - 1x 3D-Drucker
     contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
-  - name: Rene Westphal
+  - name: Rene (3Dgeneriert)
     country: Germany
     # State / region is optional
     state:
@@ -237,7 +237,7 @@ de:
     capacity:
       - 1x 3D-Drucker
     contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
-  - name: Rene Westphal
+  - name: Rene (3Dgeneriert) 
     country: Deutschland
     # State / region is optional
     state:
