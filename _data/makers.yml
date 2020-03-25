@@ -106,6 +106,42 @@ en:
       - MPCNC+
       - Freiwillige zum Folie Schneiden
     contact: '<a href="mailto:mail@kevkue.de">mail@kevkue.de</a>'
+  - name: Facebook-Gruppe Bayern
+    country: Deutschland
+    # State / region is optional
+    state:
+    city: Bayern
+    capacity:
+      - 2 Drucker+1
+      - MPCNC+
+      - Freiwillige zum Folie Schneiden
+    contact: '<a href="https://www.facebook.com/groups/220120426011912/">Zur Facebook-Gruppe</a>'
+  - name: Sebastian
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Warendorf
+    capacity:
+      - 1x Prusa MK3S
+      - 1x Sunlu S8
+    contact: '<a href="sebastians_hub@gmx.de">sebastians_hub@gmx.de</a>'
+  - name: Pascal
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Oberhausen
+    capacity:
+      - 1x 3D Drucker
+      - 1x CNC Fräse
+    contact: '<a href="production@rumm.me">production@rumm.me</a>'
+  - name: Tom
+    country: Deutschland
+    # State / region is optional
+    state: Bayern
+    city: München
+    capacity:
+      - 1x Anycubic i3Mega
+    contact: '<a href="tom.weirig@gmail.com">tom.weirig@gmail.com</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -183,7 +219,6 @@ de:
     city: Hamburg
     capacity:
       - 2x 3D-Drucker
-      - 1x 225x225 Drucker
       - 1x CNC Fräse (Plastike/Holz)
       - Koordination und Organisation
     contact: '<a href="mailto:jrvf81@gmail.com">jrvf81@gmail.com</a>'
@@ -235,4 +270,40 @@ de:
       - MPCNC+
       - Freiwillige zum Folie Schneiden
     contact: '<a href="mailto:mail@kevkue.de">mail@kevkue.de</a>'
+  - name: Facebook-Gruppe Bayern
+    country: Deutschland
+    # State / region is optional
+    state:
+    city: Bayern
+    capacity:
+      - 2 Drucker+1
+      - MPCNC+
+      - Freiwillige zum Folie Schneiden
+    contact: '<a href="https://www.facebook.com/groups/220120426011912/">Zur Facebook-Gruppe</a>'
+  - name: Sebastian
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Warendorf
+    capacity:
+      - 1x Prusa MK3S
+      - 1x Sunlu S8
+    contact: '<a href="sebastians_hub@gmx.de">sebastians_hub@gmx.de</a>'
+  - name: Pascal
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Oberhausen
+    capacity:
+      - 1x 3D Drucker
+      - 1x CNC Fräse
+    contact: '<a href="production@rumm.me">production@rumm.me</a>'
+  - name: Tom
+    country: Deutschland
+    # State / region is optional
+    state: Bayern
+    city: München
+    capacity:
+      - 1x Anycubic i3Mega
+    contact: '<a href="tom.weirig@gmail.com">tom.weirig@gmail.com</a>'
 # Copy the block above and repeat =)
