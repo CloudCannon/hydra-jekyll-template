@@ -249,11 +249,10 @@ de:
     # State / region is optional
     state:
     city: Initiativen
-    contact: '<a href="mailto:"></a>'
+    contact: '<a href="https://www.3dhubs.com/de/covid-19-fund/" target="_blank">Kontact und weitere Details</a>'
     capacity:
       - Schnellen Fertigung & Belieferung von essentiellen medizinischen Teilen
     we_offer:
-      - Unterstützt von COVID-19 Initiativen weltweit sowohl mit finanziellen Mitteln  
-      - '<a href="https://www.3dhubs.com/de/covid-19-fund/" target="_blank">More Details here</a>'
+      - Unterstützt von COVID-19 Initiativen weltweit sowohl mit finanziellen Mitteln
 
 # Copy the block above and repeat =)
