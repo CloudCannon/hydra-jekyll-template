@@ -37,6 +37,36 @@ en:
       - Packing and distributing to local humanitarian organisations
     we_offer:
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
+  - name: starke Franken
+    # Link is optional
+    link:
+    country: Germany
+    # State / region is optional
+    state: Bayern
+    city: Bamberg
+    contact: '<a href="mailto:Steffen@phake.de">Steffen@phake.de</a>'
+    capacity:
+      - 5x 3D-printer
+      - Lasercutter
+      - CNC Mill
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
+      - '<a href="https://www.thingiverse.com/thing:4233193" target="_blank">Easy shields</a>'
+  - name: Macherburg Makerspace
+    # Link is optional
+    link: https://macherburg.de/
+    country: Deutschland
+    # State / region is optional
+    state: Saxony-Anhalt
+    city: Magdeburg
+    contact: '<a href="mailto:SpencerDetje@googlemail.com">Spencer Detje SpencerDetje@googlemail.com</a>'
+    capacity:
+      - 1x Felix TEC
+      - 1x Prusa MK3S
+      - CNC Mill
+      - Mr. Beam Lasercutter
+    we_offer:
+      - '<a href="https://www.thingiverse.com/thing:4233193" target="_blank">Easy shields</a>'
 # Copy the block above and repeat =)
 de:
   - name: Hammertime Kassel
@@ -77,4 +107,34 @@ de:
       - Verpacken und Verteilen an lokale Kreisverbände von Hilfsorganisationen
     we_offer:
       - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
+  - name: starke Franken
+    # Link is optional
+    link:
+    country: Deutschland
+    # State / region is optional
+    state: Bayern
+    city: Bamberg
+    contact: '<a href="mailto:Steffen@phake.de">Steffen@phake.de</a>'
+    capacity:
+      - 5x 3D Drucker
+      - Lasercutter
+      - CNC Fräse
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a>'
+      - '<a href="https://www.thingiverse.com/thing:4233193" target="_blank">Easy shields</a>'
+  - name: Macherburg Makerspace
+    # Link is optional
+    link: https://macherburg.de/
+    country: Deutschland
+    # State / region is optional
+    state: Sachsen-Anhalt
+    city: Magdeburg
+    contact: '<a href="mailto:SpencerDetje@googlemail.com">Spencer Detje SpencerDetje@googlemail.com</a>'
+    capacity:
+      - 1x Felix TEC
+      - 1x Prusa MK3S
+      - CNC Fräse
+      - Mr. Beam Lasercutter
+    we_offer:
+      - '<a href="https://www.thingiverse.com/thing:4233193" target="_blank">Easy shields</a>'
   # Copy the block above and repeat =)
