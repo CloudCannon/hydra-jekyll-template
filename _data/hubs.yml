@@ -241,4 +241,19 @@ de:
     we_offer:
       - Alles auf Anfrage (mit Datei)
       - '<a href="https://www.thingiverse.com/thing:4224156" target="_blank">Corona Door Opener</a>'
+
+  - name: 3D Hubs
+    # Link is optional
+    link: https://www.3dhubs.com/de/covid-19-fund/
+    country: weltweit
+    # State / region is optional
+    state:
+    city: Initiativen
+    contact: '<a href="mailto:"></a>'
+    capacity:
+      - Schnellen Fertigung & Belieferung von essentiellen medizinischen Teilen
+    we_offer:
+      - Unterstützt von COVID-19 Initiativen weltweit sowohl mit finanziellen Mitteln  
+      - '<a href="https://www.3dhubs.com/de/covid-19-fund/" target="_blank">More Details here</a>'
+
 # Copy the block above and repeat =)
