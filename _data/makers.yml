@@ -57,7 +57,7 @@ en:
     capacity:
       - 2x 300x300 Drucker
       - 1x 225x225 Drucker
-    contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
+    contact: '<a href="mailto:info@covid19beistand.de">info@covid19beistand.de</a>'
   - name: Jan Fiedler
     country: Germany
     # State / region is optional
@@ -69,6 +69,22 @@ en:
       - 1x CNC Fräse (Plastike/Holz)
       - Koordination und Organisation
     contact: '<a href="mailto:jrvf81@gmail.com">jrvf81@gmail.com</a>'
+  - name: 3D-Druck Nordhessen
+    country: Deutschland
+    # State / region is optional
+    state: Hessen
+    city: Kassel
+    capacity:
+      - Druckteile für die Prusa RC Masken
+    contact: '<a href="mailto:3ddruck.nordhessen@gmail.com">3ddruck.nordhessen@gmail.com</a>'
+  - name: Sven Ziegler
+    country: Deutschland
+    # State / region is optional
+    state: Hessen
+    city: Kassel
+    capacity:
+      - Druckteile für die Prusa RC2 Masken
+    contact: '<a href="mailto:svenzieg@gmx.de">svenzieg@gmx.de</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -138,7 +154,7 @@ de:
     capacity:
       - 2x 300x300 Drucker
       - 1x 225x225 Drucker
-    contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
+    contact: '<a href="mailto:info@covid19beistand.de">info@covid19beistand.de</a>'
   - name: Jan Fiedler
     country: Deutschland
     # State / region is optional
@@ -161,4 +177,20 @@ de:
 #      - MP CNC-Fräse
 #      - K40 Lasercutter
 #    contact: '<a href="mailto:jrvf81@gmail.com">jrvf81@gmail.com</a>'
+  - name: 3D-Druck Nordhessen
+    country: Deutschland
+    # State / region is optional
+    state: Hessen
+    city: Kassel
+    capacity:
+      - Druckteile für die Prusa RC Masken
+    contact: '<a href="mailto:3ddruck.nordhessen@gmail.com">3ddruck.nordhessen@gmail.com</a>'
+  - name: Sven Ziegler
+    country: Deutschland
+    # State / region is optional
+    state: Hessen
+    city: Kassel
+    capacity:
+      - Druckteile für die Prusa RC2 Masken
+    contact: '<a href="mailto:svenzieg@gmx.de">svenzieg@gmx.de</a>'
 # Copy the block above and repeat =)
