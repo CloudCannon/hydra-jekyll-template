@@ -11,6 +11,8 @@ en:
     their (self) produced items for free or at cost price.
   offer_header: |
     For people and organisations in need
+  offer_registration: |
+    Registier as a Hub <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXCnK1oEQh5l_5kfUDHrEDJV2M7BkVJUylFiMwsxF_K2yHLQ/viewform"_blank">here</a>.
   offer_description: |
     Find Makers and Makerspaces in the list below and contact them with
     your needs:
@@ -37,6 +39,11 @@ en:
     Capacity
   support_table_contact: |
     Contact
+
+  support_registration: |
+    Als lokaler Maker unterstützt du deinen regionalen Hub! Sagst was du leisten kannst und schickst die Teile dann auch dort hin. <br>
+    Registiere dich <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIqflF3iAowqptV4zxMkg26spX41nKoNum_SSXNGwNyxVz0A/viewform" _blank">hier</a> als Maker.
+
   support_description: |
     <p>We're looking for people who:</p>
     <ul>
@@ -73,8 +80,11 @@ de:
     <strong>Bitte beachte: </strong> Wir führen nur Iniativen auf, die ihre (selbst) produzierten Artikel kostenlos oder zum Selbstkostenpreis anbieten.
   offer_header: |
     Für Menschen und Organisationen in Not
+  offer_registration: |
+    Registiere dich als Hub <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXCnK1oEQh5l_5kfUDHrEDJV2M7BkVJUylFiMwsxF_K2yHLQ/viewform"_blank">hier</a>.
   offer_description: |
-    Finde Maker und Makerspaces in der unten stehenden Liste und kontaktiere sie mit deinem Bedarf:
+    Ein Hub ist ein Zusammenschluss von Makern mit Koordinations - und Leitungswillen, evtl. sogar Lagerkapazität für eine zentrale Verteilung.
+    Finde Hubs in der unten stehenden Liste und kontaktiere sie mit deinem Bedarf:
   offer_table_name: |
     Name
   offer_table_location: |
@@ -97,6 +107,11 @@ de:
     Kontakt
   support_table_contact: |
     Contact
+
+  support_registration: |
+    Als lokaler Maker unterstützt du deinen regionalen Hub! Sagst was du leisten kannst und schickst die Teile dann auch dort hin. <br>
+    Registiere dich <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIqflF3iAowqptV4zxMkg26spX41nKoNum_SSXNGwNyxVz0A/viewform" _blank">hier</a> als Maker.
+
   support_description: |
     <p>Wir suchen nach Leuten, die:</p>
     <ul>
