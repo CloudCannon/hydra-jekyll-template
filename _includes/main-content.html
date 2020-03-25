@@ -93,7 +93,27 @@
 
 				<p>{{site.data.lang[page.lang].support_registration}}</p>
 
+				<!--
+				Wir suchen Leute, die:
+					- 3D-Drucke machen
+					- einen Laser-Cutter zur Verfügung haben
+					- bei der Logistik helfen wollen
+					- bei der Organisation helfen wollen
+
+					Das Ziel ist, dass sich Menschen selbstorganisiert zu lokal produzierenden Hubs zusammenfinden, die wir auf
+					dieser Website auflisten können. Dafür bieten wir den folgenden Slack workspace an, um Mitstreiter zu finden
+					oder existierende hilfsbedürftige Hubs zu unterstützen:
+					 BUTTON
+					Wenn ihr euch als Hub eintragen wollt, schreibt bitte im Slack channels namens "Register Hub".
+					-->
 				{{site.data.lang[page.lang].support_description}}
+
+				<br>
+				<div class="button">
+					<a style="background: {{ plan.color }}"
+					href="{{site.slack_invite_link}}" target="_blank">
+					{{site.data.lang[page.lang].support_join_slack}}</a>
+				</div>
 
 				<table class="default-table">
 					<thead>
@@ -131,26 +151,6 @@
 						{% endfor %}
 					</tbody>
 				</table>
-				<!--
-				Wir suchen Leute, die:
-					- 3D-Drucke machen
-					- einen Laser-Cutter zur Verfügung haben
-					- bei der Logistik helfen wollen
-					- bei der Organisation helfen wollen
-
-					Das Ziel ist, dass sich Menschen selbstorganisiert zu lokal produzierenden Hubs zusammenfinden, die wir auf
-					dieser Website auflisten können. Dafür bieten wir den folgenden Slack workspace an, um Mitstreiter zu finden
-					oder existierende hilfsbedürftige Hubs zu unterstützen:
-					 BUTTON
-					Wenn ihr euch als Hub eintragen wollt, schreibt bitte im Slack channels namens "Register Hub".
-					-->
-
-				<br>
-				<div class="button">
-					<a style="background: {{ plan.color }}"
-					href="{{site.slack_invite_link}}" target="_blank">
-					{{site.data.lang[page.lang].support_join_slack}}</a>
-				</div>
 			</div>
 		</div>
 	</section>
