@@ -87,6 +87,20 @@ en:
       - Lasercutting
       - Tiefziehen
       - Konstruktion Reverse Engineering
+  - name: Erfindergarden, Andrea Kopp
+    # Link is optional
+    link: erfindergarden.de
+    country: Deutschland
+    # State / region is optional
+    state: Bayern
+    city: München
+    contact: '<a href="mailto:andreas@erfindergarden.de">andreas@erfindergarden.de</a>'
+    capacity:
+      - FabLab
+    we_offer:
+      - FabLab
+      - '<a href="https://www.facebook.com/groups/220120426011912/" target="_blank">Facebook-Gruppe für Bayern</a>'
+      - '<a href="https://forums.erfindergarden.de/" target="_blank">Forums Erfindergarden/</a>'      
 # Copy the block above and repeat =)
 de:
   - name: Hammertime Kassel
@@ -177,5 +191,18 @@ de:
       - Lasercutting
       - Tiefziehen
       - Konstruktion Reverse Engineering
-
+  - name: Erfindergarden, Andrea Kopp
+    # Link is optional
+    link: erfindergarden.de
+    country: Deutschland
+    # State / region is optional
+    state: Bayern
+    city: München
+    contact: '<a href="mailto:andreas@erfindergarden.de">andreas@erfindergarden.de</a>'
+    capacity:
+      - FabLab
+    we_offer:
+      - FabLab
+      - '<a href="https://www.facebook.com/groups/220120426011912/" target="_blank">Facebook-Gruppe für Bayern</a>'
+      - '<a href="https://forums.erfindergarden.de/" target="_blank">Forums Erfindergarden/</a>'
   # Copy the block above and repeat =)

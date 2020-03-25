@@ -95,7 +95,17 @@ en:
       - 1x lasercutter (glowforge)
       - 1x tiefziehen (vaquform)
       - diverse materialien u.a. antibakterielles 3ddruck-filament!
-    contact: '<a href="mailto:contact@schererdesign.com">contact@schererdesign.com</a>'    
+    contact: '<a href="mailto:contact@schererdesign.com">contact@schererdesign.com</a>'
+  - name: Kevin Künzel
+    country: Deutschland
+    # State / region is optional
+    state: Saalfeld-Rudolstadt
+    city: Thüringen
+    capacity:
+      - 2 Drucker+1
+      - MPCNC+
+      - Freiwillige zum Folie Schneiden
+    contact: '<a href="mailto:mail@kevkue.de">mail@kevkue.de</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -215,4 +225,14 @@ de:
       - 1x tiefziehen (vaquform)
       - diverse materialien u.a. antibakterielles 3ddruck-filament!
     contact: '<a href="mailto:contact@schererdesign.com">contact@schererdesign.com</a>'
+  - name: Kevin Künzel
+    country: Deutschland
+    # State / region is optional
+    state: Saalfeld-Rudolstadt
+    city: Thüringen
+    capacity:
+      - 2 Drucker+1
+      - MPCNC+
+      - Freiwillige zum Folie Schneiden
+    contact: '<a href="mailto:mail@kevkue.de">mail@kevkue.de</a>'
 # Copy the block above and repeat =)
