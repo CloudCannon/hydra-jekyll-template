@@ -151,6 +151,15 @@ en:
       - 1x Ultimaker S5
       - 1x Epilog Zing 24 Lasercutter
     contact: '<a href="mailto:arno.petri@fds-limburg.de">arno.petri@fds-limburg.de</a>'
+  - name: Daniel Zefferer
+    country: Deutschland
+    # State / region is optional
+    state: Rheinland-Pfalz
+    city: Vettelschoß
+    capacity:
+      - 3x FDM-Drucker
+      - Savegrabber und Masken
+    contact: '<a href="mailto:zefferer79@gmail.com">zefferer79@gmail.com</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -315,4 +324,13 @@ de:
       - 1x Ultimaker S5
       - 1x Epilog Zing 24 Lasercutter
     contact: '<a href="mailto:arno.petri@fds-limburg.de">arno.petri@fds-limburg.de</a>'
+  - name: Daniel Zefferer
+    country: Deutschland
+    # State / region is optional
+    state: Rheinland-Pfalz
+    city: Vettelschoß
+    capacity:
+      - 3x FDM-Drucker
+      - Savegrabber und Masken
+    contact: '<a href="mailto:zefferer79@gmail.com">zefferer79@gmail.com</a>'
 # Copy the block above and repeat =)
