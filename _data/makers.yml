@@ -32,6 +32,43 @@ en:
     capacity:
       - 1x MakerBot Replicator+
     contact: '<a href="mailto:Meyermarkos@outlook.de">Meyermarkos@outlook.de</a>'
+  - name: Florian Bittner
+    country: Austria
+    # State / region is optional
+    state:
+    city: Wien
+    capacity:
+      - 1x Prusa MK3S
+      - Contact to many Maker/Hacker-Spaces and 3D-printing companies
+    contact: '<a href="mailto:f@gebenedeit.at ">f@gebenedeit.at </a>'
+  - name: Floyd
+    country: Germany
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Frechen (neben Köln)
+    capacity:
+      - 1x 3D-Drucker
+    contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
+  - name: Rene Westphal
+    country: Germany
+    # State / region is optional
+    state:
+    city: Osnabrück
+    capacity:
+      - 2x 300x300 Drucker
+      - 1x 225x225 Drucker
+    contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
+  - name: Jan Fiedler
+    country: Germany
+    # State / region is optional
+    state: Hamburg
+    city: Hamburg
+    capacity:
+      - 2x 3D-Drucker
+      - 1x 225x225 Drucker
+      - 1x CNC Fräse (Plastike/Holz)
+      - Koordination und Organisation
+    contact: '<a href="mailto:jrvf81@gmail.com">jrvf81@gmail.com</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -67,4 +104,61 @@ de:
     capacity:
       - 1x MakerBot Replicator+
     contact: '<a href="mailto:Meyermarkos@outlook.de">Meyermarkos@outlook.de</a>'
+  - name: Florian Bittner
+    country: Österreich
+    # State / region is optional
+    state:
+    city: Wien
+    capacity:
+      - 1x Prusa MK3S
+      - Kontakt zu vielen Maker/Hacker-Spaces und 3D-Drucker Firmen
+    contact: '<a href="mailto:f@gebenedeit.at">f@gebenedeit.at </a>'
+  - name: Floyd
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Frechen (neben Köln)
+    capacity:
+      - 1x 3D-Drucker
+    contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
+#  - name: Arno Petri
+#    country: Deutschland
+    # State / region is optional
+#    state: Hessen
+#    city: Limburg an der Lahn
+#    capacity:
+#      - 1x Ultimaker S5
+#      - 1x Epilog Zing 24 Lasercutter
+#    contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
+  - name: Rene Westphal
+    country: Deutschland
+    # State / region is optional
+    state:
+    city: Osnabrück
+    capacity:
+      - 2x 300x300 Drucker
+      - 1x 225x225 Drucker
+    contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
+  - name: Jan Fiedler
+    country: Deutschland
+    # State / region is optional
+    state: Hamburg
+    city: Hamburg
+    capacity:
+      - 2x 3D-Drucker
+      - 1x 225x225 Drucker
+      - 1x CNC Fräse (Plastike/Holz)
+      - Koordination und Organisation
+    contact: '<a href="mailto:jrvf81@gmail.com">jrvf81@gmail.com</a>'
+#  - name: Carsten Weber
+#    country: Deutschland
+    # State / region is optional
+#    state: Rheinland-Pfalz
+#    city: Eppelsheim
+#    capacity:
+#      - 3 FDM
+#      - 1 SLA
+#      - MP CNC-Fräse
+#      - K40 Lasercutter
+#    contact: '<a href="mailto:jrvf81@gmail.com">jrvf81@gmail.com</a>'
 # Copy the block above and repeat =)
