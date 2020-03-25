@@ -142,6 +142,15 @@ en:
     capacity:
       - 1x Anycubic i3Mega
     contact: '<a href="tom.weirig@gmail.com">tom.weirig@gmail.com</a>'
+  - name: Arno Petri
+    country: Deutschland
+    # State / region is optional
+    state: Hessen
+    city: Limburg an der Lahn
+    capacity:
+      - 1x Ultimaker S5
+      - 1x Epilog Zing 24 Lasercutter
+    contact: '<a href="mailto:arno.petri@fds-limburg.de">arno.petri@fds-limburg.de</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -194,15 +203,6 @@ de:
     capacity:
       - 1x 3D-Drucker
     contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
-#  - name: Arno Petri
-#    country: Deutschland
-    # State / region is optional
-#    state: Hessen
-#    city: Limburg an der Lahn
-#    capacity:
-#      - 1x Ultimaker S5
-#      - 1x Epilog Zing 24 Lasercutter
-#    contact: '<a href="mailto:Floyd.schramm@gmail.com">Floyd.schramm@gmail.com</a>'
   - name: Rene Westphal
     country: Deutschland
     # State / region is optional
@@ -306,4 +306,13 @@ de:
     capacity:
       - 1x Anycubic i3Mega
     contact: '<a href="tom.weirig@gmail.com">tom.weirig@gmail.com</a>'
+  - name: Arno Petri
+    country: Deutschland
+    # State / region is optional
+    state: Hessen
+    city: Limburg an der Lahn
+    capacity:
+      - 1x Ultimaker S5
+      - 1x Epilog Zing 24 Lasercutter
+    contact: '<a href="mailto:arno.petri@fds-limburg.de">arno.petri@fds-limburg.de</a>'
 # Copy the block above and repeat =)
