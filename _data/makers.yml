@@ -168,6 +168,15 @@ en:
     capacity:
       - 1x FDM 22x22
     contact: '<a href="mailto:Felix_fh@gmx.de">Felix_fh@gmx.de</a>'
+  - name: Matthias Oehme
+    country: Deutschland
+    # State / region is optional
+    state: Hamburg
+    city: Hamburg
+    capacity:
+      - Organisation
+      - 2 Prusa Masken am Tag herstellen
+    contact: '<a href="mailto:gesichtsschutz.hamburg@gmail.com">gesichtsschutz.hamburg@gmail.com</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -349,4 +358,13 @@ de:
     capacity:
       - 1x FDM 22x22
     contact: '<a href="mailto:Felix_fh@gmx.de">Felix_fh@gmx.de</a>'
+  - name: Matthias Oehme
+    country: Deutschland
+    # State / region is optional
+    state: Hamburg
+    city: Hamburg
+    capacity:
+      - Organisation
+      - 2 Prusa Masken am Tag herstellen
+    contact: '<a href="mailto:gesichtsschutz.hamburg@gmail.com">gesichtsschutz.hamburg@gmail.com</a>'
 # Copy the block above and repeat =)
