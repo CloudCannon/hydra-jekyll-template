@@ -177,6 +177,14 @@ en:
       - Organisation
       - 2 Prusa Masken am Tag herstellen
     contact: '<a href="mailto:gesichtsschutz.hamburg@gmail.com">gesichtsschutz.hamburg@gmail.com</a>'
+  - name: Andre Schmitz
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Kreis Heinsberg
+    capacity:
+      - Transport in Kreis Heinsberg
+    contact: '<a href="mailto:andre.schmitz@web.de">andre.schmitz@web.de</a>'
 # Copy the block above and repeat =)
 de:
   - name: Carsten
@@ -367,4 +375,12 @@ de:
       - Organisation
       - 2 Prusa Masken am Tag herstellen
     contact: '<a href="mailto:gesichtsschutz.hamburg@gmail.com">gesichtsschutz.hamburg@gmail.com</a>'
+  - name: Andre Schmitz
+    country: Deutschland
+    # State / region is optional
+    state: Nordrhein-Westfalen
+    city: Kreis Heinsberg
+    capacity:
+      - Transport in Kreis Heinsberg
+    contact: '<a href="mailto:andre.schmitz@web.de">andre.schmitz@web.de</a>'
 # Copy the block above and repeat =)
