@@ -100,7 +100,7 @@ en:
     we_offer:
       - FabLab
       - '<a href="https://www.facebook.com/groups/220120426011912/" target="_blank">Facebook-Gruppe für Bayern</a>'
-      - '<a href="https://forums.erfindergarden.de/" target="_blank">Forums Erfindergarden/</a>'
+      - '<a href="https://forums.erfindergarden.de/" target="_blank">Forum Erfindergarden</a>'
   - name: brigk Makerspace, Ingolstadt
     # Link is optional
     link: https://www.brigk.digital/makerspace
@@ -222,7 +222,7 @@ de:
     we_offer:
       - FabLab
       - '<a href="https://www.facebook.com/groups/220120426011912/" target="_blank">Facebook-Gruppe für Bayern</a>'
-      - '<a href="https://forums.erfindergarden.de/" target="_blank">Forums Erfindergarden/</a>'
+      - '<a href="https://forums.erfindergarden.de/" target="_blank">Forum Erfindergarden</a>'
     - name: brigk Makerspace, Ingolstadt
       # Link is optional
       link: https://www.brigk.digital/makerspace
