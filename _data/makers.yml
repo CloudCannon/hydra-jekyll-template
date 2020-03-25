@@ -311,14 +311,14 @@
     - 1x CR10S Pro (Bauraum 32x32x40 cm)
   contact: '<a href="phils3dprint@web.de">phils3dprint@web.de</a>'
 
-- name: Günter Nimmerfall
-  country: Österreich
+#- name: Günter Nimmerfall
+#  country: Österreich
   # State / region is optional
-  state:
-  city: Tirol
-  capacity:
-    - 4 Anycubic Mega i3 Drucker
-  contact: '<a href=""></a>'
+#  state:
+#  city: Tirol
+#  capacity:
+#    - 4 Anycubic Mega i3 Drucker
+#  contact: '<a href=""></a>'
 
 - name: Fabian
   country: Deutschland
@@ -328,5 +328,16 @@
   capacity:
     - 1x Prusa MK3
   contact: '<a href="fabian@opencode.eu">fabian@opencode.eu</a>'
+
+- name: Christian Nagel
+  country: Deutschland
+  # State / region is optional
+  state: Bayern
+  city: Herzogenaurach, Mittelfranken,
+  capacity:
+    - 3x FDM Drucker (220x220, 300x300, 330x330)
+    - 1x DLP Drucker
+    - 1x MPCNC Fräse (650x450)
+  contact: '<a href="christian.nagel1982@gmail.com">christian.nagel1982@gmail.com</a>'
 
 # Copy the block above and repeat =)
