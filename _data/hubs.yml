@@ -59,7 +59,7 @@ en:
     # State / region is optional
     state: Saxony-Anhalt
     city: Magdeburg
-    contact: '<a href="mailto:SpencerDetje@googlemail.com">Spencer Detje SpencerDetje@googlemail.com</a>'
+    contact: '<a href="mailto:spencerdetje@macherburg.de">Spencer Detje spencerdetje@macherburg.de</a>'
     capacity:
       - 1x Felix TEC
       - 1x Prusa MK3S
