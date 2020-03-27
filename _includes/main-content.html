@@ -11,6 +11,10 @@
 		Organistations-Team. -->
 		<p class="subtext editable">{{site.data.lang[page.lang].subtitle}}</p>
 
+		<div class="cta">
+			<span class="button alt"><a href="#need">{{site.data.lang[page.lang].cta_need}}</a></span>
+			<span class="button alt"><a href="#maker">{{site.data.lang[page.lang].cta_maker}}</a></span>
+		</div>
 		<!-- Wir listen ausschließlich Initiativen, die die (selbst) produzierten Dinge kostenlos oder
 		zum Selbstkostenpreis anbieten.-->
 		<p class="subtext editable">
@@ -23,12 +27,10 @@
 </section>
 
 <div class="content">
-	<section>
+	<section id="need">
 		<div class="container flex">
 			<div class="text editable">
 				<h2>{{site.data.lang[page.lang].offer_header}}</h2>
-
-				<p>{{site.data.lang[page.lang].offer_registration}}</p>
 
 				<p>{{site.data.lang[page.lang].offer_description}}</p>
 
@@ -85,7 +87,7 @@
 		</div>
 	</section>
 
-	<section>
+	<section id="maker">
 		<div class="container flex">
 			<div class="text editable">
 				<!-- Ich bin ein Maker / wir sind ein Makerspace und wollen helfen -->
@@ -94,6 +96,8 @@
 				<iframe src="https://www.google.com/maps/d/embed?mid=1Sc7ZRpHDt-98-SCrfmRuFZNbLtF3I-uf" width="100%" height="480"></iframe>
 
 				<p>{{site.data.lang[page.lang].support_registration}}</p>
+
+				<p>{{site.data.lang[page.lang].offer_registration}}</p>
 
 				<!--
 				Wir suchen Leute, die:
