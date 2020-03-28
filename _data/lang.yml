@@ -160,3 +160,10 @@ de:
     Liste ähnlicher Initiativen und Organisationen
   organizations_send_links: |
     Diese Liste ist unvollständig. Bitte sende uns deine Links im obigen Slack Workspace.
+  fund_raising_note: | 
+    Deine Spende geht an die gemeinnützige <a href="https://www.hammertimekassel.de/" target="_blank">
+    Hammertime Kassel gUG</a> und wird von dort aus an die Stellen verteilt, an denen es benötigt wird.
+    Sollte am Ende Geld übrig sein, werden wir es an den <a href="https://www.drk.de/spenden/corona-nothilfsfonds/"
+    target="_blank">Corona-Nothilfefonds des Deutschen Roten Kreuzes</a> weiter spenden. Weitere
+    Informationen zu Spenden erhältst du <a href="https://www.hammertimekassel.de/spenden/"
+    target="_blank">hier</a>.
