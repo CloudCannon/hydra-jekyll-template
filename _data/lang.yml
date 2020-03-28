@@ -130,14 +130,15 @@ de:
     Contact
 
   support_registration: |
-    Als <strong>lokaler Maker</strong> unterstützt du deinen regionalen Hub!<br>
-    Hier findest du lokale Ansprechpartner, Informationen und Unterstützung.<br>
-    Zum Loslegen fehlen nur zwei Schritte:<br>
-    Registiere dich <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIqflF3iAowqptV4zxMkg26spX41nKoNum_SSXNGwNyxVz0A/viewform" title="Registrierung als Maker">hier</a> als Maker.<br>
-    Melde dich im deutschlandweiten Slack an und trete dort unter "Channels" dem nächsten lokalen Hub bei.<br>
+    <p>Als <strong>lokaler Maker</strong> unterstützt du deinen regionalen Hub!<br>
+    Hier findest du lokale Ansprechpartner, Informationen und Unterstützung.</p>
+    <h3>Zum Loslegen fehlen nur zwei Schritte:</h3>
+    <ul>
+    <li>Registiere dich <strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIqflF3iAowqptV4zxMkg26spX41nKoNum_SSXNGwNyxVz0A/viewform" title="Registrierung als Maker">hier</a></strong> als Maker.</li>
+    <li>Melde dich im deutschlandweiten Slack an und trete dort unter "Channels" dem nächsten lokalen Hub bei.</li>
+    </ul>
 
   support_description: |
-
     <p>Wo noch nicht vorhanden, suchen wir noch regionale Hubs als Zusammenschluss von Makern zur dezentralen Koordination.</p>
     <p>Hier sprecht ihr euch untereinander ab, verteilt Material und Bedarfe, evtl. auch Lagerung und Verteilung.</p>
     <p><strong>Registriere dich als Hub hier.</strong></p>
