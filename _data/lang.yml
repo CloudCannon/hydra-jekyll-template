@@ -9,6 +9,12 @@ en:
     I need PPE
   cta_maker: |
     I can make & help
+  cta_donate: |
+    Donations
+  cta_donate_paypal: |
+      PayPal donation:
+  cta_donate_transfer: |
+      Transfer donation: coming soon.
   hint_non_profit: |
     <strong>Please note: </strong> We only list initiatives that offer
     their (self) produced items for free or at cost price.
@@ -64,6 +70,8 @@ en:
     </p>
   support_join_slack: |
     Join Slack
+  donate_header: |
+    Donations
   equipment_header: |
     List of protective equipment
   equipment_send_links: |
@@ -82,6 +90,12 @@ de:
     Ich habe Bedarf
   cta_maker: |
     Ich kann produzieren
+  cta_donate: |
+      Spenden
+  cta_donate_paypal: |
+      Per PayPal spenden:
+  cta_donate_transfer: |
+      Per Überweisung spenden: kommt demnächst.
   hint_non_profit: |
     <strong>Bitte beachte: </strong> Wir führen nur Iniativen auf, die ihre (selbst) produzierten Artikel kostenlos oder zum Selbstkostenpreis anbieten.
   offer_header: |
@@ -136,6 +150,8 @@ de:
     </p>
   support_join_slack: |
     Slack beitreten
+  donate_header: |
+    Spenden
   equipment_header: |
     Liste der Schutzausrüstung
   equipment_send_links: |
