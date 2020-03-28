@@ -130,24 +130,27 @@ de:
     Contact
 
   support_registration: |
-    Als <b>lokaler Maker</b> unterstützt du deinen regionalen Hub! Sagst was du leisten kannst und schickst die Teile dann auch dort hin. <br>
-    Registiere dich <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIqflF3iAowqptV4zxMkg26spX41nKoNum_SSXNGwNyxVz0A/viewform" _blank">hier</a> als Maker.
+    Als <strong>lokaler Maker</strong> unterstützt du deinen regionalen Hub!<br>
+    Hier findest du lokale Ansprechpartner, Informationen und Unterstützung.<br>
+    Zum Loslegen fehlen nur zwei Schritte:<br>
+    Registiere dich <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIqflF3iAowqptV4zxMkg26spX41nKoNum_SSXNGwNyxVz0A/viewform" title="Registrierung als Maker">hier</a> als Maker.<br>
+    Melde dich im deutschlandweiten Slack an und trete dort unter "Channels" dem nächsten lokalen Hub bei.<br>
 
   support_description: |
-    <p>Wir suchen nach Leuten, die:</p>
+
+    <p>Wo noch nicht vorhanden, suchen wir noch regionale Hubs als Zusammenschluss von Makern zur dezentralen Koordination.</p>
+    <p>Hier sprecht ihr euch untereinander ab, verteilt Material und Bedarfe, evtl. auch Lagerung und Verteilung.</p>
+    <p><strong>Registriere dich als Hub hier.</strong></p>
+    <p>Wir suchen nach Leuten, die:<br>
     <ul>
-      <li>3D Drucke fertigen</li>
-      <li>einen Lasercutter zur Verfügung haben (oder Schutzfolie manuell schneiden)</li>
-      <li>bei der Logistik helfen</li>
-      <li>bei der Planung / Organisation helfen</li>
-    </ul>
-    <p>
-      Ziel ist es, dass sich Menschen auf selbst organisiertem Weg verbinden um Produktionsmöglichkeiten (lokal oder international) zu schaffen.
-      Diese listen wir auf dieser Website. Dafür bieten wir den folgenden Slack Workspace um gleichgesinnte Maker
-      oder bestehende Zentren mit Unterstüzungsbedarf zu verbinden. Für die Kommunikation benutzen wir den Slack-Workspace.
-      <br>
-      <strong>Bitte beachte: </strong> Wir führen nur Iniativen auf, die ihre (selbst) produzierten Artikel kostenlos oder zum Selbstkostenpreis anbieten.
-    </p>
+    <li>3D Drucke fertigen</li>
+    <li>einen Lasercutter zur Verfügung haben (oder Schutzfolie manuell schneiden)</li>
+    <li>bei der Logistik helfen</li>
+    <li>bei der Planung / Organisation helfen</li>
+    </ul></p>
+    <p>Ziel ist es, dass sich Menschen lokal selbstorganisiert verbinden, um Produktionsmöglichkeiten zu schaffen. Diese bündeln wir übergreifend für den deutschsprachigen Raum. Für die Kommunikation nutzen wir den oben verlinken Slack Workspace.</p>
+    <p>Hier kommunizieren lokale Hubs untereinander und hier findet die zentrale Organisation statt.</p>
+    <p><strong>Bitte beachte:</strong> Wir führen nur Initiativen auf, die ihre (selbst) produzierten Artikel kostenlos oder zum Selbstkostenpreis anbieten.</p>
   support_join_slack: |
     Slack beitreten
   donate_header: |
@@ -160,7 +163,7 @@ de:
     Liste ähnlicher Initiativen und Organisationen
   organizations_send_links: |
     Diese Liste ist unvollständig. Bitte sende uns deine Links im obigen Slack Workspace.
-  fund_raising_note: | 
+  fund_raising_note: |
     Deine Spende geht an die gemeinnützige <a href="https://www.hammertimekassel.de/" target="_blank">
     Hammertime Kassel gUG</a> und wird von dort aus an die Stellen verteilt, an denen es benötigt wird.
     Sollte am Ende Geld übrig sein, werden wir es an den <a href="https://www.drk.de/spenden/corona-nothilfsfonds/"
