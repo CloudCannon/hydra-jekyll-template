@@ -242,6 +242,19 @@ de:
       - Alles auf Anfrage (mit Datei)
       - '<a href="https://www.thingiverse.com/thing:4224156" target="_blank">Corona Door Opener</a>'
 
+  - name: Hub-Ostschweiz
+    # Link is optional
+    link:
+    country: Schweiz
+    # State / region is optional
+    state: Thurgau
+    city: Engwilen
+    contact: '<a href="mailto:pascalrothe@email.de">Pascal Rothe pascalrothe@email.de</a>'
+    capacity:
+      - 3D-Drucker und Plotter
+    we_offer:
+      - '<a href="https://www.prusaprinters.org/prints/25857-protective-face-shield-rc2" target="_blank">Prusa Protective Face Shields</a> und weitere kompatible Modelle'
+
   - name: 3D Hubs
     # Link is optional
     link: https://www.3dhubs.com/de/covid-19-fund/
