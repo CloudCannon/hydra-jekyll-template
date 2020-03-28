@@ -107,6 +107,11 @@ section + section {
 	margin: 60px 0;
 }
 
+.cta .button.alt a {
+	padding: 16px 45px;
+	float: left;
+}
+
 .page h2 {
 	text-align: center;
 }
@@ -192,4 +197,10 @@ blockquote:before {
 		}
 	}
 
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
