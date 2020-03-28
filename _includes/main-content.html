@@ -14,8 +14,11 @@
 		<div class="cta">
 			<span class="button alt"><a href="#need">{{site.data.lang[page.lang].cta_need}}</a></span>
 			<span class="button alt"><a href="#maker">{{site.data.lang[page.lang].cta_maker}}</a></span>
+			<span class="button alt"><a href="#donate">{{site.data.lang[page.lang].cta_donate}}</a></span>
 			<div class="clearfix"></div>
 		</div>
+
+
 		<!-- Wir listen ausschließlich Initiativen, die die (selbst) produzierten Dinge kostenlos oder
 		zum Selbstkostenpreis anbieten.-->
 		<p class="subtext editable">
@@ -165,6 +168,27 @@
 
 				-->
 
+			</div>
+		</div>
+	</section>
+
+	<section id="donate">
+		<div class="container flex">
+			<div class="text editable">
+				<h2>{{site.data.lang[page.lang].donate_header}}</h2>
+				<div id="paypal">
+					<p>{{site.data.lang[page.lang].cta_donate_paypal}}</p>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="WPV9XMKVPRMTG" />
+<input type="image" src="http://www.walschutzaktionen.de/mediac/450_0/media/DIR_2929211/f2bc5538e8a5188dffff8048fffffff1.jpg" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button" />
+<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+				</div>
+				<div>
+					<p>{{site.data.lang[page.lang].cta_donate_transfer}}</p>
+				</div>
 			</div>
 		</div>
 	</section>
