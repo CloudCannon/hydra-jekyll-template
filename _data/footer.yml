@@ -1,4 +1,8 @@
 - links:
+  - name: Faq
+    link: /faq/
+  - name: Guides
+    link: /guides/
   - name: Imprint
     link: /imprint/
   - name: Privacy
