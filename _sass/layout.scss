@@ -208,3 +208,42 @@ blockquote:before {
   clear: both;
   display: table;
 }
+
+#offer-table-container {
+	overflow-x: auto;
+}
+
+#offer-table {
+  table-layout: fixed;
+  width: 1100px;
+}
+
+#offer-table-header {
+	background-color: #4182e4;
+	color: white;
+}
+
+#offer-table td {
+  padding: 10px;
+	list-style-type: none;
+}
+
+
+#offer-table td ul {
+  padding-left: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#offer-table td li {
+  padding-bottom: 10px;
+	list-style-type: none;
+}
+
+.offer-table-content:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.offer-table-content:hover {
+	background-color: #e8efff;
+}

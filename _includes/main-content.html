@@ -38,52 +38,110 @@
 
 				<p>{{site.data.lang[page.lang].offer_description}}</p>
 
-				<table class="default-table">
-					<thead>
-						<tr>
-							<th>{{site.data.lang[page.lang].offer_table_name}}</th>
-					    <th>{{site.data.lang[page.lang].offer_table_location}}</th>
-					    <th>{{site.data.lang[page.lang].offer_table_offer}}</th>
-              <th>{{site.data.lang[page.lang].offer_table_capacity}}</th>
-					    <th>{{site.data.lang[page.lang].offer_table_contact}}</th>
-						</tr>
-					</thead>
-					<tbody>
-						{% for hub in site.data.hubs[page.lang] %}
-					  		<tr>
-  								<td>
-  									{% if hub.link And hub.link != '' %}
-  										<a href="{{hub.link}}" target="_blank">{{hub.name}}</a>
-  									{% else %}
-  										{{hub.name}}
-  									{% endif %}
-  								</td>
-  								<td>
-  									{{hub.city}},
-  									{% if hub.state And hub.state != '' %}
-  										{{hub.state}},
-  									{% endif %}
-  									{{hub.country}}
-  						    </td>
-  						    <td>
-  									<ul>
-  										{% for offer in hub.we_offer %}
-  											<li>{{offer}}</li>
-  										{% endfor %}
-  									</ul>
-  								</td>
-                  <td>
-										<ul>
-											{% for capacity in hub.capacity %}
-												<li>{{capacity}}</li>
-											{% endfor %}
-										</ul>
-									</td>
-						    	<td>{{hub.contact}}</td>
-					  		</tr>
-						{% endfor %}
-					</tbody>
-				</table>
+				<div id="offer-table-container">
+					<table class="default-table" id="offer-table">
+
+						<thead>
+							<tr id="offer-table-header">
+								<th>{{site.data.lang[page.lang].offer_table_name}}</th>
+						    <th>{{site.data.lang[page.lang].offer_table_location}}</th>
+						    <th>{{site.data.lang[page.lang].offer_table_offer}}</th>
+							</tr>
+						</thead>
+
+						{% assign old_hubs = site.data.oldhubs %}
+						{% assign new_hubs = site.data.MakerVsVirusHUBS %}
+						{% assign hubs = old_hubs | concat: new_hubs %}
+
+						<tbody>
+								{% for row in hubs %}
+									<tr class="offer-table-content">
+	  								<td>
+											<div>
+												<b>{{site.data.lang[page.lang].offer_table_content_name}}</b><br>
+												{% assign lowercase_homepage = row['Homepage'] | downcase %}
+												{% if lowercase_homepage contains "http" or lowercase_homepage contains "www" or lowercase_homepage contains "https" %}
+													<a href="{{ row['Homepage'] }}" target="_blank">{{ row['Name des Hubs'] }}</a>
+												{% else %}
+													{{row['Name des Hubs']}}
+												{% endif %}
+												<br><br>
+											</div>
+											<div>
+												<b>{{site.data.lang[page.lang].offer_table_content_contact}}</b>
+												{% assign contacts = row['Kontakt'] | split: ", " %}
+												<ul>
+													{% for contact in contacts %}
+														<li>
+															{% assign lowercase_contact = contact | downcase %}
+															{% if "email,e-mail,mail,e mail" contains lowercase_contact %}
+																<a href="mailto:{{ row['Nutzername'] }}" target="_blank">{{ row['Nutzername'] }}</a>
+															{% elsif contact contains "@" and contact contains "." %}
+																<a href="mailto:{{ contact }}" target="_blank">{{ contact }}</a>
+															{% elsif contact contains "http" or contact contains "www" %}
+																<a href="{{ contact }}" target="_blank">{{ contact }}</a>
+															{% else %}
+																{{ contact }}
+															{% endif %}
+														</li>
+													{% endfor %}
+												</ul>
+												</div>
+	  								</td>
+	  								<td>
+											<ul>
+												{% if row['Addresse (für Anlieferung)'] and row['Addresse (für Anlieferung)'] != empty %}
+													<li>
+														<!-- # Liefern an -->
+														<b>{{site.data.lang[page.lang].offer_table_content_shipping}}</b><br>
+				  									{{ row['Addresse (für Anlieferung)'] }}
+													</li>
+												{% endif %}
+												<li>
+													<!-- # Standort -->
+													<b>{{site.data.lang[page.lang].offer_table_content_location}}</b><br>
+			  									{% if row['Hub Standort - Stadt'] and row['Hub Standort - Stadt'] != empty %}
+			  										{{ row['Hub Standort - Stadt'] }},
+													{% endif %}
+			  									{% if row['Hub Standort - Bundesland'] and row['Hub Standort - Bundesland'] != empty %}
+														{% assign lowercase_state = row['Hub Standort - Bundesland'] | strip %}
+														{% if lowercase_state == "NRW" or lowercase_state == "Nordrhein Westfalen" %}
+															Nordrhein-Westfalen,
+														{% elsif row['Hub Standort - Bundesland'] == "BW" %}
+															Baden-Württemberg,
+														{% else %}
+															{{ row['Hub Standort - Bundesland'] }},
+														{% endif %}
+			  									{% endif %}
+			  									{{row['Hub Standort - Land']}}
+												</li>
+											</ul>
+	  								</td>
+	                  <td>
+											{% if row['Wir bieten'] and row['Wir bieten'] != empty %}
+												<b>{{site.data.lang[page.lang].offer_table_content_offer}}</b>
+												{% assign offers = row['Wir bieten'] | split: ", " %}
+												<ul>
+													{% for offer in offers %}
+														<li>{{ offer }}</li>
+													{% endfor %}
+												</ul>
+											{% endif %}
+											{% if row['Kapazitäten'] and row['Kapazitäten'] != empty %}
+												<b>{{site.data.lang[page.lang].offer_table_content_capacity}}</b>
+												{% assign capacities = row['Kapazitäten'] | split: ", " %}
+												<ul>
+													{% for capacity in capacities %}
+														<li>{{ capacity }}</li>
+													{% endfor %}
+												</ul>
+											{% endif %}
+	  						    </td>
+						  		</tr>
+								{% endfor %}
+						</tbody>
+					</table>
+				</div>
 				<p>
 					{{site.data.lang[page.lang].offer_disclaimer}}
 				</p>
