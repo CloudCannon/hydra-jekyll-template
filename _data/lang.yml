@@ -35,6 +35,18 @@ en:
     Capacity
   offer_table_contact: |
     Contact
+  offer_table_content_name: |
+    Name:
+  offer_table_content_contact: |
+    Contact:
+  offer_table_content_location: |
+    Location:
+  offer_table_content_shipping: |
+    Ship to:
+  offer_table_content_offer: |
+    We offer:
+  offer_table_content_capacity: |
+    Capacity:
   offer_disclaimer: |
     Note that we refuse liability for damages to things or persons arising
     from the use of items created by third parties.
@@ -116,6 +128,18 @@ de:
     Kapazitäten
   offer_table_contact: |
     Kontakt
+  offer_table_content_name: |
+    Name:
+  offer_table_content_contact: |
+    Kontakt:
+  offer_table_content_location: |
+    Standort:
+  offer_table_content_shipping: |
+    Liefern an:
+  offer_table_content_offer: |
+    Wir bieten:
+  offer_table_content_capacity: |
+    Kapazitäten:
   offer_disclaimer: |
     Bitte beachte, dass wir keine Haftung übernehmen für Schäden an Dingen oder Personen, die durch die Verwendung von Artikeln von Dritten entstehen können.
   support_header: |
@@ -160,7 +184,7 @@ de:
     Liste ähnlicher Initiativen und Organisationen
   organizations_send_links: |
     Diese Liste ist unvollständig. Bitte sende uns deine Links im obigen Slack Workspace.
-  fund_raising_note: | 
+  fund_raising_note: |
     Deine Spende geht an die gemeinnützige <a href="https://www.hammertimekassel.de/" target="_blank">
     Hammertime Kassel gUG</a> und wird von dort aus an die Stellen verteilt, an denen es benötigt wird.
     Sollte am Ende Geld übrig sein, werden wir es an den <a href="https://www.drk.de/spenden/corona-nothilfsfonds/"
