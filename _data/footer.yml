@@ -1,8 +1,12 @@
 - links:
-  - name: Faq
+  - name: Code of Conduct
+    link: /codeofconduct/
+  - name: FAQ
     link: /faq/
   - name: Guides
     link: /guides/
+  - name: Presse
+    link: /press/
   - name: Imprint
     link: /imprint/
   - name: Privacy
