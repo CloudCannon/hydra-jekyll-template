@@ -75,9 +75,9 @@
 														<li>
 															{% assign lowercase_contact = contact | downcase %}
 															{% if "email,e-mail,mail,e mail" contains lowercase_contact %}
-																<a href="mailto:{{ row['Nutzername'] }}" target="_blank">{{ row['Nutzername'] }}</a>
+																{{ row['Nutzername'] replace: "@", "[at]" }}
 															{% elsif contact contains "@" and contact contains "." %}
-																<a href="mailto:{{ contact }}" target="_blank">{{ contact }}</a>
+																{{ contact | replace: "@", "[at]" }}
 															{% elsif contact contains "http" or contact contains "www" %}
 																<a href="{{ contact }}" target="_blank">{{ contact }}</a>
 															{% else %}
