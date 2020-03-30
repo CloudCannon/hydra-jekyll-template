@@ -1,3 +1,8 @@
+---
+layout: none
+permalink: _redirects
+---
 /  /de/  301!  Language=de,de-de,de-DE,de_DE
 /  /en/  301   Language=en
 /  /de/  301
+/l/slack {{site.slack_invite_link}} 301
