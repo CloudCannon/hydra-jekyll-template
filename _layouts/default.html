@@ -9,6 +9,7 @@
 		{% feed_meta %}
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+		<link rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
 
 		<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
@@ -19,6 +20,9 @@
 		<meta name="theme-color" content="#ffffff">
 		<meta name="google-site-verification" content="xS8QJX0WlXVwL2mfyQGM-fJE5rYrc5EqonRzcwEql9k" />
 		<meta name="google-site-verification" content="google-site-verification=xS8QJX0WlXVwL2mfyQGM-fJE5rYrc5EqonRzcwEql9k">
+
+		<script src="//ajax.googleapis.com/ajax/libs/d3js/5.15.0/d3.min.js"></script>
+		<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 
 		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
 			<script>
@@ -62,6 +66,7 @@
 		<script>
 			document.getElementById("open-nav").onclick = function () {
 				document.body.classList.toggle("nav-open");
+		    	$('#offer-table').DataTable();
 				return false;
 			};
 		</script>
