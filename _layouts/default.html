@@ -65,7 +65,13 @@
 		</footer>
 		<script>
 			$(document).ready( function () {
-		    	$('#offer-table').DataTable();
+			    	$('#offer-table').DataTable(
+					{
+        "language": {
+            "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/German.json"
+        }
+    }
+				);
 			} );
 			document.getElementById("open-nav").onclick = function () {
 				document.body.classList.toggle("nav-open");
