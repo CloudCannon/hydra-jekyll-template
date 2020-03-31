@@ -64,9 +64,11 @@
 			</div>
 		</footer>
 		<script>
+			$(document).ready( function () {
+		    	$('#offer-table').DataTable();
+			} );
 			document.getElementById("open-nav").onclick = function () {
 				document.body.classList.toggle("nav-open");
-		    	$('#offer-table').DataTable();
 				return false;
 			};
 		</script>
