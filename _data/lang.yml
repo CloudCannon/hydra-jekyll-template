@@ -96,7 +96,7 @@ de:
   title: |
     Unsere Maker Skills gegen Corona
   subtitle: |
-    Wir bringen Menschen/Organisationen zusammen, die dringend Schutzausrüstung oder Ersatzteile brauchen,
+    Wir bringen Menschen/Organisationen zusammen, die dringend Ausrüstung oder Ersatzteile brauchen,
     und Maker und Makerspaces, die diese produzieren können.
   cta_need: |
     Ich habe Bedarf
@@ -181,7 +181,7 @@ de:
   donate_header: |
     Spenden
   equipment_header: |
-    Liste der Schutzausrüstung
+    Liste der Ausrüstung
   equipment_send_links: |
     Diese Liste ist unvollständig. Bitte sende uns deine Links im obigen Slack Workspace.
   organizations_header: |
