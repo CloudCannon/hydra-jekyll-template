@@ -1,5 +1,5 @@
-- name: Pricing
-  link: /pricing/
+- name: give
+  link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DDNN7VEK2PNWW&source=url
   new_window: false
   highlight: false
 - name: Blog
