@@ -39,7 +39,9 @@
 				<p>{{site.data.lang[page.lang].offer_description}}</p>
 
 				<p><iframe src="https://www.google.com/maps/d/embed?mid=1Sc7ZRpHDt-98-SCrfmRuFZNbLtF3I-uf" width="100%" height="480"></iframe></p>
-
+				<p>
+					Nach Ort sortieren: <input type="input" id="search_addr_inp"> <input type="button" id="add_search" value="Search">
+				</p>
 				<div id="offer-table-container">
 
 					<table class="default-table" id="offer-table">
@@ -49,6 +51,8 @@
 								<th>{{site.data.lang[page.lang].offer_table_name}}</th>
 						    	<th>{{site.data.lang[page.lang].offer_table_location}}</th>
 						    	<th>{{site.data.lang[page.lang].offer_table_offer}}</th>
+								<th>latlon</th>
+								<th>distance</th>
 							</tr>
 						</thead>
 
@@ -140,6 +144,8 @@
 												</ul>
 											{% endif %}
 	  						    </td>
+								<td>{% if row['LatLon'] and row['LatLon'] != empty %}{{ row['LatLon'] }}{% endif %}</td>
+								<td></td>
 						  		</tr>
 								{% endfor %}
 						</tbody>
