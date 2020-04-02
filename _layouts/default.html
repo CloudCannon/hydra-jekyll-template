@@ -77,13 +77,62 @@
 		</footer>
 		<script>
 			$(document).ready( function () {
-			    	$('#offer-table').DataTable(
-					{
-        "language": {
-            "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/German.json"
-        }
-    }
-				);
+			    	offers = $('#offer-table').DataTable(
+						{
+							"language": {
+								"url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/German.json"
+							},
+							"columnDefs": [
+								{
+									"targets": [ 3 ],
+									"visible": false,
+									"searchable": false
+								},
+								{
+									"targets": [ 4 ],
+									"visible": false,
+									"searchable": false
+								}
+							]
+						}
+					);
+				 	$('#add_search').click( function () {
+						var input = $("#search_addr_inp")[0].value
+						var query = "q=" + encodeURIComponent(input);
+						if ($.isNumeric(input)) {
+							query="country=germany&postalcode=" + input;
+						}
+						$.ajax({
+							url: "https://nominatim.openstreetmap.org/search?format=json&" + query
+							})
+						  	.done(function( data ) {
+								console.log(data[0].display_name);
+								$("#search_addr_inp")[0].value = data[0].display_name;
+								var x_tgt = data[0].lat;
+								var y_tgt =data[0].lon;
+								//var latlon_tgt = "48.1045885,11.5746896"
+								//var x_tgt = latlon_tgt.split(",")[0]
+								//var y_tgt = latlon_tgt.split(",")[1]
+								offers.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+									var latlon = new String(this.cell(rowIdx,3).data());
+									if (latlon != "") {
+										var x = latlon.split(",")[0]
+										var y = latlon.split(",")[1]
+										var dx = x_tgt - x;
+										var dy = y_tgt - y;
+										var distance = Math.sqrt(dx * dx + dy * dy);
+										this.cell(rowIdx, 4 ).data(distance).draw();
+									} else {
+										this.cell(rowIdx, 4 ).data(99999).draw();
+									}
+									offers.columns(4).order("asc");
+									// ... do something with data(), or this.node(), etc
+								} );
+
+						  	});
+						return false;
+						});
+
 			} );
 			document.getElementById("open-nav").onclick = function () {
 				document.body.classList.toggle("nav-open");
