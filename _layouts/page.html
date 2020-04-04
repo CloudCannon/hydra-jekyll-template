@@ -5,9 +5,9 @@ layout: default
 	<section class="page">
 		<div class="container {% if page.full_width %}max-container{% endif %}">
 			{% if page.heading %}
-				<h2>{{ page.heading }}</h2>
+				<h1>{{ page.heading }}</h1>
 			{% elsif page.title and page.layout != 'archive' %}
-				<h2>{{ page.title }}</h2>
+				<h1>{{ page.title }}</h1>
 			{% endif %}
 			{% if page.description %}
 				<p class="subtext">{{ page.description }}</p>
