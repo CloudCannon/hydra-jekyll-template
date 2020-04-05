@@ -1,25 +1,10 @@
 - links:
-  - name: Pricing
-    link: /pricing/
-  - name: Blog
-    link: /blog/
-  - name: About
-    link: /about/
-  - name: Contact
-    link: /contact/
-- links:
-  - name: Login
-    link: /
-    new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
+  - name: Directions
+    link: https://goo.gl/maps/8QkvdD3RPgawSemJ8
+  - name: (541) 679-5605
+    link: tel:541-679-5605
+  - name: Email
+    link: https://mailhide.io/e/kguqC
 - links:
   - name: Facebook
     link: https://facebook.com/cloudcannon/
