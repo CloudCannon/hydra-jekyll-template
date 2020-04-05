@@ -1,24 +1,25 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Winston Assembly
+url: "https://winstonassembly.org"
 baseurl:
-google_analytics_key:
-google_maps_javascript_api_key:
+google_analytics_key: UA-127829729-2
+google_maps_javascript_api_key: AIzaSyAaAynY-PSiwoB-fC83IXP7txGCq_9oyYc
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: A Spirit-filled Christian church. We're real people serving a real God.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: Winston Assembly
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://www.youtube.com/channel/UCQzK8bAIBWbO0aI6OZpbGIA
+    - https://www.facebook.com/WinstonAssembly/
 
 # -----
 # Build
