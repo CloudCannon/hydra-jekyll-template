@@ -56,8 +56,8 @@
 							</tr>
 						</thead>
 
-						{% assign old_hubs = site.data.oldhubs %}
-						{% assign new_hubs = site.data.MakerVsVirusHUBS %}
+						{% assign old_hubs = site.data.hubs_old %}
+						{% assign new_hubs = site.data.hubs_new %}
 						{% assign hubs = old_hubs | concat: new_hubs %}
 
 						<tbody>
