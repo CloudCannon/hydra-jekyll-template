@@ -1,11 +1,11 @@
-- name: About
-  link: /about/
-  new_window: false
-  highlight: false
-- name: Contact
-  link: /contact/
-  new_window: false
-  highlight: false
+- name: Facebook
+  link: https://www.facebook.com/WinstonAssembly/
+  new_window: true
+  social_icon: Facebook
+- name: YouTube
+  link: https://www.youtube.com/channel/UCQzK8bAIBWbO0aI6OZpbGIA/
+  new_window: true
+  social_icon: YouTube
 - name: give
   link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DDNN7VEK2PNWW&source=url
   new_window: true
