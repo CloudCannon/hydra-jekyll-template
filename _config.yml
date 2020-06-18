@@ -1,10 +1,10 @@
 # ----
 # Site
 
-title: "CMidas"
+title: CMidas
 url: "https://cmidas.com/"
 baseurl:
-google_analytics_key: "UA-94091617-5"
+google_analytics_key: UA-94091617-5
 google_maps_javascript_api_key:
 disqus_shortname:
 environment: production
