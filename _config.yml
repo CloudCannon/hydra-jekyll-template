@@ -7,6 +7,7 @@ baseurl:
 google_analytics_key: "UA-94091617-5"
 google_maps_javascript_api_key:
 disqus_shortname:
+environment: production
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
