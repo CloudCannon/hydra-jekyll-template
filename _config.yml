@@ -10,16 +10,16 @@ disqus_shortname:
 environment: production
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Product marketing template for Jekyll.
+logo: images/cmidas_logo.png
+description: 
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: CMidas Investments
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://cmidas.com/
 
 # -----
 # Build
