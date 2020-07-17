@@ -1,24 +1,20 @@
-- name: Pricing
-  link: /pricing/
-  new_window: false
+- name: Install
+  link: https://github.com/ethereum/solidity/releases
+  new_window: true
   highlight: false
-- name: Blog
-  link: /blog/
-  new_window: false
+- name: Docs
+  link: https://solidity.readthedocs.io/en/latest/
+  new_window: true
+  highlight: false
+- name: Chat
+  link: https://gitter.im/ethereum/solidity
+  new_window: true
   highlight: false
 - name: About
   link: /about/
   new_window: false
   highlight: false
-- name: Contact
-  link: /contact/
-  new_window: false
-  highlight: false
-- name: Login
-  link: /
-  new_window: true
-  highlight: false
-- name: Sign Up
-  link: /
+- name: Blog
+  link: https://solidity.ethereum.org/
   new_window: true
   highlight: true

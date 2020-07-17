@@ -33,7 +33,7 @@ nav {
 		margin: 0 3px;
 		padding: 20px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
-		color: rgba(255,255,255,.8);
+		color: #2b2b2b;
 		transition: .2s ease-in-out;
 		display: none;
 
@@ -63,18 +63,18 @@ nav {
 
 	a:hover {
 
-		border-bottom: 1px solid rgba(255,255,255,.3);
-		color: #fff;
+		border-bottom: 1px solid #002fa7;
+		color: #002fa7;
 	}
 
 	@media #{$mid-point} {
 		a.highlight {
-			border: 1px #ccc solid;
+			border: 1px #002fa7 solid;
 			border-radius: 5px;
 
 			&:hover {
-				background: #fff;
-				color: $brand-color;
+				background: #F7C4B8;
+				color: #002fa7;
 			}
 		}
 	}
