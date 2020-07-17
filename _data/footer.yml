@@ -1,39 +1,37 @@
 - links:
-  - name: Pricing
-    link: /pricing/
+  - name: Releases
+    link: https://github.com/ethereum/solidity/releases
+  - name: Documentation
+    link: https://solidity.readthedocs.io/en/latest/
+  - name: Tools & Resources
+    link: https://solidity.readthedocs.io/en/latest/resources.html
   - name: Blog
-    link: /blog/
+    link: https://solidity.ethereum.org/
   - name: About
     link: /about/
-  - name: Contact
-    link: /contact/
 - links:
-  - name: Login
-    link: /
+  - name: Contributing
+    link: https://solidity.readthedocs.io/en/v0.6.11/contributing.html
     new_window: true
-  - name: Sign Up
-    link: /
+  - name: Bounty & Responsible Disclosure
+    link: https://bounty.ethereum.org/
     new_window: true
-  - name: Docs
-    link: /
+  - name: Mailing List
+    link: https://groups.google.com/g/solidity-users
     new_window: true
-  - name: Status
+  - name: Logo Policy
     link: /
     new_window: true
 - links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
-    new_window: true
-    social_icon: Facebook
   - name: Twitter
-    link: https://twitter.com/cloudcannon/
+    link: https://twitter.com/solidity_lang
     social_icon: Twitter
     new_window: true
-  - name: YouTube
-    link: https://youtube.com/cloudcannon/
-    social_icon: YouTube
+  - name: Gitter
+    link: https://gitter.com/ethereum/solidity
+    social_icon: Gitter
     new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
+  - name: Github
+    link: https://github.com/ethereum/solidity
+    social_icon: Github
+    new_window: true
