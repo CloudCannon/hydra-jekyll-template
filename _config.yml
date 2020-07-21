@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
-author:
+description: Solidity Language Portal.
+author: Solidity team
   name:
-  email:
-  twitter: # twitter username without the @ symbol
+  email: solidity@ethereum.org
+  twitter: solidity_lang
 social:
-  name: Hydra Template
+  name: Solidity
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://github.com/ethereum/solidity
 
 # -----
 # Build
@@ -99,6 +99,8 @@ social_icons:
   - Twitter
   - YouTube
   - RSS
+  - Gitter
+  - Github
 
 _comments:
   map: Update the map location and display settings.

@@ -1,17 +1,21 @@
 - links:
   - name: Releases
     link: https://github.com/ethereum/solidity/releases
+    new_window: true
   - name: Documentation
     link: https://solidity.readthedocs.io/en/latest/
+    new_window: true
   - name: Tools & Resources
     link: https://solidity.readthedocs.io/en/latest/resources.html
+    new_window: true
   - name: Blog
     link: https://solidity.ethereum.org/
+    new_window: true
   - name: About
     link: /about/
 - links:
   - name: Contributing
-    link: https://solidity.readthedocs.io/en/v0.6.11/contributing.html
+    link: https://solidity.readthedocs.io/en/latest/contributing.html
     new_window: true
   - name: Bounty & Responsible Disclosure
     link: https://bounty.ethereum.org/
@@ -20,7 +24,7 @@
     link: https://groups.google.com/g/solidity-users
     new_window: true
   - name: Logo Policy
-    link: /
+    link: https://solidity.readthedocs.io/en/latest/brand-guide.html
     new_window: true
 - links:
   - name: Twitter

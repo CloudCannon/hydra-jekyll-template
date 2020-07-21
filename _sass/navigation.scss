@@ -18,6 +18,7 @@
 nav {
 	text-transform: uppercase;
 	font-size: .8em;
+	font-weight: 500;
 	width: 100%;
 
 	@media #{$mid-point} {
@@ -63,24 +64,24 @@ nav {
 
 	a:hover {
 
-		border-bottom: 1px solid #002fa7;
-		color: #002fa7;
+		border-bottom: 1px solid #F0978B;
+		color: #F0978B;
 	}
 
 	@media #{$mid-point} {
 		a.highlight {
-			border: 1px #002fa7 solid;
+			border: 1px #F0978B solid;
 			border-radius: 5px;
 
 			&:hover {
-				background: #F7C4B8;
-				color: #002fa7;
+				background: #F9D8CF;
+				color: #F0978B;
 			}
 		}
 	}
 
 	a.active {
-		color: #fff;
+		color: #F0978B;
 	}
 
 }

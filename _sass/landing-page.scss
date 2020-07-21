@@ -7,6 +7,7 @@
 
 	h2 {
 		margin-bottom: 50px;
+		font-weight: 600;
 	}
 }
 
@@ -23,8 +24,8 @@
 }
 
 .bottom-cta {
-	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
-	color: #F7C4B8;
+	background: #F9D8CF;
+	color: #2B2B2B;
 	text-align: center;
 	margin: 0;
 	padding: 100px 0;
@@ -35,7 +36,7 @@
 }
 
 .testimonial {
-	background: #f5f5f5;
+	background: #F3F3F3;
 	margin: 0;
 	padding: 100px 0;
 
@@ -58,11 +59,11 @@
 .hero {
 	color: #2b2b2b;
 	text-align: left;
-	background: linear-gradient(to bottom, $middle-gradient-color 0%, $secondary-brand-color 100%) no-repeat #a05fb7;
-	padding-top: 50px;
+	background: $brand-color;
+	padding-top: 50px 0;
 
 	p {
-		color: #fff;
+		color: #2B2B2B;
 	}
 }
 
