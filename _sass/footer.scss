@@ -32,35 +32,8 @@
 			}
 
 			&:hover svg {
-				fill: #fff;
-			}
+				fill: #F0978B;
 
-			&.twitter-icon:hover svg {
-				fill: #55acee;
-			}
-
-			&.google-plus-icon:hover svg {
-				fill: #db4437;
-			}
-
-			&.youtube-icon:hover svg {
-				fill: #cd201f;
-			}
-
-			&.instagram-icon:hover svg {
-				fill: #f167f5;
-			}
-
-			&.linkedin-icon:hover svg {
-				fill: #0077b5;
-			}
-
-			&.pinterest-icon:hover svg {
-				fill: #bd081c;
-			}
-
-			&.rss-icon:hover svg {
-				fill: #f26522;
 			}
 		}
 	}
@@ -71,7 +44,7 @@ footer {
 	font-size: 1.1em;
 	position: relative;
 	background: #2b2b2b;
-	color: #fff;
+	color: #CCCCCC;
 
 	.copyright {
 		font-size: .8em;
@@ -85,7 +58,9 @@ footer {
 	
 	&,
 	a {
-		color: #999;
+		color: #CCCCCC;
+		font-weight: bold;
+		font-size: 0.9em;
 	}
 
 	h2 {
@@ -104,7 +79,7 @@ footer {
 		text-decoration: none;
 
 		&:hover {
-			color: #fff;
+			color: #F0978B;
 		}
 	}
 
