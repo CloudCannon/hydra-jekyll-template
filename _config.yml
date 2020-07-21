@@ -11,8 +11,8 @@ disqus_shortname:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Solidity Language Portal.
-author: Solidity team
-  name:
+author:
+  name: Solidity team
   email: solidity@ethereum.org
   twitter: solidity_lang
 social:
