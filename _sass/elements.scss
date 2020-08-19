@@ -8,11 +8,11 @@ html, body {
 }
 
 body {
-	font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
+	font-family: "Inter", "Helvetica Neue", "Helvetica", "Arial";
 }
 
 a {
-	color: #F0978B;
+	color: #D9EA1C;
 	text-decoration: none;
 }
 
@@ -25,37 +25,42 @@ img {
 }
 
 h1 strong, h2 strong {
-	font-family: "Trebuchet MS";
+	font-family: "Inter", sans-serif;;
 	font-weight: 700;
+	letter-spacing: 0.04em;
 }
 
 h1 {
-	font-family: "Trebuchet MS";
-	font-weight: 500;
-	font-size: 2.9em;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 3.3em;
+	letter-spacing: 0.04em;
 	margin: 0;
 }
 
 h2 {
-	font-family: "Helvetica";
-	font-weight: 300;
-	font-size: 2.0em;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 2.3em;
+	letter-spacing: 0.04em;
 	margin: 0 0 30px 0;
 }
 
 h3 {
-	font-family: "Helvetica";
-	font-weight: 300;
-	font-size: 1.5em;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 0.04em;
 	margin: 20px 0 10px 0;
 }
 
 
 p, address {
-	font-family: "Helvetica";
-	font-size: 1.38em;
-	color: #666;
+	font-family: "Inter", sans-serif;
+	font-size: 1.5em;
+	color: #111111;
 	margin-bottom: 20px;
 	font-weight: 300;
-	line-height: 1.4em;
+	letter-spacing: 0.04em;
+	line-height: 2em;
 }

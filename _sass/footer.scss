@@ -32,7 +32,7 @@
 			}
 
 			&:hover svg {
-				fill: #F0978B;
+				fill: #D9EA1C;
 
 			}
 		}
@@ -41,14 +41,15 @@
 
 footer {
 	padding: 50px 0 50px 0;
-	font-size: 1.1em;
+	font-size: 0.9em;
 	position: relative;
-	background: #2b2b2b;
-	color: #CCCCCC;
+	background: #808080;
+	color: #111111;
 
 	.copyright {
 		font-size: .8em;
 		margin: 0 auto;
+		color: #111111;
 		
 		@media #{$tablet} {
 			text-align: center;
@@ -58,9 +59,9 @@ footer {
 	
 	&,
 	a {
-		color: #CCCCCC;
-		font-weight: bold;
-		font-size: 0.9em;
+		color: #111111;
+		font-weight: normal;
+		font-size: 0.9m;
 	}
 
 	h2 {
@@ -76,21 +77,10 @@ footer {
 	}
 
 	a {
-		text-decoration: none;
+		text-decoration: underline;
 
 		&:hover {
-			color: #F0978B;
-		}
-	}
-
-	.legal-line {
-		width: 100%;
-		padding: 30px 0;
-		margin: 0;
-		background-color: #222527;
-
-		a {
-			font-weight: 600;
+			color: #D9EA1C;
 		}
 	}
 }

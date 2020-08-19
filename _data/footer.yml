@@ -1,41 +1,38 @@
 - links:
-  - name: Releases
+  - name: releases
     link: https://github.com/ethereum/solidity/releases
     new_window: true
-  - name: Documentation
+  - name: documentation
     link: https://solidity.readthedocs.io/en/latest/
     new_window: true
-  - name: Tools & Resources
+  - name: tools & resources
     link: https://solidity.readthedocs.io/en/latest/resources.html
     new_window: true
-  - name: Blog
+  - name: blog
     link: https://solidity.ethereum.org/
     new_window: true
-  - name: About
+  - name: about
     link: /about/
 - links:
-  - name: Contributing
+  - name: contributing
     link: https://solidity.readthedocs.io/en/latest/contributing.html
     new_window: true
-  - name: Bounty & Responsible Disclosure
+  - name: bounty & responsible disclosure
     link: https://bounty.ethereum.org/
     new_window: true
-  - name: Mailing List
+  - name: mailing list
     link: https://groups.google.com/g/solidity-users
     new_window: true
-  - name: Logo Policy
+  - name: logo policy
     link: https://solidity.readthedocs.io/en/latest/brand-guide.html
     new_window: true
 - links:
-  - name: Twitter
+  - name: twitter
     link: https://twitter.com/solidity_lang
-    social_icon: Twitter
     new_window: true
-  - name: Gitter
+  - name: gitter
     link: https://gitter.com/ethereum/solidity
-    social_icon: Gitter
     new_window: true
-  - name: Github
+  - name: github
     link: https://github.com/ethereum/solidity
-    social_icon: Github
     new_window: true
