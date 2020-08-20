@@ -1,5 +1,5 @@
 html {
-	background: #2b2b40;
+	background: #111111;
 }
 
 html, body {
@@ -44,14 +44,16 @@ h2 {
 	font-size: 2.3em;
 	letter-spacing: 0.04em;
 	margin: 0 0 30px 0;
+	line-height: 1.3em;
 }
 
 h3 {
 	font-family: "Inter", sans-serif;
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 1.5em;
 	letter-spacing: 0.04em;
 	margin: 20px 0 10px 0;
+	line-height: 1.3em;
 }
 
 
@@ -60,7 +62,7 @@ p, address {
 	font-size: 1.5em;
 	color: #111111;
 	margin-bottom: 20px;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 0.04em;
-	line-height: 2em;
+	line-height: 1.3em;
 }
