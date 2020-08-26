@@ -64,25 +64,25 @@ nav {
 
 	a:hover {
 
-		border-bottom: 1px solid #D9EA1C;
+		border-bottom: 1px solid #3FB0AC;
 		color: #111111;
 		font-weight: bold;
 	}
 
 	@media #{$mid-point} {
 		a.highlight {
-			border: 1px #D9EA1C solid;
+			border: 1px #3FB0AC solid;
 			border-radius: 5px;
 
 			&:hover {
 				background: #111111;
-				color: #D9EA1C;
+				color: #3FB0AC;
 			}
 		}
 	}
 
 	a.active {
-		color: #D9EA1C;
+		color: #3FB0AC;
 	}
 
 }

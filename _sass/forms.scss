@@ -8,13 +8,13 @@
 }
 
 .button a:hover, input[type=submit]:hover {
-	border: 1px solid #D9EA1C;
+	border: 1px solid #3FB0AC;
 	background: $secondary-brand-color;
 	cursor: pointer;
 }
 
 .button.alt a {
-	background: #D9EA1C;
+	background: #3FB0AC;
 	border-radius: 3px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	padding: 16px 50px;
@@ -22,7 +22,7 @@
 
 .button.alt a:hover {
 	background: #111111;
-	color: #D9EA1C;
+	color: #3FB0AC;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
