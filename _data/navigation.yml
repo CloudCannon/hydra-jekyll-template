@@ -2,6 +2,14 @@
   link: /about/
   new_window: false
   highlight: false
+- name: Success Stories
+  link: /success-stories/
+  new_window: false
+  highlight: false
+- name: Team
+  link: /team/
+  new_window: false
+  highlight: false
 - name: Contact
   link: /contact/
   new_window: false
