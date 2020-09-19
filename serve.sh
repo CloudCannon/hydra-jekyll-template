@@ -1,3 +1,3 @@
 #!/bin/bash
 # serve webpage locally
-bundle exec jekyll serve
+bundle exec jekyll serve --trace
