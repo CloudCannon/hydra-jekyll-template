@@ -1,5 +1,5 @@
 ---
-date: 2016-08-12
+date: 2020-08-12
 title: The history of marketing
 categories:
   - marketing
