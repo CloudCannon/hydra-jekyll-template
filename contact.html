@@ -31,7 +31,10 @@ map:
 
 	<div class="contact-details">
 		<h3 class="editable">Address</h3>
-		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+		<address><a class="cms-editor-link" 
+		            data-cms-editor-link-style="modal" 
+		            data-cms-editor-link="cloudcannon:#map.address"
+		            target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
 		<h3 class="editable">Email</h3>
 		<p><a href="mailto:support@example.com">support@example.com</a></p>
