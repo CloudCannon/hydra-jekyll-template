@@ -67,7 +67,9 @@ faq:
   - question: Questions?
     answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
-<div class="plans">
+<div class="plans cms-editor-link" 
+		 data-cms-editor-link-style="modal" 
+		 data-cms-editor-link="cloudcannon:#pricing_table">
 	{% for plan in page.pricing_table %}
 		<ul class="plan">
 			<li style="background: {{ plan.color }}">
@@ -86,7 +88,9 @@ faq:
 
 {% if page.faq %}
 	<h2>Pricing FAQ</h2>
-	<dl class="faq">
+	<dl class="faq cms-editor-link" 
+		 data-cms-editor-link-style="modal" 
+		 data-cms-editor-link="cloudcannon:#faq">
 		{% for item in page.faq %}
 			<div>
 				<dt>{{ item.question }}</dt>
