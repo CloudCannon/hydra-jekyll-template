@@ -1,5 +1,5 @@
 ---
-date: 2016-08-06
+date: 2020-08-06
 title: Definition of sales
 categories:
   - sales
