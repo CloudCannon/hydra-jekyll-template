@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Agenda Saúde
+url: "https://makersnetwork.github.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,24 +10,20 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Sistema de agendamento para Secretária de Saúde de Joinville.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: Agenda Saúde
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://makersnetwork.github.io
 
 # -----
 # Build
 
 timezone: Etc/UTC
-
-collections:
-  staff_members:
-    _hide_content: true
 
 paginate: 10
 paginate_path: "/blog/:num/"
@@ -47,15 +43,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image_path:
-          width: 600
-          height: 600
-  -
-    scope:
-      path: ""
     values:
       layout: "page"
   -
@@ -63,11 +50,6 @@ defaults:
       path: "index.html"
     values:
       layout: "default"
-  -
-    scope:
-      path: "contact.html"
-    values:
-      full_width: true
 
 jekyll-archives:
   enabled:
@@ -85,27 +67,3 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
-
-_comments:
-  map: Update the map location and display settings.
-  latitude: Coordinates for the center marker on the map.
-  longitude: Coordinates for the center marker on the map.
-  zoom: The zoom level for the map.
-  pricing_table: Update the information in the pricing tables.
-  highlight: Emphasis the text
-  color: The background colour used in the plan name and call to action.
-  new_window: Open link in new window
