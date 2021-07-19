@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: SiteNav
+url: "https://bnaolu.github.io/sitenav/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
