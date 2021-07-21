@@ -1,0 +1,12 @@
+<ul class="plan">
+    <li style="background: {{ include.plan.color }}">
+        <h3>{{ plan.name }}</h3>
+    </li>
+    {% for feature in include.plan.features %}
+        <li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
+    {% endfor %}
+
+    {% if include.plan.call_to_action %}
+        <li class="pricing-cta"><div class="button"><a style="background: {{ include.plan.color }}" href="{{ include.plan.call_to_action.link }}">{{ include.plan.call_to_action.text }} &rarr;</a></div></li>
+    {% endif %}
+</ul>

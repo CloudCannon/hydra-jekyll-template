@@ -1,12 +1,14 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Mappit
+url: "https://mappit.app"
 baseurl:
+sign_up_url: https://dashboard.mappit.app/auth/register
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
+show_testimonial: false
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -16,14 +18,14 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: Mappit API
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://twitter.com/mappitapi
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Australia/Melbourne
 
 collections:
   staff_members:
@@ -104,3 +106,33 @@ _comments:
   highlight: Emphasis the text
   color: The background colour used in the plan name and call to action.
   new_window: Open link in new window
+
+pricing_table:
+- name: Pay as you go
+  color: "#8e8e8e"
+  features:
+    - text: Tiered pricing
+      highlight: true
+    - text: Requests averaged over the whole month
+      highlight: false
+    - text: "0-30,000 requests per month: free!"
+      highlight: false
+    - text: "30,001-100,000 requests: $3 per 10,000"
+      highlight: false
+    - text: "100,001-300,000 requests: $1.50 per 10,000"
+      highlight: false
+    - text: "300,001+ requests: $0.80 per 10,000"
+      hightlight: false
+  call_to_action:
+    link: http://mysite.com?plan=basic
+    text: Get started
+- name: Enterprise
+  color: "#000000"
+  features:
+    - text: Contact Us
+      highlight: true
+    - text: Unlimited Requests
+      highlight: false
+  call_to_action:
+    link: mailto:info@mappit.app
+    text: Contact Us
