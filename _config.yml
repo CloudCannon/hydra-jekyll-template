@@ -124,7 +124,7 @@ pricing_table:
     - text: "300,001+ requests: $0.80 per 10,000"
       hightlight: false
   call_to_action:
-    link: http://mysite.com?plan=basic
+    link: https://dashboard.mappit.app/auth/register
     text: Get started
 - name: Enterprise
   color: "#000000"
