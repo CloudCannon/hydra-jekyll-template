@@ -9,7 +9,7 @@
     link: https://dashboard.mappit.app/auth/register
     new_window: false
   - name: Docs
-    link: /
+    link: https://docs.mappit.app
     new_window: true
 - links:
   - name: Twitter
