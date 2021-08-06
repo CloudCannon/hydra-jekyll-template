@@ -70,12 +70,13 @@ footer {
 	padding: 50px 0 50px 0;
 	font-size: 1.1em;
 	position: relative;
-	background: #2b2b40;
+	background: $brand-color;
 	color: #fff;
 
 	.copyright {
 		font-size: .8em;
 		margin: 0 auto;
+		color: #fff;
 		
 		@media #{$tablet} {
 			text-align: center;
@@ -85,7 +86,7 @@ footer {
 	
 	&,
 	a {
-		color: #999;
+		color: #fff;
 	}
 
 	h2 {
