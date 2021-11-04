@@ -15,14 +15,20 @@
 	}
 }
 
+header div.container {
+	display: flex;
+	align-items: center;
+}
+
 nav {
-	text-transform: uppercase;
-	font-size: .8em;
+
+	font-size: 1em;
 	width: 100%;
 
 	@media #{$mid-point} {
-		text-align: right;
-		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: right;
 		top: 13px;
 		right: 0;
 		padding: 0 20px;
