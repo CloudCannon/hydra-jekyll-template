@@ -35,9 +35,9 @@
 	color: #ffffff;
 	text-align: center;
 	background: linear-gradient(to right, $middle-gradient-color 0%, $secondary-brand-color 100%) no-repeat #a05fb7;
-	/* Make the header banner center vertically
-	padding-top: 50px;
-	*/
+	background-image: url(/images/header-background.jpeg);
+    background-position: center;
+    background-size: cover;
 
 	p {
 		color: #fff;
