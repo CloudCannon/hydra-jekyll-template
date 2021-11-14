@@ -33,14 +33,14 @@
 
 .hero {
 	color: #ffffff;
-	text-align: center;
-	background: linear-gradient(to right, $middle-gradient-color 0%, $secondary-brand-color 100%) no-repeat #a05fb7;
-	background-image: url(/images/header-background.jpeg);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), $hero-image-url;
     background-position: center;
     background-size: cover;
 
 	p {
 		color: #fff;
+		font-size: 2.3em;
+		font-weight: 300;
 	}
 }
 

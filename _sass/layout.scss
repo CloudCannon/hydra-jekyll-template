@@ -80,12 +80,16 @@ section + section {
 
 .subtext {
 	margin-top: 10px;
-	text-align: center;
 }
 
 
 .cta {
 	margin: 60px 0;
+}
+
+.cta.button.alt a {
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 1.2em;
 }
 
 
