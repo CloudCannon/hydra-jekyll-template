@@ -1,6 +1,8 @@
 $brand-color: #80B4BB;
 $secondary-brand-color: #00999E;
+$background-color: #0b120a;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+$hero-image-url: url("images/header-background.jpeg");
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
