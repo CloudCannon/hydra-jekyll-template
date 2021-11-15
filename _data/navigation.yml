@@ -1,11 +1,12 @@
-- name: Facebook
-  link: https://www.facebook.com/WinstonAssembly/
+- name: Home
+  link: /
+  new_window: false
+- name: About
+  link: /about
+  new_window: false
+- name: Beliefs
+  link: https://ag.org/beliefs/statement-of-fundamental-truths
   new_window: true
-  social_icon: Facebook
-- name: YouTube
-  link: https://www.youtube.com/channel/UCQzK8bAIBWbO0aI6OZpbGIA/
-  new_window: true
-  social_icon: YouTube
 - name: Give
   link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DDNN7VEK2PNWW&source=url
   new_window: true

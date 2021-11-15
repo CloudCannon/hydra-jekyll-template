@@ -14,3 +14,15 @@
     link: https://www.youtube.com/channel/UCQzK8bAIBWbO0aI6OZpbGIA/
     social_icon: YouTube
     new_window: true
+
+- links:
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+  - name: Beliefs
+    link: https://ag.org/beliefs/statement-of-fundamental-truths
+  - name: Give Online
+    link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DDNN7VEK2PNWW&source=url
+
+    

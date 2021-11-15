@@ -6,12 +6,9 @@ title: Staff and Beliefs
 	{% for person in site.staff_members %}
 		<li>
 			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+			<div class="name">{{ person.name }}</div>
 			<div class="position">{{ person.position }}</div>
 		</li>
 	{% endfor %}
 </ul>
-<h2>Beliefs</h2>
-<p>We believe in <a href="https://ag.org/beliefs/statement-of-fundamental-truths" target="_blank">The 16 Fundamental Truths of the Assemblies of God</a>.  
-
 
