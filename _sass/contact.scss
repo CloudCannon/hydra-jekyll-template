@@ -9,6 +9,7 @@
 	@include flex-flow(wrap);
 	max-width: 750px;
 	margin: 0 auto;
+	color: #ffffff;
 
 	form {
 		width: 100%
@@ -30,3 +31,19 @@
 		font-size: .9em;
 	}
 }
+
+
+.widthSet {
+	background: #000000; 
+    background-image: url("/images/location.png"); 
+    background-size: contain; /* resize image to fit within the div while maintaining aspect ratio */
+    background-repeat: no-repeat; /* prevent image from repeating */
+    background-position: center; /* center the image within the div */
+    display: flex; /* use flexbox layout */
+    align-items: center; /* vertically center the child elements */
+    /* width: 1000px; set the width of the div*/
+    height: 500px; /*  set the height of the div */
+    margin:20;
+    padding:20;
+}
+

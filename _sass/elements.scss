@@ -1,5 +1,5 @@
 html {
-	background: #2b2b40;
+	background: #ffffff;
 }
 
 html, body {
@@ -26,29 +26,37 @@ img {
 
 h1 strong, h2 strong {
 	font-weight: 700;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 10px;
 }
 
 h1 {
 	font-weight: 300;
 	font-size: 2.3em;
 	margin: 0;
+	color: #ffffff;
 }
 
 h2 {
 	font-weight: 300;
 	font-size: 2.2em;
-	margin: 0 0 30px 0;
+	margin: 0 0 0px 0;
+	color: #ffffff;
 }
 
 h3 {
-	margin: 20px 0 10px 0;
+	margin: 0px 0 0px 0;
+	color: #ffffff;
 }
 
 
 p, address {
 	font-size: 1.38em;
-	color: #666;
-	margin-bottom: 20px;
+	color: #ffffff;
+	margin-bottom: 0px;
 	font-weight: 300;
 	line-height: 1.4em;
+	background-color: #000000;
+	padding: 10px 10px 0px 10px;
 }

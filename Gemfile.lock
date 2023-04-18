@@ -65,6 +65,7 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   ruby
@@ -76,6 +77,7 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1.0)
   jekyll-seo-tag (~> 2.7.1)
   jekyll-sitemap (~> 1.4.0)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    1.17.3

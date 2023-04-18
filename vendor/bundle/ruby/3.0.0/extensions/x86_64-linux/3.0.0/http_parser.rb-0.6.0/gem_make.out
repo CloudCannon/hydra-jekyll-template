@@ -1,0 +1,16 @@
+current directory: /home/d4np3l/Projects/GitHub/PellinLab.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230412-246268-jys4v6.rb extconf.rb
+creating Makefile
+
+current directory: /home/d4np3l/Projects/GitHub/PellinLab.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /home/d4np3l/Projects/GitHub/PellinLab.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/d4np3l/Projects/GitHub/PellinLab.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20230412-246268-swb07w

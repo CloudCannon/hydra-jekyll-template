@@ -1,20 +1,32 @@
 ---
-title: Contact
-heading: Get in touch today
-description: We'd love to help you improve your sales.
-
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
+  latitude: 42.3383675
+  longitude: -71.1048375
+  address: "1 Blackfan St, Boston MA 02115"
   zoom: 13
----
-<div class="map" id="map"></div>
+title: Contact
 
+---
+<section class="content">
+	<div class="text editable">
+		<h1  align="center"><strong>Contacts</strong></h1>		
+	</div>
+	<div class="text editable">
+		<h1  align="center">&nbsp</h1>		
+	</div>
+	<div class="widthSet">
+	</div>
+		<div class="text editable">
+		<h1  align="center">&nbsp</h1>		
+	</div>
+
+</section>
 
 <div class="contact-box">
+	
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="_to" value="support@example.com" />
+		<h1 class="editable">Get in touch:</h1>
+		<input type="hidden" name="_to" value="pellinlab@gmail.com" />
 		<input type="text" name="_gotcha" style="display: none;">
 
 		<label for="name">Full Name</label>
@@ -30,11 +42,16 @@ map:
 	</form>
 
 	<div class="contact-details">
-		<h3 class="editable">Address</h3>
-		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+		<h1 class="editable">Address:</h1>
+		<p>Room 4217, Karp Family Research Laboratories, 1 Blackfan St, Boston MA 02115</p>
+		<p>&nbsp;</p>
+		<h1 class="editable">Office Phone:</h1>
+		<p>(+1) 617 919 0289</p>
+		<p>&nbsp;</p>
+		<h1 class="editable">Email:</h1>
+		<p><a href="mailto:pellinlab@gmail.com">pellinlab@gmail.com</a></p>
+		<p><a href="mailto:danilo.pellin@childrens.harvard.edu">danilo.pellin@childrens.harvard.edu</a></p>
 
-		<h3 class="editable">Email</h3>
-		<p><a href="mailto:support@example.com">support@example.com</a></p>
 	</div>
 </div>
 

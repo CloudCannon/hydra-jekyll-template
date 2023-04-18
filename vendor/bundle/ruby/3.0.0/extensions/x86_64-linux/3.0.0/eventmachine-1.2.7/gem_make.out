@@ -1,0 +1,16 @@
+current directory: /home/d4np3l/Projects/GitHub/PellinLab.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230412-246268-4a1zp7.rb extconf.rb
+creating Makefile
+
+current directory: /home/d4np3l/Projects/GitHub/PellinLab.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /home/d4np3l/Projects/GitHub/PellinLab.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/d4np3l/Projects/GitHub/PellinLab.github.io/vendor/bundle/ruby/3.0.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20230412-246268-y2lw6m

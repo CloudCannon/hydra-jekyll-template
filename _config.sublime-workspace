@@ -1,0 +1,294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/d4np3l/PellinLab.github.io/_config.yml",
+		"/home/d4np3l/Projects/PaiLab/germ-pass/scriptsCL/cloneBaselineHC.R",
+		"/home/d4np3l/Projects/BauerLab/macacaMulatta/Macaca_mulatta.Mmul_10.109.filtered.gtf",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/QCR1partR_1.fastq",
+		"/home/d4np3l/Projects/BauerLab/scrna/e2Code/ZL41DEI4.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/Haplotype2_XXX.sh",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/bashCMD",
+		"/home/d4np3l/Projects/PaiLab/germ-pass/p2",
+		"/home/d4np3l/Projects/PaiLab/germ-pass/p1",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/alpha/IVT3-04LTRmatchingR_2.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/alpha/IVT3-04LTRmatchingR_1.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/alpha/IVT3-04QCR1partR_1.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/alpha/IVT3-04LTR2matchingR_2.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/alpha/IVT3-04LTR2matchingR_1.fastq",
+		"/home/d4np3l/Projects/BauerLab/scrna/RNSeq_17P101_M_I3/RNSeq_17P101_M_I3_CKDL230003506-1A_HT2MJDSX5_L4_1.fq.gz",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/cmdBash",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/lenti/IVT5-01_R1_001.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/alpha/IVT3-04_R1_001.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/alpha/IVT3-04_R2_001.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/30-836262009/00_fastq/IVT3-04_R1_001.fastq",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/sorted_10_Aligned.g.vcf",
+		"/home/d4np3l/Projects/PaiLab/germ-pass/18876_pep.fasta_primers-pass_db-pass_parse-select_genotype_germ-pass4clone",
+		"/home/d4np3l/Projects/PaiLab/germ-pass/scriptsCL/cloneBaselineHC_38.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/Haplotype_14.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/Haplotype_XXX.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/Haplotype_1.sh",
+		"/home/d4np3l/.cache/.fr-dR33tf/AMPL_IL3RA_gRNA_R.fastq",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnal_42_3.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/10_RnaEditing",
+		"/home/d4np3l/Downloads/pp",
+		"/home/d4np3l/Projects/GTData/analysis/pie8.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/REDItools.sh",
+		"/home/d4np3l/Projects/githubClones/reditools2.0/serial_test.sh",
+		"/home/d4np3l/Projects/GenoveseLab/GEA/map_42.sh",
+		"/home/d4np3l/Projects/PaiLab/germ-pass/cloneBaselineHC.sh",
+		"/home/d4np3l/Projects/GenoveseLab/offTargetAnalysis/NGS_OT/30_833243015_sgRNA_16_OT/00_fastq/e261-1X_R1_001.fastq",
+		"/home/d4np3l/Projects/PaiLab/germ-pass/passclones/1_XSCID01_2-5_Years_03__primers-pass_igblast_db-pass_parse-select_genotype_clone-pass_germ-passclones",
+		"/home/d4np3l/Projects/PaiLab/germ-pass/scriptsCL/cloneBaseline_10.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditools_39.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditoolsTranscript_IndexValue.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditoolsTranscript_10.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditools_8.sh",
+		"/home/d4np3l/Projects/GenoveseLab/GEA/map_8.sh",
+		"/home/d4np3l/Projects/BrendelLab/Nesta/bashCmd",
+		"/home/d4np3l/Projects/Denise/DK10774/barcodes_barcode_seqComplete.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/filenameout_sonicLenght",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/1_RnaEditing",
+		"/home/d4np3l/useless/1_RnaEditing",
+		"/home/d4np3l/Projects/githubClones/reditools2.0/parallel_test.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditools_16.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditools_1.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditools_2s.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditools_7.sh",
+		"/home/d4np3l/Projects/GenoveseLab/RNAEditing/runReditools_2.sh",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/QCR1part_1.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/LTRmatching_1.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/LTR2matching_2.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/LTR2matching.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/LTR2matching_1.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/LTRmatching_2.fastq",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnal_17_1.sh",
+		"/home/d4np3l/Projects/Denise/Integrationsite sequencing/Co4n3-LV_R1_001.fastq",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/LTRmatching.fastq",
+		"/home/d4np3l/Projects/Denise/Cali/R1/Cali-beads-high_R1_001.fastq_UMIR1part_barcode_seqComplete.header",
+		"/home/d4np3l/Projects/Denise/Integrationsite sequencing/Co4n3-aRV_R1_001.fastq",
+		"/home/d4np3l/Projects/Denise/Cali/R1/UMIR1part_barcode_seqComplete.fastq",
+		"/home/d4np3l/Projects/Denise/Cali/R1/QCR1part.fastq",
+		"/home/d4np3l/Projects/GenoveseLab/offTargetAnalysis/245-1-FLT3_R1_001.fastq",
+		"/home/d4np3l/soapnuke/map1.sh",
+		"/home/d4np3l/Projects/GenoveseLab/GEA/map_nnn.sh",
+		"/home/d4np3l/Projects/Denise/Integrationsite_sequencing/QCR1part_2.fastq",
+		"/home/d4np3l/Projects/GenoveseLab/GEA/map_7.sh",
+		"/home/d4np3l/Projects/GenoveseLab/GEA/map_1.sh",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnal_2_0.sh",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnalMulti_rowindex_1.sh",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnalMulti_rowindex_3.sh",
+		"/home/d4np3l/Projects/GTData/utils/cmdBashScript",
+		"/home/d4np3l/Projects/bulkRNAseqExpression/mappingPipeBash",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnalMulti_rowindex_2.sh",
+		"/home/d4np3l/Projects/Denise/00_fastq/UMIR1part_barcode_seqComplete.fastq",
+		"/home/d4np3l/Projects/Denise/00_fastq/Brunello_guides.csv",
+		"/home/d4np3l/Projects/GRO2/revisionGraphs/networkGraph2.html",
+		"/home/d4np3l/Projects/GRO2/revisionGraphs/final15cellSimMod.cpp",
+		"/home/d4np3l/Downloads/Homo_sapiens.GRCh38.108.gtf",
+		"/home/d4np3l/Downloads/human.biological_region.gbff",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnalMulti_33_3.sh",
+		"/home/d4np3l/Projects/PaiLab/irepertoire/home/Pool2/9_XSCID03_8_Years_09_read1.fastq",
+		"/home/d4np3l/Projects/PaiLab/irepertoire/home/Pool2/9_XSCID03_8_Years_09_read2.fastq",
+		"/home/d4np3l/Projects/Denise/BrunelloSequencing2Round/beads-A_R1_001.fastq",
+		"/home/d4np3l/.cache/.fr-5G8dD7/GRCh38_latest_genomic.gff",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnal_1_0.sh",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnalMulti_rowindex_0.sh",
+		"/home/d4np3l/Projects/GTData/analysis/geneBased/patient/geneBasedAnalysis.cpp",
+		"/home/d4np3l/Projects/GTData/binomialModelling/results/T_BM_CD34_CGD_0_estAbund_Binomial_BCH_score_10000_1e+05_1e+06_ISRegionScoreBinomialProp.csv",
+		"/home/d4np3l/Projects/GRO2/script/e2/e2_kf_mnFinal35RandRestC0_1.sh",
+		"/home/d4np3l/Projects/GTData/binomialModelling/binAnal_rowindex_10_0.sh",
+		"/home/d4np3l/Projects/GRO2/script/e2/e2_kf_mnFinal35.sh",
+		"/home/d4np3l/Projects/GTData/analysis/geneBasedLRT/GeneBasedLRTSurvGammaTrial_24.sh",
+		"/home/d4np3l/Projects/GTData/analysis/geneBased/GeneAbunQPTrial_T_SCID3_Sixetal.sh",
+		"/home/d4np3l/Projects/GRO2/script/e2/foldOptimSSQ_2_10.sh",
+		"/home/d4np3l/Projects/ISScanStat/polettiISdb/ccode/testRcppP6.cpp",
+		"/home/d4np3l/Projects/ISScanStat/polettiISdb/ccode/rccplog.cpp",
+		"/home/d4np3l/Downloads/hg38.ncbiRefSeq.gtf",
+		"/home/d4np3l/Projects/PolettiLab/ISTables/hg38HumanGeneInfo",
+		"/home/d4np3l/Projects/PolettiLab/ISTables/S36_0_ID2445_2_2TD1PXF_S36_L001_0_abundance_uniqueIS_CollisionClean_ISGeneAnnotation.csv",
+		"/home/d4np3l/Projects/GTData/analysis/geneBasedLRT/GeneBasedLRTAbunQPTrial_rowindex.sh",
+		"/home/d4np3l/Projects/GTData/analysis/geneBasedLRT/geneBasedLRTAnalysis.cpp",
+		"/home/d4np3l/Projects/GTData/analysis/testRcppP6.cpp",
+		"/home/d4np3l/Projects/WilliamsLab/Boya/gencode.v32.primary_assembly.annotation.gtf",
+		"/home/d4np3l/Projects/PolettiLab/ISTables/S36_0_ID2445_2_2TD1PXF_S36_L001_0_abundance_uniqueIS_CollisionClean_ISGeneAnnotation.txt",
+		"/home/d4np3l/Downloads/KEGG_CELL_CYCLE.v7.5.1.tsv",
+		"/home/d4np3l/Projects/WilliamsLab/Boya/20220302_B1_BL9700_S125ReadsPerGene.out.tab",
+		"/home/d4np3l/Downloads/hg38.ensGene.gtf",
+		"/home/d4np3l/Downloads/allOnco_June2021.tsv",
+		"/home/d4np3l/Projects/GTData/analysis/geneBased/GeneAbunQPTrial_CD34CELLS_SCID3_Sixetal.sh",
+		"/home/d4np3l/Projects/artwork/image21/sk2.js",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1.sh",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1_10.sh",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1_11.sh",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1_12.sh",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1_13.sh",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/generateGenome.sh",
+		"/home/d4np3l/Projects/GRO2/revisionGraphs/final15cellSim.cpp",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1_9.sh",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1_8.sh",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1_7.sh",
+		"/home/d4np3l/Projects/GTData/analysis/fixedW/fixedWAbunQPTrial_56.sh",
+		"/home/d4np3l/Desktop/220302_BL9700_fastq/map1_5.sh"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "_config.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

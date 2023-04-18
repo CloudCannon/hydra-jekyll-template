@@ -1,7 +1,7 @@
 .container, .text-container {
 	margin: 0 auto;
 	position: relative;
-	padding: 0 20px;
+	padding: 0px 0px 0px 0px;
 }
 
 .text-container {
@@ -18,13 +18,13 @@
 }
 
 header {
-	color: #fff;
-	padding: 20px 0;
+	color: #000000;
+	padding: 0px;
 	background: $brand-color; /* Old browsers */
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
 
 	a {
-		color: #fff;
+		color: #000000;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
@@ -50,8 +50,8 @@ header {
 }
 
 .content {
-	background: #fff;
-	padding: 1px 0 0 0;
+	background: #000000;
+	padding: 10px 0 10px 0;
 	position: relative;
 }
 
@@ -69,7 +69,7 @@ header {
 }
 
 section {
-	padding: 100px 0;
+	padding: 10px 0;
 }
 
 section + section {
@@ -77,17 +77,18 @@ section + section {
 }
 
 .subtext {
-	margin-top: 10px;
+	margin-top: 0px;
 	text-align: center;
 }
 
 
 .cta {
-	margin: 60px 0;
+	margin: 0px 0;
 }
 
 .page h2 {
 	text-align: center;
+	color: #ffffff;
 }
 
 blockquote {
@@ -110,7 +111,7 @@ blockquote {
 }
 
 blockquote:before {
-	color: #ccc;
+	color: #000000;
 	content: open-quote;
 	font-size: 4em;
 	line-height: 0.1em;
@@ -119,12 +120,12 @@ blockquote:before {
 }
 
 .square-image {
-	width: 150px;
-	height: 150px;
+	width: 230px;
+	height: 230px;
 	overflow: hidden;
-	margin: 25px auto 0 auto;
+	margin: 0px ;
 	position: relative;
-	border-radius: 200px;
+	border-radius: 250px;
 
 	img {
 		position: absolute;
@@ -139,7 +140,7 @@ blockquote:before {
 
 .page {
 	margin-bottom: 0;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 }
 
 .center-text {
@@ -162,7 +163,7 @@ blockquote:before {
 		font-size: 18px;
 		cursor: pointer;
 		background-color: #f7e064;
-		color: #333;
+		color: #ffffff;
 		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
 
 		&:hover {
