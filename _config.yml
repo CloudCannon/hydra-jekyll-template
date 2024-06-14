@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Hydra Template
+title: KinKinetics
 url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -10,13 +10,18 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
-author:
-  name:
-  email:
+description: KinKinetics is pioneering the development of AI-powered interactive bots
+  designed to enhance the psychological well-being and team dynamics of astronauts 
+  on long-duration space missions. By utilising advanced machine learning and 
+  neuroeconomic principles, KinKinetics aims to provide personalised emotional support,
+  companionship, and decision-making assistance to astronauts, ensuring their 
+  mental health and operational efficiency in the most challenging environments.
+author: Kavya Murali Parthasarathy
+  name: KinKinetics
+  email: kavya.parthasarathy@stir.ac.uk
   twitter: # twitter username without the @ symbol
 social:
-  name: Hydra Template
+  name: KinKinetics
   links:
     - https://github.com/CloudCannon/hydra-jekyll-template
 
